@@ -8,6 +8,13 @@
       "name": "AI MFS Governance Framework",
       "links": [
         "MPL AI-Augmented Financial Close"
+      ],
+      "sourceFile": "second-brain/Skills/Reference - AI MFS Governance Framework.md",
+      "sourceHash": "1b5961567a975d827577102868e2e42b7decf469a2e2708c9c44037568495e17",
+      "notes": "# AI MFS Governance Framework\n\nBuilder / Preparer / Auditor / Reviewer / Approver role model for AI-augmented financial work. Role-mismatch and Gemini-cadence issues that came up have since been resolved.\n\n## Used by\n- [[MPL AI-Augmented Financial Close]] — the template close cycle that put this framework into practice.\n\n## Full detail\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\reference_ai_mfs_governance_framework.md`",
+      "tags": [
+        "reference",
+        "ai-governance"
       ]
     },
     {
@@ -15,28 +22,61 @@
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Reference - NotebookLM Video Subtitle Prompts.md",
-      "name": "NotebookLM Video + Subtitle Prompts"
+      "name": "NotebookLM Video + Subtitle Prompts",
+      "sourceFile": "second-brain/Skills/Reference - NotebookLM Video Subtitle Prompts.md",
+      "sourceHash": "967ed6ba86376d4e3484425bfe18a4c8908285b272c1d11eb9492ce13b63bcd3",
+      "notes": "# NotebookLM Video + Subtitle Prompts\n\nReusable recipe file + ffmpeg gotchas, written for reuse across other projects (not tied to one specific project).\n\n**Note (2026-08-25):** NotebookLM was renamed to **Gemini Notebook** by Google on 2026-07-16 — same product, new name/logo, existing links/notebooks still work via redirect. Separately, the `notebooklm-mcp-cli` (`nlm`) tool used to automate this is currently blocked on this machine by a Windows Defender Application Control (WDAC) enterprise signing policy — updating the tool to the latest version (0.9.14) did not resolve it. Needs an IT/security exception, or an alternative to running that specific unsigned binary.\n\n## Full detail\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\reference_notebooklm_video_subtitle_prompts.md`",
+      "tags": [
+        "reference",
+        "notebooklm",
+        "ffmpeg"
+      ],
+      "links": []
     },
     {
       "id": "5e8944b1b75bd697",
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Repositories/Claude Skills Backup Repository.md",
-      "name": "Claude Skills Backup Repository"
+      "name": "Claude Skills Backup Repository",
+      "sourceFile": "second-brain/Skills/Repositories/Claude Skills Backup Repository.md",
+      "sourceHash": "a5595ce8d7585dd3c54eef3e1ad58dda8f278dfb92909c76f1fcc441949e7e89",
+      "notes": "# Claude Skills Backup Repository\n\n**Purpose:** Backup of selected user-authored Claude Code skills normally installed under the user-level skills folder.\n\n**GitHub:** [anthonym-claude-skills](https://github.com/anthonymankaho/anthonym-claude-skills)  \n**Local checkout:** C:\\Users\\User\\Desktop\\GitHub-Clones\\anthonym-claude-skills\n\n## Contents\n\nbilingual-replies; excel-to-interactive-html-report; grill-me; hardening-windows-scheduled-tasks; incremental-report-file-chaining\n\n## Repository guidance\n\nOverlaps with the broader Skills repository. Treat as a backup/restore subset; use the Skills repository for the wider personal collection.\n\nUse the repository README and individual SKILL.md files for current instructions. This note is an index, not a replacement for the actual skills.",
+      "tags": [
+        "repository",
+        "skill-repository"
+      ],
+      "links": []
     },
     {
       "id": "3c2bf09e9f7424ee",
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Repositories/HK Finance Skills Repository.md",
-      "name": "HK Finance Skills Repository"
+      "name": "HK Finance Skills Repository",
+      "sourceFile": "second-brain/Skills/Repositories/HK Finance Skills Repository.md",
+      "sourceHash": "0d75642068ed2c918747fba212426d9a9194ebf41378c5b3ca60f166e59e54d0",
+      "notes": "# HK Finance Skills Repository\n\n**Purpose:** Public collection of 22 agent skills for Hong Kong finance, accounting and audit: HKFRS/HKAS and IFRS/IAS accounting, tax, close, reconciliation, financial analysis, risk and internal audit.\n\n**GitHub:** [hk-finance-skills](https://github.com/anthonymankaho/hk-finance-skills)  \n**Local checkout:** C:\\Users\\User\\Desktop\\GitHub-Clones\\hk-finance-skills\n\n## Contents\n\naudit-checklist; automated-reconciliation; budget-forecast; close-management; corporate-consolidation; deferred-tax; ecl-computation; financial-analysis; fixed-asset-accounting; internal-audit; inventory-costing; journal-entry; lease-accounting; profits-tax; revenue-recognition; risk-assessment; salaries-tax; statement-preparation; tax-planning; treasury-management; working-capital-analysis\n\n## Repository guidance\n\nCanonical public domain-skill collection. MPL also contains a copy under skills/hk-finance-skills; compare source revisions before treating the embedded copy as current.\n\nUse the repository README and individual SKILL.md files for current instructions. This note is an index, not a replacement for the actual skills.",
+      "tags": [
+        "repository",
+        "skill-repository"
+      ],
+      "links": []
     },
     {
       "id": "c91018f0716c379d",
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Repositories/Personal Skills Repository.md",
-      "name": "Personal Skills Repository"
+      "name": "Personal Skills Repository",
+      "sourceFile": "second-brain/Skills/Repositories/Personal Skills Repository.md",
+      "sourceHash": "05017968ec459768e29e9c256475d1c0f8de5404aa91bbfd047224ee8d8bce38",
+      "notes": "# Personal Skills Repository\n\n**Purpose:** Private backup of custom Claude Code skills and supporting scripts authored for personal workflows.\n\n**GitHub:** [Skills](https://github.com/anthonymankaho/Skills)  \n**Local checkout:** C:\\Users\\User\\Desktop\\GitHub-Clones\\Skills\n\n## Contents\n\naccess-control-module; bilingual-replies; codex-handoff-on-low-usage; draft-email; excel-to-interactive-html-report; grill-me; hardening-windows-scheduled-tasks; hk-finance-copilot-excel; incremental-report-file-chaining; mms-login; project-progress-doc-updater; rmb-rate; embedded hk-finance-skills\n\n## Repository guidance\n\nRepository README is the authoritative inventory. Credentials, tokens and run logs are intentionally excluded.\n\nUse the repository README and individual SKILL.md files for current instructions. This note is an index, not a replacement for the actual skills.",
+      "tags": [
+        "repository",
+        "skill-repository"
+      ],
+      "links": []
     },
     {
       "id": "95034bec105e898a",
@@ -47,6 +87,14 @@
       "links": [
         "Weekly Exchange Rate RPA",
         "Monthly Exchange Rate RPA"
+      ],
+      "sourceFile": "second-brain/Skills/RMB CNH Exchange Rate (May Lau).md",
+      "sourceHash": "4aee4c39eecd0e5792f299f80d3fede1b9dc466f1c6d7d0d767ddb4eae643cae",
+      "notes": "# RMB (CNH) Exchange Rate to May Lau\n\nSingle-currency report: BOC HK CNH/HKD rate, sent to May Lau. Rebuilt as a Claude Code **skill** (`rmb-rate`) rather than a standalone script.\n\nReuses [[Weekly Exchange Rate RPA]]'s Gmail OAuth setup for attachment-capable drafts — don't rebuild that plumbing from scratch if touching this project.\n\n**Important distinction:** this is **NOT** the same as [[Monthly Exchange Rate RPA]] (different currency scope, different recipient) despite the similar name.\n\n## Full detail\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\project_rmb_cnh_exchange_rate_to_may_lau.md`",
+      "tags": [
+        "project",
+        "exchange-rate",
+        "skill"
       ]
     },
     {
@@ -54,28 +102,68 @@
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Artifact Capabilities.md",
-      "name": "Skill: Artifact Capabilities"
+      "name": "Skill: Artifact Capabilities",
+      "sourceFile": "second-brain/Skills/Skill - Artifact Capabilities.md",
+      "sourceHash": "c63971ab802f69577a138f16cfd008447e1926f6186f2fc20cf99cce4a620ed5",
+      "notes": "# Skill: Artifact Capabilities\n\nRuntime capabilities a published Artifact page can be granted beyond static HTML: reading live/connected data, remembering what people do on it (polls, sign-up sheets, checklists, self-editing documents), keeping state shared across viewers, knowing who is viewing, asking Claude a question of its own, storing files people add, or handing the viewer a file to save. Load whenever the user asks for an artifact that needs any such runtime behavior — required before declaring any `capabilities` option or writing `window.claude.*` code.\n\n## Full detail\nBuilt into Claude Code — no separate SKILL.md on disk; invoked via the `artifact-capabilities` skill name.",
+      "tags": [
+        "skill",
+        "builtin",
+        "artifact",
+        "runtime"
+      ],
+      "links": []
     },
     {
       "id": "8e42b61af02e8c10",
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Artifact Design.md",
-      "name": "Skill: Artifact Design"
+      "name": "Skill: Artifact Design",
+      "sourceFile": "second-brain/Skills/Skill - Artifact Design.md",
+      "sourceHash": "983dbe4bee4a5f7c4e3b6680ac255b5683a9c222ba2b99a34980d0e9a5ede046",
+      "notes": "# Skill: Artifact Design\n\nDesign guidance and fundamentals for Artifacts. Must be loaded before writing any artifact — including a skill-instructed Markdown one — since Markdown is never a shortcut past the design pass. Calibrates how much design investment a given artifact request actually warrants before any HTML is written.\n\n## Full detail\nBuilt into Claude Code — no separate SKILL.md on disk; invoked via the `artifact-design` skill name.",
+      "tags": [
+        "skill",
+        "builtin",
+        "artifact",
+        "design"
+      ],
+      "links": []
     },
     {
       "id": "235a181a7e000e9a",
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Artifact Diagramming.md",
-      "name": "Skill: Artifact Diagramming"
+      "name": "Skill: Artifact Diagramming",
+      "sourceFile": "second-brain/Skills/Skill - Artifact Diagramming.md",
+      "sourceHash": "9569e36c2ea7649ef4993fd59bec49f726ad21cf0b52b09f5e7860b37f00fda5",
+      "notes": "# Skill: Artifact Diagramming\n\nDiagramming know-how for Artifacts: when a picture actually earns its place, how to draw one that shows the real mechanism (not just decoration), and the inline-SVG mechanics that keep a diagram legible in both light and dark themes.\n\n## Full detail\nBuilt into Claude Code — no separate SKILL.md on disk; invoked via the `artifact-diagramming` skill name.",
+      "tags": [
+        "skill",
+        "builtin",
+        "artifact",
+        "design",
+        "diagrams"
+      ],
+      "links": []
     },
     {
       "id": "db2fa3dc557c1652",
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Bilingual Replies.md",
-      "name": "Skill: Bilingual Replies"
+      "name": "Skill: Bilingual Replies",
+      "sourceFile": "second-brain/Skills/Skill - Bilingual Replies.md",
+      "sourceHash": "d4353e8c6cf6cda5e9ab3463f9671bf8d200249e4f84c7e5797433769979a708",
+      "notes": "# Skill: Bilingual Replies\n\nStanding instruction: every substantive reply in this working relationship must be written in **both English and Traditional Chinese (繁體中文)** — never English-only or Chinese-only, regardless of which language the user writes in. Code, paths, commands, and identifiers stay untranslated; only surrounding prose needs both languages. Trivial one-line tool-narration doesn't need duplication, but the actual answer/explanation/summary does.\n\n## Full detail (the actual skill file, not just this summary)\n`C:\\Users\\User\\.claude\\skills\\bilingual-replies\\SKILL.md`",
+      "tags": [
+        "skill",
+        "user",
+        "interaction-style"
+      ],
+      "links": []
     },
     {
       "id": "3aa94c885def370c",
@@ -85,6 +173,15 @@
       "name": "Skill: Brainstorming (Superpowers)",
       "links": [
         "Skill - Writing Plans|writing-plans"
+      ],
+      "sourceFile": "second-brain/Skills/Skill - Brainstorming.md",
+      "sourceHash": "9bb05dc349b0cff812455e26fc5d14880eeb06ab98fc530604fbdfb218596b36",
+      "notes": "# Skill: Brainstorming (Superpowers)\n\nMandatory first step before any creative work — new features, components, functionality, or behavior changes. Classifies the request into **Spike** (feasibility question, no design doc), **Bounded** (small well-scoped change to existing code, short in-chat design), or **Architectural** (new subsystems/projects, full spec + [[Skill - Writing Plans|writing-plans]] handoff). Every path ends with an explicit approval gate before implementation starts — \"simple\" never means \"no approval.\"\n\n## Full detail (the actual skill file, not just this summary)\n`C:\\Users\\User\\.claude\\plugins\\cache\\claude-plugins-official\\superpowers\\6.3.0\\skills\\brainstorming\\SKILL.md`",
+      "tags": [
+        "skill",
+        "superpowers",
+        "process",
+        "planning"
       ]
     },
     {
@@ -92,7 +189,17 @@
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Claude API.md",
-      "name": "Skill: Claude API"
+      "name": "Skill: Claude API",
+      "sourceFile": "second-brain/Skills/Skill - Claude API.md",
+      "sourceHash": "17618b083dbf5c6cde3a4f14fb968129df87ad593f3cdf2d8bf3a53ed71e427d",
+      "notes": "# Skill: Claude API\n\nReference for the Claude API / Anthropic SDK — model IDs, pricing, parameters, streaming, tool use, MCP, agents, prompt caching, and token counting. Triggers whenever Claude/Anthropic/model names are mentioned, when asked about any LLM (pricing, model choice, limits, caching — never answer from memory), or when a task is LLM-shaped with the provider unstated. Skipped when another provider (OpenAI, Gemini, Llama, etc.) is clearly the one in use.\n\n## Full detail\nBuilt into Claude Code — no separate SKILL.md on disk; invoked via the `claude-api` skill name.",
+      "tags": [
+        "skill",
+        "builtin",
+        "reference",
+        "claude-api"
+      ],
+      "links": []
     },
     {
       "id": "19bb1ef44c9f6af7",
@@ -103,6 +210,14 @@
       "links": [
         "Skill - Simplify|simplify",
         "Skill - Security Review|security-review"
+      ],
+      "sourceFile": "second-brain/Skills/Skill - Code Review.md",
+      "sourceHash": "02cb99e2ab46f53b76d50440682e6539cacad69fe95e2cabe25ab1b9e24cdc77",
+      "notes": "# Skill: Code Review\n\nReviews the current diff, or a given PR number/branch/path target, for correctness bugs and reuse/simplification/efficiency cleanups at a chosen effort level (low/medium: fewer, high-confidence findings; high→max: broader coverage, may include uncertain findings). With no level given, reuses the last-used level. Supports `--comment` to post findings as inline PR comments, or `--fix` to apply findings to the working tree after review. Compare with [[Skill - Simplify|simplify]] (quality-only, no bug hunt) and [[Skill - Security Review|security-review]] (security-only).\n\n## Full detail\nBuilt into Claude Code — no separate SKILL.md on disk; invoked via the `code-review` skill name.",
+      "tags": [
+        "skill",
+        "builtin",
+        "code-review"
       ]
     },
     {
@@ -110,21 +225,51 @@
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Dataviz.md",
-      "name": "Skill: Dataviz"
+      "name": "Skill: Dataviz",
+      "sourceFile": "second-brain/Skills/Skill - Dataviz.md",
+      "sourceHash": "d4f940f953db8e974021f795c1fdf9368bb85e49c6b91d8a5c8ecabf1bd8ee05",
+      "notes": "# Skill: Dataviz\n\nLoad before writing any chart, graph, plot, dashboard, or data visualization — in any medium (HTML/React artifact, inline SVG, matplotlib/plotly/d3/Recharts code, or a chart shared into Slack). Teaches a design-system-agnostic method: a form heuristic, a color formula with a runnable validator, mark specs, and interaction rules, aiming for visuals that read as one consistent system in light and dark themes. A validated default brand-neutral palette lives in `references/palette.md` for swapping in a real brand's colors.\n\n## Full detail\nBuilt into Claude Code — no separate SKILL.md on disk; invoked via the `dataviz` skill name.",
+      "tags": [
+        "skill",
+        "builtin",
+        "design",
+        "dataviz"
+      ],
+      "links": []
     },
     {
       "id": "910080d769d46202",
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Design (Canvas).md",
-      "name": "Skill: Design (Canvas)"
+      "name": "Skill: Design (Canvas)",
+      "sourceFile": "second-brain/Skills/Skill - Design (Canvas).md",
+      "sourceHash": "4c4c9ba069288678362679dc5554d3bf6936a316aed4bbf3dcaf83f239bac89a",
+      "notes": "# Skill: Design (Canvas)\n\nCreates a design canvas — a multi-artboard visual design published as an Artifact running Claude Design's canvas editor. Claude drafts `.dc.html` artboards on one pan/zoom canvas; where saving is enabled, the user refines every element visually (click-to-select, properties panel, inline text editing, undo/redo) and Save publishes a new version. Good for UI mockups, screen flows, landing pages, marketing/social graphics, and print pieces (posters, flyers, brochures, memos). Only for creating/re-seeding a canvas — an existing one is edited in its published Artifact.\n\n## Full detail\nBuilt into Claude Code — no separate SKILL.md on disk; invoked via the `design` skill name.",
+      "tags": [
+        "skill",
+        "builtin",
+        "design",
+        "artifact"
+      ],
+      "links": []
     },
     {
       "id": "c8f423de510fb59e",
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Dispatching Parallel Agents.md",
-      "name": "Skill: Dispatching Parallel Agents (Superpowers)"
+      "name": "Skill: Dispatching Parallel Agents (Superpowers)",
+      "sourceFile": "second-brain/Skills/Skill - Dispatching Parallel Agents.md",
+      "sourceHash": "1e2c5c63e9f0970e44c2ca1b8853e160fd3f1f1a149cb78ba6539c8cae32a7ee",
+      "notes": "# Skill: Dispatching Parallel Agents (Superpowers)\n\nUse when facing 2+ independent problems (e.g. unrelated test failures across different files/subsystems) that share no state and don't depend on each other. Dispatch one focused, self-contained subagent per problem domain in the same response so they run concurrently; each agent gets a specific scope, clear goal, constraints, and expected output format. Review and integrate results afterward, then run the full suite to confirm no conflicts.\n\n## Full detail (the actual skill file, not just this summary)\n`C:\\Users\\User\\.claude\\plugins\\cache\\claude-plugins-official\\superpowers\\6.3.0\\skills\\dispatching-parallel-agents\\SKILL.md`",
+      "tags": [
+        "skill",
+        "superpowers",
+        "process",
+        "agents"
+      ],
+      "links": []
     },
     {
       "id": "918449d7c746d906",
@@ -135,6 +280,15 @@
       "links": [
         "Weekly Exchange Rate RPA",
         "Global Purchase Report RPA"
+      ],
+      "sourceFile": "second-brain/Skills/Skill - Excel to Interactive HTML Report.md",
+      "sourceHash": "51144aee993f37e3ee0efa185200e670121956e5ab41d50453dbb0507397a232",
+      "notes": "# Skill: Excel to Interactive HTML Report\n\nCOM export + DataTables/flatpickr pattern for turning periodic Excel reports into single-file interactive HTML. Grown from real bugs found via testing, not code review — see the skill file for the full gotcha list (flatpickr mobile-swap, WebKit `new Date()` partial-string parsing, DataTables `scrollX`/`autoWidth` column-shift, chart-color consistency, extracting a labeled sub-table by cell instead of scraping native export).\n\n## Used by\n- [[Weekly Exchange Rate RPA]] — original source of most gotchas (17-tab HTML rebuild).\n- [[Global Purchase Report RPA]] — 2026-08-25 session added the scrollX/autoWidth and chart-color gotchas, plus the \"extract by cell\" pattern for the Exchange Rate sub-table.\n\n## Full detail (the actual skill file, not just this summary)\n`C:\\Users\\User\\.claude\\skills\\excel-to-interactive-html-report\\SKILL.md`",
+      "tags": [
+        "skill",
+        "pattern",
+        "html",
+        "excel"
       ]
     },
     {
@@ -146,6 +300,15 @@
       "links": [
         "Skill - Subagent-Driven Development|subagent-driven-development",
         "Skill - Finishing a Development Branch|finishing-a-development-branch"
+      ],
+      "sourceFile": "second-brain/Skills/Skill - Executing Plans.md",
+      "sourceHash": "d1e08458fd72adbe586d5e690fe41674c95ead004f6bf0b33f20fb8418c333db",
+      "notes": "# Skill: Executing Plans (Superpowers)\n\nUse when a written implementation plan needs to be run in a separate session with human review checkpoints (no subagents available — otherwise prefer [[Skill - Subagent-Driven Development|subagent-driven-development]]). Load the plan, review it critically for gaps, execute tasks one by one following each bite-sized step exactly, run the specified verifications, and stop immediately on any blocker rather than guessing. Finishes by handing off to [[Skill - Finishing a Development Branch|finishing-a-development-branch]].\n\n## Full detail (the actual skill file, not just this summary)\n`C:\\Users\\User\\.claude\\plugins\\cache\\claude-plugins-official\\superpowers\\6.3.0\\skills\\executing-plans\\SKILL.md`",
+      "tags": [
+        "skill",
+        "superpowers",
+        "process",
+        "planning"
       ]
     },
     {
@@ -153,21 +316,51 @@
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Fewer Permission Prompts.md",
-      "name": "Skill: Fewer Permission Prompts"
+      "name": "Skill: Fewer Permission Prompts",
+      "sourceFile": "second-brain/Skills/Skill - Fewer Permission Prompts.md",
+      "sourceHash": "6c9ea9e79895c7858de5b9568a74005bed99d64586f6524a8c23eac7dc8e6636",
+      "notes": "# Skill: Fewer Permission Prompts\n\nScans past transcripts for common read-only Bash and MCP tool calls, then adds a prioritized allowlist to the project's `.claude/settings.json` to cut down on repeated permission prompts.\n\n## Full detail\nBuilt into Claude Code — no separate SKILL.md on disk; invoked via the `fewer-permission-prompts` skill name.",
+      "tags": [
+        "skill",
+        "builtin",
+        "claude-code",
+        "config"
+      ],
+      "links": []
     },
     {
       "id": "2741331bf9a51d86",
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Finishing a Development Branch.md",
-      "name": "Skill: Finishing a Development Branch (Superpowers)"
+      "name": "Skill: Finishing a Development Branch (Superpowers)",
+      "sourceFile": "second-brain/Skills/Skill - Finishing a Development Branch.md",
+      "sourceHash": "b774445fbae09502ed7743c3cd03716ee39023a4701482e9088769fff858784d",
+      "notes": "# Skill: Finishing a Development Branch (Superpowers)\n\nUse once implementation is complete and all tests pass, to decide how to integrate the work. Verifies the full test suite is green, detects the git/worktree environment, then presents a fixed menu (merge locally / push + PR / keep as-is, or a reduced 2-option menu on detached HEAD) and waits for the human's explicit choice — never assumes intent, and only discards work on an explicit typed \"discard\" confirmation. Cleans up worktrees it owns (under `.worktrees/`/`worktrees/`) after a successful merge or confirmed discard.\n\n## Full detail (the actual skill file, not just this summary)\n`C:\\Users\\User\\.claude\\plugins\\cache\\claude-plugins-official\\superpowers\\6.3.0\\skills\\finishing-a-development-branch\\SKILL.md`",
+      "tags": [
+        "skill",
+        "superpowers",
+        "process",
+        "git"
+      ],
+      "links": []
     },
     {
       "id": "54dab06a63cbb68a",
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Grill Me.md",
-      "name": "Skill: Grill Me"
+      "name": "Skill: Grill Me",
+      "sourceFile": "second-brain/Skills/Skill - Grill Me.md",
+      "sourceHash": "4806a6c3d3ca732d6757de061e994f8bef6b9292d0bfeda004f37b749a6e5d7e",
+      "notes": "# Skill: Grill Me\n\nInterview the user relentlessly about every aspect of a plan or design, one question at a time via `AskUserQuestion`, until every branch of the decision tree is resolved. Each question gets 2-4 concrete multiple-choice options (never a bare yes/no) plus the built-in \"Other\" field; questions are asked bilingually (Traditional Chinese + English). Anything answerable by exploring the codebase is explored directly instead of asked. Ends with a concise summary of all decisions made.\n\n## Full detail (the actual skill file, not just this summary)\n`C:\\Users\\User\\.claude\\skills\\grill-me\\SKILL.md`",
+      "tags": [
+        "skill",
+        "user",
+        "planning",
+        "interview"
+      ],
+      "links": []
     },
     {
       "id": "5ba0f317c75541ad",
@@ -177,6 +370,14 @@
       "name": "Skill: Hardening Windows Scheduled Tasks",
       "links": [
         "Desktop-OneDrive Auto Sync"
+      ],
+      "sourceFile": "second-brain/Skills/Skill - Hardening Windows Scheduled Tasks.md",
+      "sourceHash": "2818788123dbb498d534c95450af501c581f241d036a6b57e4aa0e6d8c9892e7",
+      "notes": "# Skill: Hardening Windows Scheduled Tasks\n\nAlways set `StartWhenAvailable=True` on unattended scheduled tasks — the `schtasks` CLI has no direct flag for it, so it's easy to forget and end up with a task that silently never runs if the machine was off/asleep at the scheduled time.\n\n## Used by\n- [[Desktop-OneDrive Auto Sync]] — the daily 13:00 sync task.\n\n## Full detail\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\reference_hardening_windows_scheduled_tasks_skill.md`",
+      "tags": [
+        "skill",
+        "windows",
+        "scheduled-task"
       ]
     },
     {
@@ -189,6 +390,13 @@
         "Global Purchase Report RPA",
         "GPL FS Roll-Forward",
         "EIC FS Roll-Forward"
+      ],
+      "sourceFile": "second-brain/Skills/Skill - Incremental Report File Chaining.md",
+      "sourceHash": "b60bc3bf6ff4e011ac0ca6e949c3e03ead1076681a85e8833254f4626e33b4b5",
+      "notes": "# Skill: Incremental Report File Chaining\n\nPersonal skill for a recurring bug pattern: **stale-template / date-window bugs** in periodic report rebuilds. Core rule: don't pick a \"base\" file by comparing timestamps across candidate files — parse the actual period/date encoded in the data or filename instead.\n\nCheck this skill for **any** periodic-report rebuild before writing file-selection logic.\n\n## Where this bit us for real\n- [[Global Purchase Report RPA]]'s `Generate-PurchaseReportHtml.ps1` picked the wrong source file because it sorted candidates by file-touch time instead of the reporting period in the filename — found via real VBA-button testing, fixed 2026-08-25.\n\n## Related\n- Also informs [[GPL FS Roll-Forward]] and [[EIC FS Roll-Forward]] (roll-forward = chained periods by nature).\n\n## Full detail\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\reference_incremental_report_file_chaining_skill.md`",
+      "tags": [
+        "skill",
+        "pattern"
       ]
     },
     {
@@ -196,28 +404,68 @@
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Init.md",
-      "name": "Skill: Init"
+      "name": "Skill: Init",
+      "sourceFile": "second-brain/Skills/Skill - Init.md",
+      "sourceHash": "00b67f75115bf6d94c39017efe723e6825c9770e328ae0d0e9f396b6780d035c",
+      "notes": "# Skill: Init\n\nInitializes a new `CLAUDE.md` file with codebase documentation for a project.\n\n## Full detail\nBuilt into Claude Code — no separate SKILL.md on disk; invoked via the `init` skill name.",
+      "tags": [
+        "skill",
+        "builtin",
+        "claude-code",
+        "dev-workflow"
+      ],
+      "links": []
     },
     {
       "id": "d784f72da961b608",
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Keybindings Help.md",
-      "name": "Skill: Keybindings Help"
+      "name": "Skill: Keybindings Help",
+      "sourceFile": "second-brain/Skills/Skill - Keybindings Help.md",
+      "sourceHash": "bd3070e24bd49bb616954307a0d7c9eb659e9ebd109e233d3572c62c7adb6eaa",
+      "notes": "# Skill: Keybindings Help\n\nUse when customizing keyboard shortcuts, rebinding keys, adding chord bindings, or modifying `~/.claude/keybindings.json` — e.g. \"rebind ctrl+s\", \"add a chord shortcut\", \"change the submit key\".\n\n## Full detail\nBuilt into Claude Code — no separate SKILL.md on disk; invoked via the `keybindings-help` skill name.",
+      "tags": [
+        "skill",
+        "builtin",
+        "claude-code",
+        "config"
+      ],
+      "links": []
     },
     {
       "id": "646e6a9a7c464ffe",
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Loop.md",
-      "name": "Skill: Loop"
+      "name": "Skill: Loop",
+      "sourceFile": "second-brain/Skills/Skill - Loop.md",
+      "sourceHash": "38f7db763d4f39bbb200897b3290468d366755221320a6b59fcebdb2e1793483",
+      "notes": "# Skill: Loop\n\nRuns a prompt or slash command on a recurring interval (e.g. `/loop 5m /foo`) — omit the interval to let the model self-pace. Use for recurring tasks or polling for status (\"check the deploy every 5 minutes\", \"keep running /babysit-prs\"), not for one-off tasks.\n\n## Full detail\nBuilt into Claude Code — no separate SKILL.md on disk; invoked via the `loop` skill name.",
+      "tags": [
+        "skill",
+        "builtin",
+        "claude-code",
+        "automation"
+      ],
+      "links": []
     },
     {
       "id": "f4df859c104f00eb",
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Receiving Code Review.md",
-      "name": "Skill: Receiving Code Review (Superpowers)"
+      "name": "Skill: Receiving Code Review (Superpowers)",
+      "sourceFile": "second-brain/Skills/Skill - Receiving Code Review.md",
+      "sourceHash": "dbff9cf0b5374406ae5b4d4b3e5b1bcc76f0dbcdb5b59aee295c3b5dc7a29db6",
+      "notes": "# Skill: Receiving Code Review (Superpowers)\n\nUse when receiving code review feedback, before implementing any of it — especially when it seems unclear or technically questionable. Requires reading the full feedback, restating the requirement, verifying against the actual codebase, and only then implementing one item at a time with tests. Forbids performative agreement (\"You're absolutely right!\", \"Great point!\") and blind implementation; pushes back with technical reasoning when a suggestion is wrong, breaks something, or violates YAGNI, and asks for clarification rather than guessing on unclear items.\n\n## Full detail (the actual skill file, not just this summary)\n`C:\\Users\\User\\.claude\\plugins\\cache\\claude-plugins-official\\superpowers\\6.3.0\\skills\\receiving-code-review\\SKILL.md`",
+      "tags": [
+        "skill",
+        "superpowers",
+        "process",
+        "code-review"
+      ],
+      "links": []
     },
     {
       "id": "c2142367daa74f93",
@@ -227,6 +475,15 @@
       "name": "Skill: Requesting Code Review (Superpowers)",
       "links": [
         "Skill - Receiving Code Review|receiving-code-review"
+      ],
+      "sourceFile": "second-brain/Skills/Skill - Requesting Code Review.md",
+      "sourceHash": "e3db96965a9564e9c24d14b521848170f4038deba9b5e3d72739b95be0eed664",
+      "notes": "# Skill: Requesting Code Review (Superpowers)\n\nUse when completing a task, finishing a major feature, or before merging — dispatch a code-reviewer subagent with precisely crafted context (git SHAs, description, requirements) rather than the coordinator's own session history, so review context stays clean and reusable. Fix Critical issues immediately, Important issues before proceeding, note Minor issues for later, and push back with reasoning if the reviewer is wrong. Distinct from [[Skill - Receiving Code Review|receiving-code-review]], which governs how to act on the feedback once it arrives.\n\n## Full detail (the actual skill file, not just this summary)\n`C:\\Users\\User\\.claude\\plugins\\cache\\claude-plugins-official\\superpowers\\6.3.0\\skills\\requesting-code-review\\SKILL.md`",
+      "tags": [
+        "skill",
+        "superpowers",
+        "process",
+        "code-review"
       ]
     },
     {
@@ -234,21 +491,51 @@
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Run.md",
-      "name": "Skill: Run"
+      "name": "Skill: Run",
+      "sourceFile": "second-brain/Skills/Skill - Run.md",
+      "sourceHash": "89086666010d987e15fe4822bddaa7be8bed42444a0959e77b52201fea81bb2b",
+      "notes": "# Skill: Run\n\nLaunches and drives the current project's app to see a change actually working — asked to run/start/screenshot the app, or to confirm a change works in the real app (not just tests). Checks for a project-specific launch skill first; otherwise falls back to built-in patterns by project type (CLI, server, TUI, Electron, browser-driven, library).\n\n## Full detail\nBuilt into Claude Code — no separate SKILL.md on disk; invoked via the `run` skill name.",
+      "tags": [
+        "skill",
+        "builtin",
+        "claude-code",
+        "dev-workflow"
+      ],
+      "links": []
     },
     {
       "id": "c59f24f7c3f091e0",
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Schedule.md",
-      "name": "Skill: Schedule"
+      "name": "Skill: Schedule",
+      "sourceFile": "second-brain/Skills/Skill - Schedule.md",
+      "sourceHash": "e165fd09ec15b56137fb656e1e0fa9d6a516347ffd910ac53d378ac933ca18d3",
+      "notes": "# Skill: Schedule\n\nCreates, updates, lists, or runs scheduled cloud agents (routines) on a cron schedule — including one-time scheduled runs (\"run this once at 3pm\", \"remind me to check X tomorrow\").\n\n## Full detail\nBuilt into Claude Code — no separate SKILL.md on disk; invoked via the `schedule` skill name.",
+      "tags": [
+        "skill",
+        "builtin",
+        "claude-code",
+        "automation"
+      ],
+      "links": []
     },
     {
       "id": "5770fa75f47c5976",
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Security Review.md",
-      "name": "Skill: Security Review"
+      "name": "Skill: Security Review",
+      "sourceFile": "second-brain/Skills/Skill - Security Review.md",
+      "sourceHash": "d0a25c270dd2c48a43a7dfc565c260fc899e99960a945c50d554c57b588b6aa3",
+      "notes": "# Skill: Security Review\n\nCompletes a security review of the pending changes on the current branch.\n\n## Full detail\nBuilt into Claude Code — no separate SKILL.md on disk; invoked via the `security-review` skill name.",
+      "tags": [
+        "skill",
+        "builtin",
+        "code-review",
+        "security"
+      ],
+      "links": []
     },
     {
       "id": "f559c96e16248e39",
@@ -258,6 +545,14 @@
       "name": "Skill: Simplify",
       "links": [
         "Skill - Code Review|code-review"
+      ],
+      "sourceFile": "second-brain/Skills/Skill - Simplify.md",
+      "sourceHash": "831a449d5dc66bcc6e18595f942c38c25abb6824045f20f8d23c5951b6def390",
+      "notes": "# Skill: Simplify\n\nReviews changed code for reuse, simplification, efficiency, and \"altitude\" cleanups, then applies the fixes directly. Quality-only — it does not hunt for bugs; use [[Skill - Code Review|code-review]] for that.\n\n## Full detail\nBuilt into Claude Code — no separate SKILL.md on disk; invoked via the `simplify` skill name.",
+      "tags": [
+        "skill",
+        "builtin",
+        "code-review"
       ]
     },
     {
@@ -268,6 +563,16 @@
       "name": "Skill: Subagent-Driven Development (Superpowers)",
       "links": [
         "Skill - Finishing a Development Branch|finishing-a-development-branch"
+      ],
+      "sourceFile": "second-brain/Skills/Skill - Subagent-Driven Development.md",
+      "sourceHash": "686a95fe53f7861a98616240adfab1291ff638650a8b2f4f624ec71f241bc4bf",
+      "notes": "# Skill: Subagent-Driven Development (Superpowers)\n\nUse to execute an implementation plan's independent tasks within the current session: fresh implementer subagent per task, a task review (spec compliance + code quality) after each with a bounded fix loop (5 rounds max, then adjudicate), and one broad whole-branch review at the end on the most capable model. Runs continuously without check-ins — only irreversible/destructive actions, security-sensitive actions, shared-branch side effects, or a fundamentally broken plan stop it. Progress is tracked in a git-ignored ledger (`.superpowers/sdd/<plan>/progress.md`) that survives context compaction. Ends via [[Skill - Finishing a Development Branch|finishing-a-development-branch]].\n\n## Full detail (the actual skill file, not just this summary)\n`C:\\Users\\User\\.claude\\plugins\\cache\\claude-plugins-official\\superpowers\\6.3.0\\skills\\subagent-driven-development\\SKILL.md`",
+      "tags": [
+        "skill",
+        "superpowers",
+        "process",
+        "agents",
+        "planning"
       ]
     },
     {
@@ -278,6 +583,15 @@
       "name": "Skill: Systematic Debugging (Superpowers)",
       "links": [
         "Skill - Test-Driven Development|test-driven-development"
+      ],
+      "sourceFile": "second-brain/Skills/Skill - Systematic Debugging.md",
+      "sourceHash": "a020f4755084b0f03b5732a94a7953c1d14e468d1a08ac9ad1e59ee11a491adb",
+      "notes": "# Skill: Systematic Debugging (Superpowers)\n\nUse for any bug, test failure, or unexpected behavior, before proposing a fix. Iron law: **no fixes without root-cause investigation first**. Four phases — (1) root-cause investigation (read errors fully, reproduce reliably, check recent changes, trace data flow), (2) pattern analysis against working examples, (3) single hypothesis + minimal test, (4) implementation with a failing test created first (hands off to [[Skill - Test-Driven Development|test-driven-development]]). After 3+ failed fix attempts, stop and question the architecture instead of trying a 4th patch.\n\n## Full detail (the actual skill file, not just this summary)\n`C:\\Users\\User\\.claude\\plugins\\cache\\claude-plugins-official\\superpowers\\6.3.0\\skills\\systematic-debugging\\SKILL.md`",
+      "tags": [
+        "skill",
+        "superpowers",
+        "process",
+        "debugging"
       ]
     },
     {
@@ -285,21 +599,51 @@
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Test-Driven Development.md",
-      "name": "Skill: Test-Driven Development (Superpowers)"
+      "name": "Skill: Test-Driven Development (Superpowers)",
+      "sourceFile": "second-brain/Skills/Skill - Test-Driven Development.md",
+      "sourceHash": "109d68858eb8b8bd5ed0f4ad62c157fb757a560a3af3c6402328a5aeed092d4c",
+      "notes": "# Skill: Test-Driven Development (Superpowers)\n\nUse before writing any implementation code, for every feature or bugfix. Iron law: **no production code without a failing test first**. Red-Green-Refactor cycle: write one minimal failing test, verify it fails for the right reason, write the simplest code to pass, verify it passes with no other breakage, then refactor while staying green. Code written before its test must be deleted and redone — never kept \"as reference.\"\n\n## Full detail (the actual skill file, not just this summary)\n`C:\\Users\\User\\.claude\\plugins\\cache\\claude-plugins-official\\superpowers\\6.3.0\\skills\\test-driven-development\\SKILL.md`",
+      "tags": [
+        "skill",
+        "superpowers",
+        "process",
+        "testing"
+      ],
+      "links": []
     },
     {
       "id": "0f1b1da8a433610a",
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Update Config.md",
-      "name": "Skill: Update Config"
+      "name": "Skill: Update Config",
+      "sourceFile": "second-brain/Skills/Skill - Update Config.md",
+      "sourceHash": "26381077f95e94b826d3f3266441ac5269073286f80c795568c6b3c1dcc6c237",
+      "notes": "# Skill: Update Config\n\nConfigures the Claude Code harness via `settings.json`/`settings.local.json`: hooks for automated behaviors (\"from now on when X\", \"whenever X\"), permissions (\"allow X\", \"add permission\"), environment variables, and hook troubleshooting. For simple settings like theme or model, `/config` is suggested instead.\n\n## Full detail\nBuilt into Claude Code — no separate SKILL.md on disk; invoked via the `update-config` skill name.",
+      "tags": [
+        "skill",
+        "builtin",
+        "claude-code",
+        "config"
+      ],
+      "links": []
     },
     {
       "id": "e55bd096af5458b8",
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Using Git Worktrees.md",
-      "name": "Skill: Using Git Worktrees (Superpowers)"
+      "name": "Skill: Using Git Worktrees (Superpowers)",
+      "sourceFile": "second-brain/Skills/Skill - Using Git Worktrees.md",
+      "sourceHash": "098f9fd77ea4ebbbbcafd37dfa04b65c4ef3cfdd81c54a7b82a0ec83484c9965",
+      "notes": "# Skill: Using Git Worktrees (Superpowers)\n\nUse before starting feature work that needs isolation from the current workspace, or before executing an implementation plan. Detects whether you're already in an isolated workspace first; prefers a harness-native worktree tool over manual `git worktree` commands (bypassing a native tool creates phantom state the harness can't manage); falls back to `.worktrees/` (verified `.gitignore`d) only when no native tool exists. Runs project setup and a clean-baseline test pass before reporting ready.\n\n## Full detail (the actual skill file, not just this summary)\n`C:\\Users\\User\\.claude\\plugins\\cache\\claude-plugins-official\\superpowers\\6.3.0\\skills\\using-git-worktrees\\SKILL.md`",
+      "tags": [
+        "skill",
+        "superpowers",
+        "process",
+        "git"
+      ],
+      "links": []
     },
     {
       "id": "ad6758aeb3b35bdc",
@@ -310,6 +654,15 @@
       "links": [
         "Skill - Brainstorming|brainstorming",
         "Skill - Systematic Debugging|systematic-debugging"
+      ],
+      "sourceFile": "second-brain/Skills/Skill - Using Superpowers.md",
+      "sourceHash": "532778ce952efe831083744f8d4b7c8bb9adf9373f4b4a5060b60f07ba6882c1",
+      "notes": "# Skill: Using Superpowers (Superpowers)\n\nLoaded at the start of every conversation. Establishes the meta-rule for the whole Superpowers plugin: if there's even a small chance a skill applies to the current task, it MUST be invoked before any response or action — including clarifying questions or exploring the codebase. Process skills ([[Skill - Brainstorming|brainstorming]], [[Skill - Systematic Debugging|systematic-debugging]]) take priority over implementation skills. Lists rationalization \"red flags\" (\"this is just a simple question\", \"I need more context first\", etc.) that signal a skill check is being skipped.\n\n## Full detail (the actual skill file, not just this summary)\n`C:\\Users\\User\\.claude\\plugins\\cache\\claude-plugins-official\\superpowers\\6.3.0\\skills\\using-superpowers\\SKILL.md`",
+      "tags": [
+        "skill",
+        "superpowers",
+        "process",
+        "meta"
       ]
     },
     {
@@ -317,7 +670,17 @@
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Verification Before Completion.md",
-      "name": "Skill: Verification Before Completion (Superpowers)"
+      "name": "Skill: Verification Before Completion (Superpowers)",
+      "sourceFile": "second-brain/Skills/Skill - Verification Before Completion.md",
+      "sourceHash": "574bd9ba2ccc9f632175145a36c865260d23d1425120d9059df3edd919c8fe00",
+      "notes": "# Skill: Verification Before Completion (Superpowers)\n\nUse before claiming work is complete, fixed, or passing — before committing or creating PRs. Iron law: **no completion claims without fresh verification evidence run in this message**. Identify the command that proves the claim, run it in full, read the actual output, and only then state the claim — with the evidence. Bans hedge words (\"should work\", \"probably passes\") and premature satisfaction (\"Great!\", \"Done!\") before that evidence exists.\n\n## Full detail (the actual skill file, not just this summary)\n`C:\\Users\\User\\.claude\\plugins\\cache\\claude-plugins-official\\superpowers\\6.3.0\\skills\\verification-before-completion\\SKILL.md`",
+      "tags": [
+        "skill",
+        "superpowers",
+        "process",
+        "testing"
+      ],
+      "links": []
     },
     {
       "id": "8667aeb6a34426c9",
@@ -328,6 +691,15 @@
       "links": [
         "Skill - Subagent-Driven Development|subagent-driven-development",
         "Skill - Executing Plans|executing-plans"
+      ],
+      "sourceFile": "second-brain/Skills/Skill - Writing Plans.md",
+      "sourceHash": "66e09045028132c7327ff340189b3769edbab58b85f75569f0216d8bc42d49b2",
+      "notes": "# Skill: Writing Plans (Superpowers)\n\nUse once a spec/requirements exists for a multi-step task, before touching code. Produces a bite-sized, zero-placeholder implementation plan (saved to `docs/superpowers/plans/YYYY-MM-DD-<feature>.md`) assuming the executing engineer has no codebase context: exact files touched per task, real code, real tests, DRY/YAGNI/TDD throughout, frequent commits. Ends with a self-review against the spec and a handoff choice between [[Skill - Subagent-Driven Development|subagent-driven-development]] (recommended) and [[Skill - Executing Plans|executing-plans]].\n\n## Full detail (the actual skill file, not just this summary)\n`C:\\Users\\User\\.claude\\plugins\\cache\\claude-plugins-official\\superpowers\\6.3.0\\skills\\writing-plans\\SKILL.md`",
+      "tags": [
+        "skill",
+        "superpowers",
+        "process",
+        "planning"
       ]
     },
     {
@@ -335,7 +707,17 @@
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Writing Skills.md",
-      "name": "Skill: Writing Skills (Superpowers)"
+      "name": "Skill: Writing Skills (Superpowers)",
+      "sourceFile": "second-brain/Skills/Skill - Writing Skills.md",
+      "sourceHash": "a01009618e984ac3975085c8f00049e72162c696fddf1b5770a29f60b0f420fa",
+      "notes": "# Skill: Writing Skills (Superpowers)\n\nUse when creating a new skill, editing an existing one, or verifying a skill works before deployment. Treats skill-writing as TDD applied to process documentation: run a pressure scenario without the skill (RED, baseline failure/rationalizations), write the minimal skill addressing exactly those failures (GREEN), then close loopholes found under further pressure-testing (REFACTOR). Covers SKILL.md structure, description-field discovery optimization (\"Use when...\" triggers only, never a workflow summary), and matching the guidance's form (prohibition vs. recipe vs. structural slot) to the type of failure being prevented.\n\n## Full detail (the actual skill file, not just this summary)\n`C:\\Users\\User\\.claude\\plugins\\cache\\claude-plugins-official\\superpowers\\6.3.0\\skills\\writing-skills\\SKILL.md`",
+      "tags": [
+        "skill",
+        "superpowers",
+        "process",
+        "meta"
+      ],
+      "links": []
     },
     {
       "id": "d39a1d9ac21c65c1",
@@ -367,12 +749,18 @@
         "Skill - Verification Before Completion",
         "Skill - Hardening Windows Scheduled Tasks",
         "Skill - Bilingual Replies",
-        "Skills/Repositories/Personal Skills Repository",
         "Working Style and Preferences",
         "Reference - AI MFS Governance Framework",
         "Reference - NotebookLM Video Subtitle Prompts",
         "README|Second Brain Home",
         "Working Projects/Working Projects Index|Working Projects"
+      ],
+      "sourceFile": "second-brain/Skills/Skills Overview.md",
+      "sourceHash": "4ac0a5e35569ff5fd9fde22bf565e1ff84f0f7ec3988ab39a5433b353256ae58",
+      "notes": "# Skills Index\n\nThe Skills section has two layers: versioned skill repositories and local reference notes. Follow the actual SKILL.md in the relevant repository for current instructions; these pages help locate and choose the right source.\n\n## Skill repositories\n\n| Repository page | Scope | GitHub |\n|---|---|---|\n| [[Skills/Repositories/HK Finance Skills Repository]] | 22 Hong Kong finance, accounting, tax and audit agent skills | [hk-finance-skills](https://github.com/anthonymankaho/hk-finance-skills) |\n| [[Skills/Repositories/Personal Skills Repository]] | Personal Claude Code skills and supporting scripts | [Skills](https://github.com/anthonymankaho/Skills) |\n| [[Skills/Repositories/Claude Skills Backup Repository]] | Backup subset of selected user-authored Claude Code skills | [anthonym-claude-skills](https://github.com/anthonymankaho/anthonym-claude-skills) |\n\n## Local skill and reference notes\n\nThese notes summarize or point to workflows and installed tools. They do not necessarily represent the current content of a GitHub skill repository.\n\n### Reporting and data work\n\n- [[Skill - Excel to Interactive HTML Report]]\n- [[Skill - Incremental Report File Chaining]]\n- [[RMB CNH Exchange Rate (May Lau)]]\n\n### Development and agent workflow\n\n- [[Skill - Brainstorming]] · [[Skill - Writing Plans]] · [[Skill - Executing Plans]]\n- [[Skill - Systematic Debugging]] · [[Skill - Test-Driven Development]] · [[Skill - Code Review]]\n- [[Skill - Requesting Code Review]] · [[Skill - Receiving Code Review]] · [[Skill - Finishing a Development Branch]]\n- [[Skill - Using Git Worktrees]] · [[Skill - Dispatching Parallel Agents]] · [[Skill - Using Superpowers]]\n- [[Skill - Writing Skills]] · [[Skill - Simplify]] · [[Skill - Verification Before Completion]]\n\n### Windows, communication and interface references\n\n- [[Skill - Hardening Windows Scheduled Tasks]] · [[Skill - Bilingual Replies]] · [[Skills/Repositories/Personal Skills Repository]]\n- [[Working Style and Preferences]]\n- [[Reference - AI MFS Governance Framework]]\n- [[Reference - NotebookLM Video Subtitle Prompts]]\n\nThe remaining Skill notes document installed product capabilities, setup commands and historical references. Browse the folder when needed and check the underlying tool or repository for current behavior.\n\n## Related\n\n- [[README|Second Brain Home]]\n- [[Working Projects/Working Projects Index|Working Projects]]",
+      "tags": [
+        "moc",
+        "skills"
       ]
     },
     {
@@ -380,7 +768,15 @@
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Working Style and Preferences.md",
-      "name": "How I Like to Work (Claude Code)"
+      "name": "How I Like to Work (Claude Code)",
+      "sourceFile": "second-brain/Skills/Working Style and Preferences.md",
+      "sourceHash": "38b2a906c8d3c0e06e2542a880d7fae9e6ef1c7f6ef7eabf5f9366aae94b49d7",
+      "notes": "# How I Like to Work (Claude Code)\n\n- **Bilingual replies**: always reply in Traditional Chinese *and* English.\n- **PowerShell caution**: review PowerShell commands first — don't run them until explicitly told to.\n- **Claude Pro plan**: subscription-based, not per-token billed — frame usage cost as notional, not real spend.\n\nThese apply across *every* project, not just one — that's why they get their own note instead of living inside a project file.\n\n## Full detail\n- `C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\feedback_bilingual_replies.md`\n- `C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\feedback_wait_for_explicit_powershell_orders.md`\n- `C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\user_claude_pro_plan.md`",
+      "tags": [
+        "preferences",
+        "feedback"
+      ],
+      "links": []
     }
   ],
   "projects": [
@@ -393,6 +789,14 @@
       "status": "Active",
       "links": [
         "Skill - Hardening Windows Scheduled Tasks"
+      ],
+      "sourceFile": "second-brain/Working Projects/Project Notes/Desktop-OneDrive Auto Sync.md",
+      "sourceHash": "9826bd994d9cdaf9d06e4d5340b8a810d1f57a5a306ec6fead2889bfa02f8fdb",
+      "notes": "# Desktop→OneDrive Auto Sync\n\nDaily 13:00 scheduled task syncing Desktop to a OneDrive folder nested inside Desktop (no `/MIR`). Pushed to a private GitHub repo: `anthonymankaho/desktop-onedrive-sync`.\n\n## Related\n- Uses [[Skill - Hardening Windows Scheduled Tasks]] — remember `StartWhenAvailable=True` (schtasks CLI has no direct flag for this).\n\n## Full detail\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\project_desktop_onedrive_auto_sync.md`",
+      "tags": [
+        "project",
+        "admin",
+        "scheduled-task"
       ]
     },
     {
@@ -406,6 +810,13 @@
         "GPL FS Roll-Forward",
         "EIC GS Suite HTML Tool",
         "Skill - Incremental Report File Chaining"
+      ],
+      "sourceFile": "second-brain/Working Projects/Project Notes/EIC FS Roll-Forward.md",
+      "sourceHash": "ee03f61c4023f8eb1de16f435100793906b31fd65840cbd1ed4a3fc3592a2517",
+      "notes": "# EIC FS Roll-Forward\n\nFinancial statement roll-forward, Step 7. Real file is `FIN_EICLVH_*.xlsx` (**not** \"Current Month FS.xlsx\" — easy to grab the wrong file). June confirmed sent, spike done, currently blocked on the Jul-2026 G.S. statement.\n\n## Related\n- Sibling roll-forward project: [[GPL FS Roll-Forward]].\n- Related tool: [[EIC GS Suite HTML Tool]].\n- Likely uses [[Skill - Incremental Report File Chaining]].\n\n## Full detail\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\project_eic_fs_roll_forward.md`",
+      "tags": [
+        "project",
+        "fs-roll-forward"
       ]
     },
     {
@@ -418,6 +829,14 @@
       "links": [
         "EIC FS Roll-Forward",
         "Skill - Excel to Interactive HTML Report"
+      ],
+      "sourceFile": "second-brain/Working Projects/Project Notes/EIC GS Suite HTML Tool.md",
+      "sourceHash": "161f2407a6fe99fa945a548c58bbd353827e4618f4a85c832307bab91b8f569d",
+      "notes": "# EIC_GS_Suite.html Tool\n\nHeadless Playwright sandbox testing confirmed this tool's DO (data object?) work correctly — contradicting an earlier finding. 2 real bugs found and fixed 2026-08-18.\n\n## Related\n- Supports [[EIC FS Roll-Forward]].\n- Same testing philosophy as [[Skill - Excel to Interactive HTML Report]] (verify with a real browser pass, not code review alone).\n\n## Full detail\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\project_eic_gs_suite_html_tool.md`",
+      "tags": [
+        "project",
+        "tool",
+        "html"
       ]
     },
     {
@@ -429,21 +848,19 @@
       "status": "Active",
       "links": [
         "Weekly Exchange Rate RPA",
-        "Weekly Exchange Rate RPA",
-        "Weekly Exchange Rate RPA",
-        "Weekly Exchange Rate RPA",
-        "Global Purchase Report RPA - Monthly Pipeline",
-        "PowerShell Scripts Reference",
         "Global Purchase Report RPA - Monthly Pipeline",
         "PowerShell Scripts Reference",
         "Skill - Excel to Interactive HTML Report",
         "Skill - Incremental Report File Chaining",
-        "Skill - Excel to Interactive HTML Report",
-        "Skill - Incremental Report File Chaining",
-        "RMB CNH Exchange Rate (May Lau)",
-        "RMB CNH Exchange Rate (May Lau)",
-        "Weekly Exchange Rate RPA",
-        "Weekly Exchange Rate RPA"
+        "RMB CNH Exchange Rate (May Lau)"
+      ],
+      "sourceFile": "second-brain/Working Projects/Project Notes/Global Purchase Report/Global Purchase Report RPA.md",
+      "sourceHash": "92d552b1989dd40f839bd52b04494b9ebf75058964c44839ec672158a61d4137",
+      "notes": "# Global Purchase Report RPA\n\n每月把7個實體（MHK、STC、MZQ、MIL、RACO、TVS、MAZAL）的採購資料合併成一份報表——原本是 UiPath RPA 流程，現在改用 PowerShell 重建（合併/產出報表＋通知/發布皆已自動化；EPICOR 匯出、MMS 上傳、Gmail 草稿的最終寄出仍為人工）。\nMonthly report merging purchase data from 7 entities (MHK, STC, MZQ, MIL, RACO, TVS, MAZAL) — historically a UiPath RPA process, now rebuilt in PowerShell (merge/report-generation AND notify/distribute are both automated; EPICOR export, MMS upload, and actually sending the Gmail draft stay manual).\n\n## Current state / 目前狀態\n\n- **2026-07 月結已完成**（2026-08-26）：7個實體皆已用實際日期欄位驗證資料就緒（不只看檔案時間戳記）；Build → Get-PenExchangeRate → 手動AA/AB → Complete-FormulaColumns → Publish-OutsideReport 全部成功執行。SOP 升級到 v1.13。\n  **2026-07 monthly close completed** (2026-08-26): all 7 entities confirmed data-ready via actual date-column checks (not just file timestamps); Build → Get-PenExchangeRate → manual AA/AB → Complete-FormulaColumns → Publish-OutsideReport all run successfully. SOP bumped to v1.13.\n- `Get-PenExchangeRate.ps1` 現已正式串接並於本月成功使用：從 Pacific Exchange Rate Service 抓 USD/PEN，換算成 HKD 基準，寫入 Exchange Rate 分頁（M欄）；PEN→USD 公式維持活公式，不寫死數字。\n  `Get-PenExchangeRate.ps1` is now fully wired in and used successfully this month: fetches USD/PEN from the Pacific Exchange Rate Service, converts to HKD basis, writes into the Exchange Rate tab (column M); the PEN→USD formula stays live, never hardcoded.\n- `Publish-OutsideReport.ps1` 擴充為同步數值複製進**兩個**目的檔案：`OUTSIDETEMP.xlsx` 和 `OUTSIDETEMP_VBA_PRACTICE.xlsm`。新增啟動前 EXCEL.EXE 偵測（報錯中止而非強制關閉）與手動計算模式（`xlCalculationManual`）——修正了實測曾耗時46分鐘以上、因自動計算模式在每個中間步驟都觸發整個活頁簿重算所造成的效能問題。\n  `Publish-OutsideReport.ps1` extended to sync value-copies into **two** destination files: `OUTSIDETEMP.xlsx` and `OUTSIDETEMP_VBA_PRACTICE.xlsm`. Added a pre-run EXCEL.EXE check (aborts rather than force-closing) and manual calculation mode (`xlCalculationManual`) — fixed a real 46+ minute runtime caused by full-workbook auto-recalc firing on every intermediate step.\n- ✅ **已解決**（2026-08-27）：`OUTSIDETEMP_VBA_PRACTICE.xlsm` 有跟 `OUTSIDETEMP.xlsx` 之前一樣的已損壞/缺失 `data` 命名範圍問題——人工在名稱管理員**新增**（非編輯，因為完全缺失）工作表層級名稱 `data` 指向 `=Table1[#All]`，用三種方式交叉驗證（25個樞紐分析表全部重新整理成功、`COUNTA(data)`回傳合理列數、欄位名稱正確）。\n  ✅ **Resolved** (2026-08-27): `OUTSIDETEMP_VBA_PRACTICE.xlsm` had the same broken/missing `data` named range `OUTSIDETEMP.xlsx` had — fixed by manually **creating** (not editing, since it was fully missing) a workbook-scoped `data` name pointing at `=Table1[#All]`, cross-verified three ways (all 25 PivotTables refresh successfully, `COUNTA(data)` returns a sensible row count, field names are correct).\n- 已修復 `OUTSIDETEMP.xlsx` 一個真實存在的命名範圍損壞 bug（原本導致18個樞紐分析表無法重新整理）。\n  Fixed a real corrupted-named-range bug in `OUTSIDETEMP.xlsx` (18 PivotTables were failing to refresh).\n- 互動式 HTML 報表產生器（`build_report.js` + `Generate-PurchaseReportHtml.ps1`）大幅重寫：項目收合按鈕、DB 圖表顏色一致性、欄寬自動調整、白話版 Ignore/Consider 篩選器、Exchange Rate 頁重建為 DataTables 互動表格、修正來源檔案自動偵測改依報表期間排序（不再依檔案異動時間）。\n  Interactive HTML report generator (`build_report.js` + `Generate-PurchaseReportHtml.ps1`) heavily reworked: item-level collapse toggle, DB chart color consistency, column autofit, Ignore/Consider filter with plain-language labels, Exchange Rate page rebuilt as a DataTables page, source-file auto-detection fixed to sort by reporting period (not file-touch time).\n- VBA 按鈕原型（`HtmlUpdateModule.bas`）已完成沙盒測試，可從 Excel 觸發 HTML 產出——尚未正式部署（巨集安全性政策未確認）。\n  VBA button prototype (`HtmlUpdateModule.bas`) sandbox-tested for triggering the HTML build from Excel — not yet deployed (macro-security policy unconfirmed).\n- 專案資料夾新增快速參考文件：`PowerShell-Commands.md`（改用單一 `$ReportMonth` 變數，每月僅需改一行）、`PowerShell-Runtime-Report.md`、`SOP-Quick-Guide.md`。\n  New quick-reference docs added to the project folder: `PowerShell-Commands.md` (now uses a single `$ReportMonth` variable — one line to change each month), `PowerShell-Runtime-Report.md`, `SOP-Quick-Guide.md`.\n- **每月通知/發布自動化，已完整實跑成功**（2026-08-27）：`New-MonthlyEmailDraft.ps1`（Gmail草稿，比照舊RPA的16人收件人清單/格式——3位To+13位Cc，此前一直誤記為13人已更正，只建草稿絕不自動寄出，沿用 [[Weekly Exchange Rate RPA]] 專案已授權的 Gmail OAuth）+ `New-MonthlySlackPost.ps1`（Slack `global_purchase_report` 私人頻道貼文，**即時發布無草稿機制**，會真的附加互動式HTML報表，用 Slack 新版三步驟上傳流程）。2026-07月份：Gmail草稿已由使用者親自檢查並**真的寄出**給16位真實收件人；Slack貼文也已真的發布到頻道。兩支腳本都加了 `-IncludeHtmlIntro` 開關（預設開啟），第一次介紹網頁版報表用的一次性文案，之後月份可關閉。實測發現兩個真實bug：(1) 私人頻道的檔案上傳API必須用頻道ID，不能像發訊息一樣用頻道名稱；(2) Slack附件路徑原本寫死抓無日期後綴檔名，但該檔案在 `-Publish` 後會被改名成有日期後綴，已修正為依 `-ReportMonth` 自動算出正確檔名。\n  **Monthly notification automation, fully run for real** (2026-08-27): `New-MonthlyEmailDraft.ps1` (Gmail draft, matches the old RPA's 16-person recipient list/format — 3 To + 13 Cc, corrected from an earlier mistaken \"13-person\" count — only ever creates a draft, reuses the Gmail OAuth already authorized for [[Weekly Exchange Rate RPA]]) + `New-MonthlySlackPost.ps1` (Slack `global_purchase_report` private-channel post, **posts live with no draft concept**, actually attaches the interactive HTML report via Slack's newer 3-step upload flow). For 2026-07: the Gmail draft was reviewed by the user and **actually sent** to all 16 real recipients; the Slack post also actually went live in the channel. Both scripts gained an `-IncludeHtmlIntro` switch (default on) for the one-time \"here's the new web version\" callout, toggle-off-able in later months. Two real bugs found: (1) private-channel file uploads need a channel ID, not a channel name like message posting; (2) the Slack attachment path was hardcoded to an undated filename that got renamed to a dated one after `-Publish` - fixed to compute the correct dated filename from `-ReportMonth`.\n\n- **2026-09-02：來源 Excel 新增第 37 欄 `ProdFamiDesc`（產品家族），HTML 互動版報表大幅擴充**：新增一次性工具 `Copy-ProdFamiDescToSource.ps1`（逐列核對對齊後把 OUTSIDETEMP.xlsx 算好的值複製回正式來源檔）。HTML 報表新增：Dashboard 分類/表格儲存格點擊直接跳轉 Data 頁篩選（修正真實競態條件：改成目的分頁自己「拉取」而非父層「推送」）；GLID/Fittings/Packaging/Coating 欄寬可拖曳調整；Dashboard/GLID/Fittings/Data 新增 ProdFamiDesc 篩選（Packaging/Coating 確認資料100%空白，不加）；Data 新增 Part_MfgCat_Code 篩選；Dashboard 新增 SKU/Part Family 圓餅圖與拆分 KPI 卡片（各自加權百分比）；歡迎彈窗改版。SOP 升到 v1.16，README/PowerShell-Commands.md 同步更新，已 commit + push 到 GitHub。⚠️ **ProdFamiDesc 目前不含 TVS 與 MAZ 資料**（來源自「Meyer MHK portal login automation」專案，範圍尚未涵蓋這兩個實體，已另行申請）。同期 Joe（Big Boss）也邀請官方 Claude-in-Slack 加入 `#global_purchase_report` 頻道，可直接 @Claude 詢問報表內容，原本考慮自建 LLM 問答機器人（Anthony-bot／Cloudflare Worker）的想法已取消。\n  **2026-09-02: source Excel gained a 37th column `ProdFamiDesc` (Product Family), HTML report expanded significantly**: new one-off tool `Copy-ProdFamiDescToSource.ps1` (row-alignment-verified copy of OUTSIDETEMP.xlsx's computed values back into the official source file). HTML report additions: click a Dashboard category/table cell to jump to the Data tab pre-filtered (fixed a real race condition — the target tab now pulls rather than the parent pushing); drag-to-resize columns on GLID/Fittings/Packaging/Coating; new ProdFamiDesc filter on Dashboard/GLID/Fittings/Data (Packaging/Coating confirmed 100% blank, skipped); new Part_MfgCat_Code filter on Data; Dashboard gained SKU/Part Family pie charts and split KPI cards (each with a weighted %); refreshed welcome popup. SOP bumped to v1.16, README/PowerShell-Commands.md updated to match, committed + pushed to GitHub. ⚠️ **ProdFamiDesc currently excludes TVS and MAZ** (sourced from the separate \"Meyer MHK portal login automation\" project, which doesn't cover those two entities yet — requested separately). In the same window, Joe (the big boss) invited the official Claude-in-Slack app into `#global_purchase_report` (can @Claude directly for report Q&A), which superseded an earlier explored-then-cancelled idea of building a custom LLM bot (Anthony-bot / Cloudflare Worker).\n\n- **2026-09-02：Gmail 收件人清單移除 WSCheung**——Ken 告知已離職，`New-MonthlyEmailDraft.ps1` 的 Cc 清單移除 `Wscheung@meyer-mil.com`，目前為 15 人（3位To + 12位Cc）。\n  **2026-09-02: removed WSCheung from the Gmail recipient list** — Ken reported he's left the company; `New-MonthlyEmailDraft.ps1`'s Cc list dropped `Wscheung@meyer-mil.com`, now 15 people (3 To + 12 Cc).\n\n- **2026-09-08：HTML互動版報表全部篩選器升級為可搜尋**，並新增 Fittings 頁的 ProdFamiFittingsCode 篩選器（正確抓取 Product Family 代碼，例如搜尋「HD」可找到 HDG/HDI/HDS/HDV）；已透過 `#global_purchase_report` Slack頻道公告發布。\n  **2026-09-08: all HTML report filters upgraded with a search box**, plus a new ProdFamiFittingsCode filter added on the Fittings page (correctly pulls Product Family codes, e.g. searching \"HD\" finds HDG/HDI/HDS/HDV); announced via the `#global_purchase_report` Slack channel.\n\n- **2026-09-08：新增 `New-InterGroupPurchaseDataRequestDrafts.ps1`**——月初向 MZQ/MIL/RACO/TVS/MAZ 五個實體索取當月採購資料，建立 5 封各自語言（簡體中文/英文/義大利文/西班牙文）的 Gmail 草稿，`-ReportMonth` 代表執行當月、自動往前推一個月當作索取期間（沿用同一套 [[Weekly Exchange Rate RPA]] 的 Gmail OAuth，只建草稿絕不自動寄出）。實測抓到兩個 PowerShell 字串插值真實 bug，值得記住：`\"=?UTF-8?B?$b64?=\"` 和 `\"...$Year?\"` 都會被誤判——PowerShell 把 `?` 當成變數名稱的一部分解析（因為 `$?` 本身是合法變數），導致變數整個插值成空字串；修法是用 `${b64}`/`${Year}` 明確界定變數名稱邊界。README.md 已同步新增使用說明。\n  **2026-09-08: added `New-InterGroupPurchaseDataRequestDrafts.ps1`** — at the start of the month, requests that month's purchase data from the 5 entities MZQ/MIL/RACO/TVS/MAZ by creating 5 Gmail drafts, each in that contact's language (Simplified Chinese/English/Italian/Spanish); `-ReportMonth` means the month you're running it in, auto-offset by -1 month for the requested period (reuses the same [[Weekly Exchange Rate RPA]] Gmail OAuth, only ever creates drafts, never auto-sends). Testing surfaced two real PowerShell string-interpolation bugs worth remembering: both `\"=?UTF-8?B?$b64?=\"` and `\"...$Year?\"` silently interpolated to empty, because PowerShell parses `?` as a valid variable-name character (since `$?` is itself a legitimate automatic variable) — fixed with explicit `${b64}`/`${Year}` braces. README.md updated to document usage.\n\n## Monthly Pipeline / 每月流程\n\n見 [[Global Purchase Report RPA - Monthly Pipeline]]——每月重複執行的 PowerShell 步驟子心智圖（Build → PEN匯率 → 手動AA/AB → Complete-FormulaColumns → 稽核摘要 → Publish → 選用HTML → Gmail草稿 → Slack發布），含每支腳本的用途與2026-07目前執行狀態。純文字版清單見 [[PowerShell Scripts Reference]]。\nSee [[Global Purchase Report RPA - Monthly Pipeline]] — sub-mind-map of the recurring PowerShell steps (Build → PEN rate → manual AA/AB → Complete-FormulaColumns → Audit Summary → Publish → optional HTML → Gmail draft → Slack post), with each script's purpose and current 2026-07 run status. Plain-text list version: [[PowerShell Scripts Reference]].\n\n## Related / 相關\n\n- 大量使用 [[Skill - Excel to Interactive HTML Report]] 和 [[Skill - Incremental Report File Chaining]]。\n  Uses [[Skill - Excel to Interactive HTML Report]] and [[Skill - Incremental Report File Chaining]] extensively.\n- 與 [[RMB CNH Exchange Rate (May Lau)]] 及下方的匯率專案不同（不同報表、不同實體範圍）。\n  Distinct from [[RMB CNH Exchange Rate (May Lau)]] and the exchange rate projects below (different report, different entity scope).\n- Gmail 草稿自動化沿用 [[Weekly Exchange Rate RPA]] 專案的 OAuth 設定（複製加密 token，同帳號同權限範圍，不用重新授權）。\n  Gmail draft automation reuses [[Weekly Exchange Rate RPA]]'s OAuth setup (copied encrypted token, same account/scope, no re-authorization needed).\n\n## Full detail / 完整細節\n\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\project_global_purchase_report_rpa.md`\n專案資料夾 Project folder: `C:\\Users\\User\\Desktop\\Global Purchase Report Claude\\`",
+      "tags": [
+        "project",
+        "purchase-report",
+        "rpa"
       ]
     },
     {
@@ -455,12 +872,17 @@
       "status": "Active",
       "links": [
         "Global Purchase Report RPA - Monthly Pipeline",
-        "Global Purchase Report RPA - Monthly Pipeline",
         "Weekly Exchange Rate RPA",
-        "Global Purchase Report RPA - Monthly Pipeline",
-        "Global Purchase Report RPA - Monthly Pipeline",
-        "Global Purchase Report RPA",
         "Global Purchase Report RPA"
+      ],
+      "sourceFile": "second-brain/Working Projects/Project Notes/Global Purchase Report/PowerShell Scripts Reference.md",
+      "sourceHash": "2c43926cb629a5146fa63ace3c939d7f2b9264f60b9004a8f6f71c51d20104b0",
+      "notes": "# Global Purchase Report — PowerShell Scripts Reference\n\n所有 PowerShell 腳本清單，位於 `C:\\Users\\User\\Desktop\\Global Purchase Report Claude\\`。完整流程圖見 [[Global Purchase Report RPA - Monthly Pipeline]]，逐步指令見專案內 `PowerShell-Commands.md`/`SOP-Quick-Guide.md`。\nAll PowerShell scripts, located in `C:\\Users\\User\\Desktop\\Global Purchase Report Claude\\`. Full pipeline diagram: [[Global Purchase Report RPA - Monthly Pipeline]]; step-by-step commands: `PowerShell-Commands.md`/`SOP-Quick-Guide.md` inside the project folder.\n\n> 下面每個指令都假設已經先切到專案資料夾、設定好 `$ReportMonth`（每月只改這一行）：\n> Every command below assumes you've already `cd`'d into the project folder and set `$ReportMonth` (only line to change each month):\n> ```powershell\n> cd \"C:\\Users\\User\\Desktop\\Global Purchase Report Claude\"\n> $ReportMonth = \"2026-07\"\n> ```\n\n## 資料索取 / Data collection (runs first, before the core pipeline)\n\n| 腳本 Script | 用途 Purpose | 指令 Command |\n|---|---|---|\n| `New-InterGroupPurchaseDataRequestDrafts.ps1` | 月初向 MZQ/MIL/RACO/TVS/MAZ 索取當月採購資料，建立 5 封各自語言的 Gmail 草稿（`-ReportMonth` 為執行當月，自動往前推一個月當索取期間）Requests that month's purchase data from MZQ/MIL/RACO/TVS/MAZ, creating 5 Gmail drafts each in that contact's language (`-ReportMonth` is the run month, auto-offset -1 month for the requested period) | `.\\New-InterGroupPurchaseDataRequestDrafts.ps1 -ReportMonth $ReportMonth`（`-Only MZQ` 可只建單一草稿測試 / `-Only MZQ` for a single test draft） |\n\n## 每月核心流程 / Monthly core pipeline\n\n| # | 腳本 Script | 用途 Purpose | 指令 Command |\n|---|---|---|---|\n| 1 | `Build-GlobalPurchaseReport.ps1` | 合併7個實體（MHK/STC/MZQ/MIL/RACO/TVS/MAZ）資料＋更新匯率表，產出當月新報表 Merges all 7 entities' data + updates the exchange rate block, produces this month's new Report file | `.\\Build-GlobalPurchaseReport.ps1 -ReportMonth $ReportMonth` |\n| 1.5 | `Get-PenExchangeRate.ps1` | 補 `STANDARD EXCHANGE RATE.xls` 缺少的 PEN 匯率（MAZ 用），從 Pacific Exchange Rate Service 抓 USD/PEN 換算寫入 Exchange Rate 分頁 M欄 Fills the PEN rate gap needed for MAZ, fetches USD/PEN and writes it into the Exchange Rate tab column M | `.\\Get-PenExchangeRate.ps1 -ReportMonth $ReportMonth` |\n| — | 👤 手動複製 `AA2:AB2` 到新增列並計算 Manually copy `AA2:AB2` down + calculate | Max/Min PO Price，下一步的前提 Precondition for next step | （在 Excel 裡手動操作，非 PowerShell / manual in Excel, not PowerShell） |\n| 3 | `Complete-FormulaColumns.ps1` | 手動填好 AA/AB 之後執行：依相依順序填/凍結 AC~AI 公式，並建立「New Vendors」複核分頁 Run after manually filling AA/AB: fills/freezes AC–AI in dependency order, builds the New Vendors review sheet | `.\\Complete-FormulaColumns.ps1 -ReportMonth $ReportMonth` |\n| — | `Update-TVSTranslations.ps1` | 修正 TVS 翻譯欄與 Commodity Code（若當月已用 Excel Copilot 手動處理過可略過）Fixes TVS's translation column and Commodity Code (skip if already handled manually via Excel Copilot this month) | `.\\Update-TVSTranslations.ps1` |\n| 4 | `New-ReportAuditSummary.ps1` | （建議）唯讀稽核摘要：報表最後列號、七實體當月列數、當月總列數 (Recommended) read-only audit summary: last row, each entity's row count, total rows this month | `.\\New-ReportAuditSummary.ps1 -ReportMonth $ReportMonth` |\n| 5 | `Publish-OutsideReport.ps1` | 產出外部交付檔：複製數值進 `OUTSIDETEMP.xlsx` + `OUTSIDETEMP_VBA_PRACTICE.xlsm`、延伸表格、重新整理樞紐分析表、另存當月交付檔（含自動遞增RV編號）Produces the outside-delivery deliverable: value-copies into both files, extends the tables, refreshes all PivotTables, Save-As's the dated deliverable | `.\\Publish-OutsideReport.ps1 -ReportMonth $ReportMonth` |\n\n## 通知/發布自動化 / Notification & distribution automation\n\n| #   | 腳本 Script                   | 用途 Purpose                                                                                                                                                                                                                                                                              | 指令 Command                                                                    |\n| --- | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |\n| 8   | `New-MonthlyEmailDraft.ps1` | 建立 Gmail 草稿通知（比照舊UiPath RPA的收件人清單/主旨/內文格式，目前15人=3位To+12位Cc，只建草稿絕不自動寄出）Creates a Gmail draft (matches the old UiPath RPA's recipient list/subject/body format, currently 15 people = 3 To + 12 Cc, only ever creates a draft, never auto-sends)                                                                                  | `.\\New-MonthlyEmailDraft.ps1 -ReportMonth $ReportMonth`                       |\n| 9   | `New-MonthlySlackPost.ps1`  | 發到 Slack `global_purchase_report` 私人頻道，附加互動式HTML報表——**沒有草稿機制，執行後立刻真實發布** Posts to the Slack `global_purchase_report` private channel with the interactive HTML report attached — **no draft concept, posts live immediately**                                                           | `.\\New-MonthlySlackPost.ps1 -ReportMonth $ReportMonth -Channel \"C0BSWRJU85T\"` |\n| —   | `Save-SlackToken.ps1`       | 一次性設定：把 Slack Bot Token 加密儲存 One-time setup: encrypts and stores the Slack Bot Token                                                                                                                                                                                                    | `.\\Save-SlackToken.ps1`（會提示貼上 token / prompts you to paste the token）         |\n| —   | `GmailOAuth.Common.ps1`     | 共用函式庫（被 `New-MonthlyEmailDraft.ps1` dot-source 引用，不會單獨執行）；沿用 [[Weekly Exchange Rate RPA]] 專案已授權的 Gmail OAuth Shared helper library (dot-sourced by `New-MonthlyEmailDraft.ps1`, never run directly); reuses the Gmail OAuth already authorized for the Weekly Exchange Rate RPA project | （不要直接執行，會被自動引用 / never run directly, auto-referenced）                         |\n\n## 獨立工具 / Standalone tool\n\n| 腳本 Script | 用途 Purpose | 指令 Command |\n|---|---|---|\n| `Global Purchase Report RPA\\HTML_Report_Generator\\Generate-PurchaseReportHtml.ps1` | 把當月最終報表轉成單一自包含互動式HTML檔案（Dashboard圖表、GLID/Fittings/Packaging/Coating篩選、Exchange Rate互動表格）。刻意不接自動化流程，需等 AA/AB 定稿後手動執行；`-Publish` 才產出正式命名快照，平常只更新 TEMP 預覽檔 Converts the finalized monthly report into a single self-contained interactive HTML file. Deliberately manual, run only after AA/AB are finalized; `-Publish` produces the dated snapshot, otherwise only updates the TEMP preview file | `cd \"Global Purchase Report RPA\\HTML_Report_Generator\"`<br>`.\\Generate-PurchaseReportHtml.ps1 -Publish`（測試不加 `-Publish` / omit `-Publish` for a test run） |\n| `Global Purchase Report RPA\\HTML_Report_Generator\\Copy-ProdFamiDescToSource.ps1` | 一次性/視需要：把 `OUTSIDETEMP.xlsx` 已算好的 ProdFamiDesc（產品家族）值，逐列核對對齊後複製進正式月報來源檔的新增第37欄；核對不過直接中止不寫入 One-off/as-needed: copies OUTSIDETEMP.xlsx's computed ProdFamiDesc (Product Family) values into a new 37th column on the official source file, only after verifying every row aligns; aborts without writing if any row doesn't match | `cd \"Global Purchase Report RPA\\HTML_Report_Generator\"`<br>`.\\Copy-ProdFamiDescToSource.ps1` |\n\n## 不適用/歷史一次性腳本 / Not applicable — historical one-offs\n\n| 腳本 Script | 用途 Purpose | 為何不適用 Why not applicable | 指令 Command |\n|---|---|---|---|\n| `Fix-JuneReportFormulaErrors.ps1` | 修補6月報表既有的公式錯誤 Patches pre-existing formula errors in the June report | 寫死指向 `..._2026-06.xlsx`，6月專用一次性腳本 Hardcoded to `..._2026-06.xlsx`, a June-only one-off | （不建議執行 / not recommended to run） |\n| `_patch_exchange_rate.ps1` | 補寫6月報表 Exchange Rate 分頁遺漏的匯率值 Backfills missing exchange rate values into the June report | 同上，寫死 `-Month \"2026-06\"` Same, hardcoded to `-Month \"2026-06\"` | （不建議執行 / not recommended to run） |\n\n## 相關 / Related\n\n- 完整月度流程圖（含每支腳本當月執行狀態）：[[Global Purchase Report RPA - Monthly Pipeline]]\n  Full monthly pipeline diagram (with each script's current-month run status): [[Global Purchase Report RPA - Monthly Pipeline]]\n- 專案總覽：[[Global Purchase Report RPA]]\n  Project overview: [[Global Purchase Report RPA]]",
+      "tags": [
+        "project",
+        "purchase-report",
+        "reference",
+        "powershell"
       ]
     },
     {
@@ -476,6 +898,13 @@
         "GPL UBS Statement Processor",
         "EIC FS Roll-Forward",
         "Skill - Incremental Report File Chaining"
+      ],
+      "sourceFile": "second-brain/Working Projects/Project Notes/GPL/GPL FS Roll-Forward.md",
+      "sourceHash": "8ea948dd9904f4a939316435b67f19f658e0d140c6d321a79a641a9bab083ce8",
+      "notes": "# GPL FS Roll-Forward\n\nFinancial statement roll-forward project. Jul-2026 close fully completed (JPM + UBS both processed, `FIN_GPlume 2026-07_20260810_RV1.xlsx` is current — RV1 supersedes RV0, a same-day correcting entry for Xandria Limited related-party interest). GL-posting step (journal CSV → `G. GL 2026` column mapping) still not formalized as a script.\n\nThe 3-stage **AI MFS Governance Framework** (Builder=Claude Code → Preparer=Copilot in Excel → Auditor=Claude Code, Gemini at year-end only) is now the confirmed operating model — see [[Reference - AI MFS Governance Framework]]. First Internal Audit cycle run 2026-08-10/11; findings at `GPL Claude\\GPL_FS_CLAUDE\\Internal Audit\\InternalAudit_Report_202607.md` (2 JPM tool bugs fixed, 1 UBS reconciliation gap traced to Accrued Interest, 1 disclosure gap, 1 correcting-entry trace). Monthly management-email drafting is automated (`scripts/New-GPLMonthlyEmailDraft.ps1`, Gmail draft-only).\n\n## Related\n- [[GPL JPM Notice Processor]] — the JPM notice-processing tool feeding into this roll-forward.\n- [[GPL UBS Statement Processor]] — the UBS statement-processing tool, the other custodian feeding this roll-forward.\n- Sibling roll-forward project: [[EIC FS Roll-Forward]].\n- Likely uses [[Skill - Incremental Report File Chaining]] given the roll-forward/period-chaining nature of this work — confirmed relevant 2026-08-10/11: found a stale `Dashboard Data` sheet and stale SoCE/Cash-Flow period labels in the same workbook, exactly this bug class.\n\n## Full detail\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\project_gpl_fs_roll_forward.md`",
+      "tags": [
+        "project",
+        "fs-roll-forward"
       ]
     },
     {
@@ -487,8 +916,15 @@
       "status": "Active",
       "links": [
         "GPL FS Roll-Forward",
-        "GPL FS Roll-Forward",
         "GPL UBS Statement Processor"
+      ],
+      "sourceFile": "second-brain/Working Projects/Project Notes/GPL/GPL JPM Notice Processor.md",
+      "sourceHash": "6815fd4afa6b8db71fc3e66a5322a5c37efb6485a302ce660424eeadc9d6410a",
+      "notes": "# GPL JPM Notice Processor\n\nTool for processing JPM notices, feeding [[GPL FS Roll-Forward]]. **Use v5.4, not v4.**\n\n2026-08-05: fixed a false-duplicate-detection bug caused by a new JPM notice layout — if a new layout appears again, check duplicate-detection logic first.\n\n2026-08-10 (v5.4.2): fixed an FX Spot notice type that was silently dropped from the exported Journal with zero lines and no flag, plus a CSV UTF-8 BOM issue that corrupted em-dashes to \"??\". Found during the first Internal Audit cycle — see [[GPL FS Roll-Forward]].\n\n## Related\n\n- [[GPL UBS Statement Processor]] — sibling tool for the other custodian, same FS roll-forward.\n\n## Full detail\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\project_gpl_jpm_notice_processor.md`",
+      "tags": [
+        "project",
+        "fs-roll-forward",
+        "tool"
       ]
     },
     {
@@ -501,6 +937,14 @@
       "links": [
         "GPL FS Roll-Forward",
         "GPL JPM Notice Processor"
+      ],
+      "sourceFile": "second-brain/Working Projects/Project Notes/GPL/GPL UBS Statement Processor.md",
+      "sourceHash": "0881e206a436d983d8afbe16788c7a04a8ab882c22ffbb4bde0e2046dd25d76a",
+      "notes": "# GPL UBS Statement Processor\n\nTool for processing UBS Statement of Assets PDFs (all 3 portfolios: 546-130106-01/02/03), feeding [[GPL FS Roll-Forward]]. **Use v2.10.**\n\n2026-08-06: fixed a Table-of-Contents page-collision bug (section regexes were matching the ToC's own mention of a header instead of the real one) and a PIK bond-vs-equity distinction (equity-side PIK is a share count, not a dollar amount — deliberately not journalled, per explicit instruction).\n\n2026-08-10/11: during the first Internal Audit cycle, traced a $22,428 Bonds-schedule gap to Accrued Interest being dropped in a separate combine step (`Rebuild-Combined.ps1`) — not a bug in this app itself.\n\n## Related\n\n- [[GPL JPM Notice Processor]] — sibling tool for the other custodian, same FS roll-forward.\n\n## Full detail\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\project_gpl_ubs_statement_processor.md`",
+      "tags": [
+        "project",
+        "fs-roll-forward",
+        "tool"
       ]
     },
     {
@@ -512,8 +956,15 @@
       "status": "Active",
       "links": [
         "RMB CNH Exchange Rate (May Lau)",
-        "Weekly Exchange Rate RPA",
-        "RMB CNH Exchange Rate (May Lau)"
+        "Weekly Exchange Rate RPA"
+      ],
+      "sourceFile": "second-brain/Working Projects/Project Notes/Monthly Exchange Rate RPA.md",
+      "sourceHash": "3a7535e6cceedca247e8af05a8fd7891430bd226e478ce1313a67cec17914b0b",
+      "notes": "# Monthly Exchange Rate RPA\n\nMulti-currency exchange rate report sent monthly to Steven / Fiona / Alex / Ada / Coey. PowerShell rebuild is live (in progress/active as of last update).\n\n**Important distinction:** this is **NOT** the same project as [[RMB CNH Exchange Rate (May Lau)]] — that one is a single-currency (BOC HK CNH/HKD) report to a different recipient (May Lau). Easy to conflate by name; keep them separate.\n\n## Related\n- Sibling exchange-rate projects: [[Weekly Exchange Rate RPA]], [[RMB CNH Exchange Rate (May Lau)]].\n\n## Full detail\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\project_monthly_exchange_rate_rpa.md`",
+      "tags": [
+        "project",
+        "exchange-rate",
+        "rpa"
       ]
     },
     {
@@ -522,7 +973,15 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Project Notes/Monthly Worktask Tracker.md",
       "name": "Monthly Worktask Tracker",
-      "status": "Active"
+      "status": "Active",
+      "sourceFile": "second-brain/Working Projects/Project Notes/Monthly Worktask Tracker.md",
+      "sourceHash": "477e226679b18d68453ce98aaf6c3bfa9ed92f4746cd9f5fbb1ae9de5d6ca4c8",
+      "notes": "# Monthly Worktask Tracker\n\n`Monlthy Job.xlsx` — one tab per month. JUL2026 was generated from JUN2026; watch out for the COM copy-method gotcha when generating a new month's tab (copying sheets via COM has a specific failure mode noted in the full memory).\n\n## Full detail\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\project_monthly_worktask_tracker.md`",
+      "tags": [
+        "project",
+        "admin"
+      ],
+      "links": []
     },
     {
       "id": "7697617c12ea8f1d",
@@ -533,9 +992,16 @@
       "status": "Active",
       "links": [
         "MPL Property Management System",
-        "MPL Property Management System",
         "Skill - Access Control Module",
         "Skill - Bilingual Replies"
+      ],
+      "sourceFile": "second-brain/Working Projects/Project Notes/MPL/MPL Accounting Module.md",
+      "sourceHash": "b611d31bc40c1f94ffaf18ff97d4ec5e71025265297c1b3f23ebae9e75676b92",
+      "notes": "# MPL Accounting Module\n\nPart of the MPL (Meyer Properties Limited) toolset, alongside [[MPL Property Management System]]. `MPL_Accounting.html`, opened via the launcher `MPL_Combined.html` (Desktop shortcut **MPL**), embeds `MPL_Journal_Generator_v8.html` as its Journal Generator tab.\n\nState 2026-10-05: tabs in order — Chart of Accounts, Trial Balance, Ledger, Accounts Receivable (1910) open items, Accrual/Prepayment (1900/2500), **Bank Reconciliation** (moved out of the Journal Generator into its own tab; output redesigned to an HKICPA-style statement matching the production workbook's `20_Bank_Reconciliation` sheet — 7/7 validated against the user's own confirmed September 2026 reconciliation), Journal Generator, and Journal (draft → posted via an Excel round trip: Export → paste into `30_GJ_2026` → re-import). Repo: `C:\\Users\\User\\Desktop\\GitHub-Clones\\MPL` (git, source of truth), copied to `Meyer\\MPL\\MPL Claude` after each merge. Launcher renamed `MPL_System.html` 2026-10-06.\n\nSharing gotcha (2026-10-06): the posted journal lives in the browser's localStorage, not in the file - a colleague opening the shared `MPL_System.html` saw Property Management (built-in seed data) but an empty MPL Accounting. Fixed first with **Export Data / Import Data** (one `.json` carrying every Accounting data set), then - at the user's request \"saved to HTML not localStorage\" - with **Save MPL_System.html with data** on the launcher: the page clones itself with every module's `mpl_*` keys in an `#embedded-data` block (TiddlyWiki-style self-save; a browser cannot write the file it opened), and a copy opened elsewhere loads the data on first open or asks when newer.\n\nKnown open item: two pre-existing real-data tests (`core.kpi.test.js`, `core.tb.test.js`) diverge by $20 from a separate workbook (`FIN_MPL0826_20260921_RV0.xlsx`) that hasn't caught up with a correction the user made this week to account 1260 — a genuine cross-document state mismatch, not a code bug; flagged to the user, not silently fixed.\n\n## Related\n\n- [[MPL Property Management System]] — the sibling property-management modules sharing the same launcher.\n- [[Skill - Access Control Module]] — login/permission gate pattern used by the launcher.\n- [[Skill - Bilingual Replies]] — this project requires every reply in English + Traditional Chinese.\n\n## Full detail\n\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\project_mpl_accounting_module.md`",
+      "tags": [
+        "project",
+        "mpl",
+        "accounting"
       ]
     },
     {
@@ -547,8 +1013,15 @@
       "status": "Active",
       "links": [
         "MPL Accounting Module",
-        "MPL Accounting Module",
         "Skill - Access Control Module"
+      ],
+      "sourceFile": "second-brain/Working Projects/Project Notes/MPL/MPL Property Management System.md",
+      "sourceHash": "489e5864c84b7cf56eed08d2a2be0e3bcdc1148ab483d83512a76dc748307233",
+      "notes": "# MPL Property Management System\n\nPart of the MPL (Meyer Properties Limited) toolset, alongside [[MPL Accounting Module]]. Three-module roadmap behind one launcher `MPL_Combined.html` (Desktop shortcut **MPL**) — `localStorage`-backed, no server, deliberately no shared GL integration between modules.\n\n1. **Owned Property** (`MPL_Property_Register.html`) — NCA register, Annual Depreciation, Impairment Test, Lease Status. Built and reviewed.\n2. **Property Income** (`MPL_DN_CN_Receipt_Generator.html`) — Debit Note / Credit Note / Receipt, pixel-matched to the real letterhead. Built, pushed to GitHub.\n3. **Property Expenses & Tax** (HK Rating, Macau Property Tax, Macau Renda) — not started.\n\nAccess control (login + per-tile permissions) lives at the launcher level in `MPL_Combined.html`, gating its 4 top-level tiles (MPL Accounting / Property Management / Debit-Credit Note / Payment Requisition) — not inside the individual tool files; \"one gate per boundary\" was the key lesson from correcting an earlier, wrongly-scoped build. Canonical source: `C:\\Users\\User\\Desktop\\GitHub-Clones\\MPL` (git), copied to `Meyer\\MPL\\MPL Claude` after each merge.\n\n## Related\n\n- [[MPL Accounting Module]] — the sibling accounting module sharing the same launcher.\n- [[Skill - Access Control Module]] — the reusable login/permission pattern built here.\n\n## Full detail\n\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\project_mpl_property_management_system.md`",
+      "tags": [
+        "project",
+        "mpl",
+        "property-management"
       ]
     },
     {
@@ -562,6 +1035,14 @@
         "GPL FS Roll-Forward",
         "EIC FS Roll-Forward",
         "Reference - AI MFS Governance Framework"
+      ],
+      "sourceFile": "second-brain/Working Projects/Project Notes/MPL AI-Augmented Financial Close.md",
+      "sourceHash": "6200a60a918489a4019cc844c1acdcd5d6f9d14fb308f5ff823ae62de54601a7",
+      "notes": "# MPL AI-Augmented Financial Close\n\nFirst full end-to-end AI-augmented financial close workflow cycle completed 2026-08-07 — intended as a **template for future closes**. Worth revisiting when setting up the next close cycle, or when applying similar AI-augmentation to [[GPL FS Roll-Forward]] or [[EIC FS Roll-Forward]].\n\n## Related\n- Governance model: [[Reference - AI MFS Governance Framework]] (Builder/Preparer/Auditor/Reviewer/Approver roles).\n\n## Full detail\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\project_mpl_ai_augmented_financial_close.md`",
+      "tags": [
+        "project",
+        "fs-roll-forward",
+        "ai-workflow"
       ]
     },
     {
@@ -573,8 +1054,14 @@
       "status": "Active",
       "links": [
         "MTC Sales Report",
-        "MTC Sales Report",
         "Global Purchase Report RPA"
+      ],
+      "sourceFile": "second-brain/Working Projects/Project Notes/MTC Report/MTC Purchase Report.md",
+      "sourceHash": "f38454585a18c2143eeee025c92e12473ba7bfa3288e9aa3b6e902714ea146d8",
+      "notes": "# MTC Purchase Report\n\nPowerShell replacement for UiPath RPA steps 5–8 of the monthly MTC Purchase Report (Material Receipt Report). EPICOR login/export (steps 1–4) stays manual — browser automation for that step previously caused Excel zombie processes in testing. Two script options: Script A (Excel COM, retroactively recalculates commission/cost for all rows) or Script B (no Excel needed, faster, only computes new rows). 2026-08-11: fixed a bug where the script's write overwrote a Table's header row, causing Excel to silently delete the Table object — PivotTables now correctly extend to new data. Shares its exchange-rate source file with [[MTC Sales Report]].\n\n*Note: reconstructed from the project's files/git history, not built via direct collaboration with Claude — treat as observation, not recollection.*\n\n## Related\n- [[MTC Sales Report]] — sibling project, shares `Sales-Data-MTC-Mthly Rate.xlsx` as the exchange-rate source.\n- [[Global Purchase Report RPA]] — another UiPath-to-PowerShell rebuild, same shape (manual portal step kept manual).\n\n## Full detail\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\project_mtc_purchase_report_claude.md`",
+      "tags": [
+        "project",
+        "mtc-purchase-report"
       ]
     },
     {
@@ -588,6 +1075,13 @@
         "Wait for explicit PowerShell orders",
         "Bilingual replies",
         "Global Purchase Report RPA"
+      ],
+      "sourceFile": "second-brain/Working Projects/Project Notes/MTC Report/MTC Sales Report.md",
+      "sourceHash": "57c7d249c3f15fb8469a584e638e1f630240a632bfc4fb79c7f0dcae2ccb9c3d",
+      "notes": "# MTC Sales Report\n\nClaude Code replacement for the manual data-entry portion of the monthly MTC sales/commission RPA process. HTML import tool stages rows from IVR032/exchange-rate/commission/PO-comm source files; `Combine-Into-Master.ps1` (real Excel COM automation, not the original SheetJS approach which corrupted pivot tables) merges them into the master workbook. Dynamic \"Performance dashboard\" tab rebuilt so its slicers actually drive PivotCharts. 2026-08-12: found and fixed a formula-decay bug (Cust_Countries silently went static, corrupting Geographic Performance data for months) and added a safety check to catch the same class of bug automatically going forward.\n\n## Related\n- [[Wait for explicit PowerShell orders]] — general default; overridden for this project by an explicit blanket approval from the user (2026-08-12).\n- [[Bilingual replies]] — applied throughout.\n- Sibling PS-rebuild-of-manual-RPA project: [[Global Purchase Report RPA]].\n\n## Full detail\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\project_mtc_sales_report_claude.md`",
+      "tags": [
+        "project",
+        "mtc-sales-report"
       ]
     },
     {
@@ -599,23 +1093,19 @@
       "status": "Active",
       "links": [
         "Weekly Exchange Rate RPA",
-        "Weekly Exchange Rate RPA",
-        "Skill - Incremental Report File Chaining",
         "Skill - Incremental Report File Chaining",
         "Skill - Excel to Interactive HTML Report",
-        "Skill - Excel to Interactive HTML Report",
-        "Skill - Excel to Interactive HTML Report",
-        "Skill - Excel to Interactive HTML Report",
-        "Weekly Exchange Rate RPA",
-        "Weekly Exchange Rate RPA",
-        "Skill - Excel to Interactive HTML Report",
-        "Skill - Excel to Interactive HTML Report",
-        "Skill - Incremental Report File Chaining",
-        "Skill - Incremental Report File Chaining",
-        "Global Purchase Report RPA",
-        "RMB CNH Exchange Rate (May Lau)",
         "Global Purchase Report RPA",
         "RMB CNH Exchange Rate (May Lau)"
+      ],
+      "sourceFile": "second-brain/Working Projects/Project Notes/Weekly Exchange Rate RPA/Weekly Exchange Rate RPA - PowerShell Scripts Reference.md",
+      "sourceHash": "312d7a5c4868eeba7e1b17e5232a7224442bf8b741282b209cb0f7d2216901d8",
+      "notes": "# Weekly Exchange Rate RPA — PowerShell Scripts Reference\n\n所有 PowerShell/Node 腳本清單，位於 `C:\\Users\\User\\Desktop\\Weekly Exchange Report - CLAUDE\\Scripts\\`。專案總覽見 [[Weekly Exchange Rate RPA]]；逐步指令見專案內 `Docs\\POWERSHELL-COMMANDS.md`（⚠️ 目前只涵蓋到 Phase 3，尚未更新 Phase 4/HTML 報表，此頁以實際腳本行為為準）。\nAll PowerShell/Node scripts, located in `C:\\Users\\User\\Desktop\\Weekly Exchange Report - CLAUDE\\Scripts\\`. Project overview: [[Weekly Exchange Rate RPA]]; step-by-step commands: `Docs\\POWERSHELL-COMMANDS.md` inside the project folder (⚠️ currently only covers through Phase 3, not yet updated for Phase 4/the HTML report — this page reflects actual current script behavior).\n\n> 下面每個指令都假設已經先切到 Scripts 資料夾，且 `FIN_Ex Rate_PSBUILD_TEMP.xlsx` 未在 Excel 中開啟：\n> Every command below assumes you've `cd`'d into the Scripts folder, and `FIN_Ex Rate_PSBUILD_TEMP.xlsx` is closed in Excel:\n> ```powershell\n> cd \"C:\\Users\\User\\Desktop\\Weekly Exchange Report - CLAUDE\\Scripts\"\n> ```\n\n## 每週核心流程 / Weekly core pipeline\n\n實際執行順序是 1→2→**4→3**（Phase 4 在 Phase 3 之前）——原因見下方 `Run-WeeklyPipeline.ps1` 的說明。\nActual run order is 1→2→**4→3** (Phase 4 before Phase 3) — see the `Run-WeeklyPipeline.ps1` note below for why.\n\n| 順序 Order | 腳本 Script                                                                                                          | 用途 Purpose                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | 指令 Command                                                                                                                                                                                                                                                                 |\n| -------- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| 1        | `Get-WeeklyExchangeRates.ps1`<br>（腳本自稱 Phase 1）                                                                    | 從三個公開資料源（Pacific Exchange Rate Service、ChinaMoney CFETS、HSBC Currency Zone）抓本週匯率，寫入新的 `NEW DATA_PSBUILD_<date>.xlsx`；只讀不寫正式檔案 Fetches this week's rates from three public sources (Pacific Exchange Rate Service, ChinaMoney CFETS, HSBC Currency Zone), writes a new `NEW DATA_PSBUILD_<date>.xlsx`; read-only against production files                                                                                                                                                                                                                     | `.\\Get-WeeklyExchangeRates.ps1`                                                                                                                                                                                                                                            |\n| 2        | `Update-FinExRateReport.ps1`<br>（腳本自稱 Phase 2）                                                                     | 把新資料併入常駐工作檔 `FIN_Ex Rate_PSBUILD_TEMP.xlsx`（就地更新，不再靠比較多個候選檔時間戳記猜測基準檔——見 [[Skill - Incremental Report File Chaining]]），並自動執行重複日期稽核 Merges the new data into the persistent working file `FIN_Ex Rate_PSBUILD_TEMP.xlsx` (updated in place — no more guessing the base file via timestamp comparison, see [[Skill - Incremental Report File Chaining]]), runs an automatic duplicate-date audit                                                                                                                                                                | `.\\Update-FinExRateReport.ps1`                                                                                                                                                                                                                                             |\n| 3        | `Update-HtmlReport.ps1`<br>（腳本自稱 Phase 4，但實際上先於 Phase 3 執行 / self-labels Phase 4 but actually runs before Phase 3） | 直接針對 TEMP 工作檔重建17分頁互動式HTML報表（含CSV下載按鈕、日期篩選、行動裝置修正——見 [[Skill - Excel to Interactive HTML Report]]）；日期戳直接從 Data 分頁資料算出（Sunday-completing規則），不再依賴已命名快照，移除了原本「Phase 3必須先跑」的順序相依性 Rebuilds the 17-tab interactive HTML report directly against the TEMP working file (CSV download buttons, date filters, mobile fixes — see [[Skill - Excel to Interactive HTML Report]]); computes its own date stamp from the Data sheet (Sunday-completing rule) instead of parsing an already-dated filename, removing the old \"Phase 3 must run first\" ordering dependency | `.\\Update-HtmlReport.ps1`（省略 `-XlsxPath` 會自動抓最新已命名快照；正式流程改為明確指向 TEMP 檔 / omitting `-XlsxPath` auto-picks the newest dated snapshot; production now points it explicitly at the TEMP file）<br>`.\\Update-HtmlReport.ps1 -XlsxPath \"..\\Output\\FIN_Ex Rate_PSBUILD_TEMP.xlsx\"` |\n| 4        | `New-WeeklyEmailDraft.ps1`<br>（腳本自稱 Phase 3）                                                                       | 建立本週正式命名快照（`FIN_Ex Rate_PSBUILD_<週日日期>.xlsx`）+ Gmail 草稿：附加該快照，並附加上一步剛產出的HTML報表（若缺少則優雅降級只附xlsx，不中斷）；~45人收件人清單，只建草稿絕不自動寄出 Creates this week's dated snapshot (`FIN_Ex Rate_PSBUILD_<Sunday date>.xlsx`) + the Gmail draft: attaches that snapshot, plus the HTML report the previous step just built (gracefully degrades to xlsx-only if missing, never throws); ~45-recipient list, only ever creates a draft, never auto-sends                                                                                                                              | `.\\New-WeeklyEmailDraft.ps1`                                                                                                                                                                                                                                               |\n\n## 整合排程 / Orchestration\n\n| 腳本 Script | 用途 Purpose | 指令 Command |\n|---|---|---|\n| `Run-WeeklyPipeline.ps1` | 排程進入點：依序執行 Phase 1→2→**4→3**。原因：Phase 3的Email草稿需要附加Phase 4剛產出的HTML，若照腳本自身編號順序（1→2→3→4）執行，草稿建立時HTML還不存在（2026-08-24發現的真實bug，已修復）。Phase 1/2 共用一個try/catch快速失敗；Phase 4、Phase 3 各自獨立try/catch，互不阻擋——Phase 4壞掉不會讓Phase 3的草稿也失敗。由每週一 09:00 Windows排程任務 `WeeklyExchangeRateReport` 觸發 Scheduled entry point: runs Phase 1→2→**4→3** in that order. Why: Phase 3's email draft needs to attach the HTML Phase 4 just built — running in the scripts' own self-labeled order (1→2→3→4) meant the draft was created before the HTML existed (a real bug found 2026-08-24, now fixed). Phase 1/2 share one fail-fast try/catch; Phase 4 and Phase 3 are each independently try/catch'd so neither blocks the other — a Phase 4 failure never breaks Phase 3's draft. Triggered by the Monday 09:00 Windows Scheduled Task `WeeklyExchangeRateReport` | `.\\Run-WeeklyPipeline.ps1` |\n\n## 一次性設定 / One-time setup\n\n| 腳本 Script | 用途 Purpose | 指令 Command |\n|---|---|---|\n| `Connect-GmailOAuth.ps1` | 一次性 Gmail OAuth 授權：本機迴路監聽接收授權碼，換取 refresh token，以 Windows DPAPI 加密保存（綁定本機本帳號）。僅需執行一次，除非權限被撤銷，或OAuth同意畫面仍是\"Testing\"模式（約7天過期一次）One-time Gmail OAuth authorization: runs a local loopback listener to catch the redirect, exchanges for a refresh token, stores it encrypted via Windows DPAPI (tied to this machine/user). Only needed once, unless access is revoked or the OAuth consent screen is still in \"Testing\" mode (expires roughly every 7 days) | `.\\Connect-GmailOAuth.ps1`（互動輸入 Client ID/Secret / prompts for Client ID/Secret，設定步驟見 `Docs\\PHASE3_GMAIL_OAUTH_SETUP.md`） |\n| `GmailOAuth.Common.ps1` | 共用函式庫（被 `Connect-GmailOAuth.ps1` 與 `New-WeeklyEmailDraft.ps1` dot-source 引用，不會單獨執行）Shared helper library (dot-sourced by both `Connect-GmailOAuth.ps1` and `New-WeeklyEmailDraft.ps1`, never run directly) | （不要直接執行，會被自動引用 / never run directly, auto-referenced） |\n\n## 輔助工具（自動呼叫，不單獨執行）/ Helper tool (auto-invoked, never run directly)\n\n| 腳本 Script | 用途 Purpose | 指令 Command |\n|---|---|---|\n| `Build-CombinedHtmlReport.js` | 被 `Update-HtmlReport.ps1` 自動呼叫的 Node.js 腳本，把17個分頁合併成單一自包含HTML檔（email單一附件用，用 `iframe.srcdoc` 而非 `src` 載入，不需要額外資料夾）。用 Node 而非 PowerShell here-string，是因為要安全處理內嵌內容裡的 `$`/反引號跳脫，以及中和內嵌JSON字串中的 `</script` 序列——詳見 [[Skill - Excel to Interactive HTML Report]] Node.js script auto-invoked by `Update-HtmlReport.ps1`, combines all 17 tabs into one self-contained HTML file (for single-attachment email use, loads each sheet via `iframe.srcdoc` not `src`, no separate folder needed). Done in Node rather than a PowerShell here-string to safely handle `$`/backtick escaping in the embedded content and neutralize `</script` sequences inside the embedded JSON — see [[Skill - Excel to Interactive HTML Report]] | （不要直接執行，Update-HtmlReport.ps1 需要Node.js在PATH上時會自動呼叫；找不到Node時會跳過此步驟並產出警告，多檔版報表仍會正常產出 / never run directly — auto-invoked by Update-HtmlReport.ps1 when Node.js is on PATH; if Node isn't found this step is skipped with a warning, the multi-file version is still produced） |\n\n## 不適用/歷史一次性檔案 / Not applicable — historical\n\n| 腳本 Script | 用途 Purpose | 為何不適用 Why not applicable | 指令 Command |\n|---|---|---|---|\n| `New-WeeklyEmailDraft - 複製.ps1` | 舊版備份副本（2026-07-31）Old backup copy (2026-07-31) | 已被目前的 `New-WeeklyEmailDraft.ps1`（2026-08-24更新，含HTML附件邏輯）取代 Superseded by the current `New-WeeklyEmailDraft.ps1` (updated 2026-08-24, includes the HTML-attachment logic) | （不建議執行 / not recommended to run） |\n\n## 相關 / Related\n\n- 專案總覽：[[Weekly Exchange Rate RPA]]\n  Project overview: [[Weekly Exchange Rate RPA]]\n- HTML報表互動層的完整技術寫法/坑（flatpickr行動版切換、WebKit `new Date()` 解析陷阱、CSV下載按鈕實作等）：[[Skill - Excel to Interactive HTML Report]]\n  Full technical pattern/gotchas for the HTML report's interactivity layer (flatpickr mobile-swap, WebKit `new Date()` parsing trap, CSV download button implementation, etc.): [[Skill - Excel to Interactive HTML Report]]\n- 增量報表檔案串接的架構原則（TEMP工作檔 vs. 猜測基準檔）：[[Skill - Incremental Report File Chaining]]\n  Architecture principle behind the TEMP working-file pattern (vs. guessing a base file): [[Skill - Incremental Report File Chaining]]\n- Gmail OAuth 設定被 [[Global Purchase Report RPA]] 和 [[RMB CNH Exchange Rate (May Lau)]] 兩個專案重複使用（複製加密token，同帳號同權限範圍，不用重新授權）\n  This project's Gmail OAuth setup is reused by both [[Global Purchase Report RPA]] and [[RMB CNH Exchange Rate (May Lau)]] (copied encrypted token, same account/scope, no re-authorization needed)\n\n## Full detail / 完整細節\n\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\project_weekly_exchange_rate_rpa.md`\n專案資料夾 Project folder: `C:\\Users\\User\\Desktop\\Weekly Exchange Report - CLAUDE\\`",
+      "tags": [
+        "project",
+        "exchange-rate",
+        "reference",
+        "powershell"
       ]
     },
     {
@@ -629,8 +1119,15 @@
         "Skill - Excel to Interactive HTML Report",
         "RMB CNH Exchange Rate (May Lau)",
         "Monthly Exchange Rate RPA",
-        "Skill - Excel to Interactive HTML Report",
         "Weekly Exchange Rate RPA - PowerShell Scripts Reference"
+      ],
+      "sourceFile": "second-brain/Working Projects/Project Notes/Weekly Exchange Rate RPA/Weekly Exchange Rate RPA.md",
+      "sourceHash": "6e76c161f9937f61ee8cc6d3eeae558772c856f38dcfb50014331b41e9156194",
+      "notes": "# Weekly Exchange Rate RPA\n\nWeekly multi-currency exchange-rate report, rebuilt from UiPath RPA into PowerShell. Was itself converted into a 17-tab interactive HTML version this same session's era of work — the source of most of the DataTables/flatpickr gotchas now written up in [[Skill - Excel to Interactive HTML Report]].\n\n## Known issues found & fixed\n- Recent pivot-table error (see full memory for detail).\n- The IE tab-strip redirect bug, flatpickr mobile-swap bug, and WebKit `new Date()` partial-string bug — all found via real device/browser testing, not code review.\n\n## Related\n- [[RMB CNH Exchange Rate (May Lau)]] reuses this project's Gmail OAuth setup for attachment-capable drafts.\n- [[Monthly Exchange Rate RPA]] is a **separate** project — different report, different recipients, don't conflate the two.\n- Feeds lessons into [[Skill - Excel to Interactive HTML Report]].\n- Full script-by-script list: [[Weekly Exchange Rate RPA - PowerShell Scripts Reference]].\n\n## Full detail\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\project_weekly_exchange_rate_rpa.md`",
+      "tags": [
+        "project",
+        "exchange-rate",
+        "rpa"
       ]
     },
     {
@@ -656,6 +1153,13 @@
         "Working Projects/Project Notes/MPL/MPL Property Management System",
         "Working Projects/Project Notes/Desktop-OneDrive Auto Sync",
         "Working Projects/Project Notes/Monthly Exchange Rate RPA"
+      ],
+      "sourceFile": "second-brain/Working Projects/Project Notes.md",
+      "sourceHash": "25016cc3a595b22c670aba7bb924a64dabc19179019bf610412529bfaae5e999",
+      "notes": "# Project Notes\n\nThis folder preserves the detailed project notes written before the repository-based rebuild of Second Brain. Use [[Working Projects Index]] for the current map of the 19 working-project repositories. These notes are supporting context and may contain historical status, dates, or references; verify them against the repository README, current SOP, and source files before acting.\n\n## Notes by area\n\n- [[Working Projects/Project Notes/Global Purchase Report/Global Purchase Report RPA]]\n- [[Working Projects/Project Notes/Weekly Exchange Rate RPA/Weekly Exchange Rate RPA]]\n- [[Working Projects/Project Notes/MTC Report/MTC Purchase Report]] · [[Working Projects/Project Notes/MTC Report/MTC Sales Report]]\n- [[Working Projects/Project Notes/GPL/GPL FS Roll-Forward]] · [[Working Projects/Project Notes/GPL/GPL JPM Notice Processor]] · [[Working Projects/Project Notes/GPL/GPL UBS Statement Processor]]\n- [[Working Projects/Project Notes/EIC FS Roll-Forward]] · [[Working Projects/Project Notes/EIC GS Suite HTML Tool]]\n- [[Working Projects/Project Notes/MPL AI-Augmented Financial Close]] · [[Working Projects/Project Notes/MPL/MPL Accounting Module]] · [[Working Projects/Project Notes/MPL/MPL Property Management System]]\n- [[Working Projects/Project Notes/Desktop-OneDrive Auto Sync]] · [[Working Projects/Project Notes/Monthly Exchange Rate RPA]]",
+      "tags": [
+        "archive-index",
+        "working-projects"
       ]
     },
     {
@@ -664,7 +1168,15 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Repositories/ALUM Purchase Report.md",
       "name": "ALUM Purchase Report",
-      "status": "Active"
+      "status": "Active",
+      "sourceFile": "second-brain/Working Projects/Repositories/ALUM Purchase Report.md",
+      "sourceHash": "60dfd9d50211540c1b6e83931fc9c11f9e2e10ce2328d383e814d1f1f613e0cb",
+      "notes": "# ALUM Purchase Report\n\n**Purpose:** PowerShell and Excel COM workflow for the MIL, MZQ and STC aluminum purchase report. Combines exports and exchange rates, updates the dated workbook, and can produce a self-contained interactive HTML report.\n\n**GitHub:** [alum-report-claude](https://github.com/anthonymankaho/alum-report-claude)  \n**Local checkout:** C:\\Users\\User\\Desktop\\FIONA\\ALUM REPORT  \n**Work type:** Monthly reporting automation\n\n## Start here\n\nREADME.md; PowerShell scripts; Scripts/html/app.js; SOP and acceptance documents\n\n## Connected Second Brain notes\n\n\n\n## Handling notes\n\nBusiness source workbooks and report outputs are intentionally kept local and excluded from Git.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.",
+      "tags": [
+        "repository",
+        "working-project"
+      ],
+      "links": []
     },
     {
       "id": "84023eef4bfd72b5",
@@ -672,7 +1184,15 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Repositories/Desktop OneDrive Sync.md",
       "name": "Desktop OneDrive Sync",
-      "status": "Active"
+      "status": "Active",
+      "sourceFile": "second-brain/Working Projects/Repositories/Desktop OneDrive Sync.md",
+      "sourceHash": "82d7991ae7bdb4d140f9d73957b26412860aef42417929d4d48458aa4ca08238",
+      "notes": "# Desktop OneDrive Sync\n\n**Purpose:** PowerShell and Robocopy automation that mirrors Desktop content into the Desktop OneDrive folder, with logging and exit-code handling.\n\n**GitHub:** [desktop-onedrive-sync](https://github.com/anthonymankaho/desktop-onedrive-sync)  \n**Local checkout:** C:\\Users\\User\\Desktop\\GitHub-Clones\\desktop-onedrive-sync  \n**Work type:** Windows automation\n\n## Start here\n\nSync-DesktopToOneDrive.ps1\n\n## Connected Second Brain notes\n\n\n\n## Handling notes\n\nSync command uses /E and /XO. Review source and destination exclusions before changing or running it.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.",
+      "tags": [
+        "repository",
+        "working-project"
+      ],
+      "links": []
     },
     {
       "id": "aa587ea6469c4ffe",
@@ -680,7 +1200,15 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Repositories/EIC Goldman Sachs Processing.md",
       "name": "EIC Goldman Sachs Processing",
-      "status": "Active"
+      "status": "Active",
+      "sourceFile": "second-brain/Working Projects/Repositories/EIC Goldman Sachs Processing.md",
+      "sourceHash": "927c646434c90d933b60fb168df8aac0302cdf98687d04ee64eb3cd971da4239",
+      "notes": "# EIC Goldman Sachs Processing\n\n**Purpose:** Tools and working files for EIC monthly Goldman Sachs portfolio processing and close, including statement ingestion, journal, ledger and reporting workflows.\n\n**GitHub:** [EIC](https://github.com/anthonymankaho/EIC)  \n**Local checkout:** C:\\Users\\User\\Desktop\\Meyer\\EIC\\2026\\EIC-Claude  \n**Work type:** Monthly close processing\n\n## Start here\n\nREADME.md; EIC-System; monthly period folders\n\n## Connected Second Brain notes\n\nProject Notes/EIC FS Roll-Forward; Project Notes/EIC GS Suite HTML Tool\n\n## Handling notes\n\nRepository documentation identifies real financial data. Treat statements, balances and working files as confidential.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.",
+      "tags": [
+        "repository",
+        "working-project"
+      ],
+      "links": []
     },
     {
       "id": "ea08b863d1d45934",
@@ -688,7 +1216,15 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Repositories/FBW Royalty Report.md",
       "name": "FBW Royalty Report",
-      "status": "Active"
+      "status": "Active",
+      "sourceFile": "second-brain/Working Projects/Repositories/FBW Royalty Report.md",
+      "sourceHash": "70ad6367d016f208bc6e3a08c2c1e254154aa7892b5d40932e2e96e33f0b3040",
+      "notes": "# FBW Royalty Report\n\n**Purpose:** Quarterly Farberware Percolator royalty processing. Uses the signed royalty statement PDF and MTC shipment master to prepare the next-quarter FIN_MIP workbook.\n\n**GitHub:** [FBW_Royalty](https://github.com/anthonymankaho/FBW_Royalty)  \n**Local checkout:** C:\\Users\\User\\Desktop\\FBW Royalty - Claude  \n**Work type:** Quarterly reporting automation\n\n## Start here\n\nREADME.md; processing scripts and quarterly report workflow\n\n## Connected Second Brain notes\n\n\n\n## Handling notes\n\nRoyalty statements and shipment data are business records; keep source documents private.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.",
+      "tags": [
+        "repository",
+        "working-project"
+      ],
+      "links": []
     },
     {
       "id": "97f69120e9e89af9",
@@ -696,7 +1232,15 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Repositories/GitHub Desktop Tutorial.md",
       "name": "GitHub Desktop Tutorial",
-      "status": "Active"
+      "status": "Active",
+      "sourceFile": "second-brain/Working Projects/Repositories/GitHub Desktop Tutorial.md",
+      "sourceHash": "0cf269ccd4958cc742648f6d0789cb06f6ce64d8a6b788b391a8277508637325",
+      "notes": "# GitHub Desktop Tutorial\n\n**Purpose:** GitHub Desktop tutorial repository for learning or documenting the GitHub Desktop workflow.\n\n**GitHub:** [Github](https://github.com/anthonymankaho/Github)  \n**Local checkout:** C:\\Users\\User\\Desktop\\GitHub-Clones\\Github  \n**Work type:** Developer learning and process\n\n## Start here\n\nRepository root and tutorial materials\n\n## Connected Second Brain notes\n\n\n\n## Handling notes\n\nReference and training repository.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.",
+      "tags": [
+        "repository",
+        "working-project"
+      ],
+      "links": []
     },
     {
       "id": "9d3c74e3502c6067",
@@ -704,7 +1248,15 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Repositories/Global Purchase Report.md",
       "name": "Global Purchase Report",
-      "status": "Active"
+      "status": "Active",
+      "sourceFile": "second-brain/Working Projects/Repositories/Global Purchase Report.md",
+      "sourceHash": "73dc10e414e4571d35bae442537f5d35987d682b08549d47f223c00a5ae606eb",
+      "notes": "# Global Purchase Report\n\n**Purpose:** PowerShell rebuild of the multi-entity Global Purchase Report process. Manual data exports feed automated merging, Excel report production and related HTML and notification steps.\n\n**GitHub:** [global-purchase-report-claude](https://github.com/anthonymankaho/global-purchase-report-claude)  \n**Local checkout:** C:\\Users\\User\\Desktop\\Global Purchase Report Claude  \n**Work type:** Monthly reporting automation\n\n## Start here\n\nREADME.md; Global Purchase Report RPA; Scripts; SOP and PowerShell references\n\n## Connected Second Brain notes\n\nProject Notes/Global Purchase Report/Global Purchase Report RPA; Project Notes/Global Purchase Report/PowerShell Scripts Reference\n\n## Handling notes\n\nOperational data and generated workbooks may contain confidential business information.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.",
+      "tags": [
+        "repository",
+        "working-project"
+      ],
+      "links": []
     },
     {
       "id": "bf7db74cd9f664c5",
@@ -712,7 +1264,15 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Repositories/GPL Gold Plume.md",
       "name": "GPL Gold Plume",
-      "status": "Active"
+      "status": "Active",
+      "sourceFile": "second-brain/Working Projects/Repositories/GPL Gold Plume.md",
+      "sourceHash": "81e140fdbaa296bdc71a7c273dc1bdd2d18af02e8bbb71ca88e148f6b6f3cedb",
+      "notes": "# GPL Gold Plume\n\n**Purpose:** Gold Plume close automation with UBS and JPM bank statement or notice processors, financial statement workbook support, and management update drafting.\n\n**GitHub:** [GPL](https://github.com/anthonymankaho/GPL)  \n**Local checkout:** C:\\Users\\User\\Desktop\\Meyer\\GPL\\GPL-System  \n**Work type:** Monthly close processing\n\n## Start here\n\nREADME.md; GPL-System; scripts\n\n## Connected Second Brain notes\n\nProject Notes/GPL/GPL FS Roll-Forward; Project Notes/GPL/GPL JPM Notice Processor; Project Notes/GPL/GPL UBS Statement Processor\n\n## Handling notes\n\nPrivate finance repository. Validate outputs against source statements and the official workbook.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.",
+      "tags": [
+        "repository",
+        "working-project"
+      ],
+      "links": []
     },
     {
       "id": "9938e4863d62a7ef",
@@ -720,7 +1280,15 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Repositories/HKFRS AS Study Platform.md",
       "name": "HKFRS AS Study Platform",
-      "status": "Active"
+      "status": "Active",
+      "sourceFile": "second-brain/Working Projects/Repositories/HKFRS AS Study Platform.md",
+      "sourceHash": "918b5b71b1be622ad4462a08e7f5f146c1108886a80e57a42d6d834bd48cbed8",
+      "notes": "# HKFRS AS Study Platform\n\n**Purpose:** Browser-based HKFRS and accounting standards study platform.\n\n**GitHub:** [hkfrs-as-study-platform](https://github.com/AnthonyManhk/hkfrs-as-study-platform)  \n**Local checkout:** C:\\Users\\User\\Desktop\\GitHub-Clones\\hkfrs-as-study-platform  \n**Work type:** Reference and study tools\n\n## Start here\n\nindex.html\n\n## Connected Second Brain notes\n\nRepositories/HKICPA Standards and Study Library; Repositories/HK Finance Skills\n\n## Handling notes\n\nStudy and navigation aid; confirm interpretations in the current official standard.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.",
+      "tags": [
+        "repository",
+        "working-project"
+      ],
+      "links": []
     },
     {
       "id": "1549480cbd2a554b",
@@ -728,7 +1296,15 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Repositories/HKICPA Standards and Study Library.md",
       "name": "HKICPA Standards and Study Library",
-      "status": "Active"
+      "status": "Active",
+      "sourceFile": "second-brain/Working Projects/Repositories/HKICPA Standards and Study Library.md",
+      "sourceHash": "cb032a13b2c58c662a8cbdf5dd2cb7ba97bfaf2796c59b8051df9067eb6dda28",
+      "notes": "# HKICPA Standards and Study Library\n\n**Purpose:** Reference collection of HKFRS and HKAS material and accounting study documents.\n\n**GitHub:** [HKICPA](https://github.com/anthonymankaho/HKICPA)  \n**Local checkout:** C:\\Users\\User\\Desktop\\HKICPA  \n**Work type:** Reference library\n\n## Start here\n\nHKFRS18; HKAS documents; study PDFs\n\n## Connected Second Brain notes\n\nRepositories/HKFRS AS Study Platform; Repositories/HK Finance Skills\n\n## Handling notes\n\nUse current official standards and licensed source copies for authoritative accounting work.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.",
+      "tags": [
+        "repository",
+        "working-project"
+      ],
+      "links": []
     },
     {
       "id": "acb4a55ddb77e317",
@@ -736,7 +1312,15 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Repositories/Hong Kong Tax Study Hub.md",
       "name": "Hong Kong Tax Study Hub",
-      "status": "Active"
+      "status": "Active",
+      "sourceFile": "second-brain/Working Projects/Repositories/Hong Kong Tax Study Hub.md",
+      "sourceHash": "fcd8a8a78dc12655f3bfe4455b0ff1425270a6a05f5fa336067133f6db35dcc5",
+      "notes": "# Hong Kong Tax Study Hub\n\n**Purpose:** Hong Kong tax study aid covering profits, property and salaries tax, stamp duty, depreciation allowances, IRD guidance and worked examples.\n\n**GitHub:** [hktax-studyhub](https://github.com/anthonymankaho/hktax-studyhub)  \n**Local checkout:** C:\\Users\\User\\Desktop\\HKTAX STUDYHUB - CLAUDE  \n**Work type:** Reference and study tools\n\n## Start here\n\nREADME.md; index.html; pages; scripts\n\n## Connected Second Brain notes\n\n\n\n## Handling notes\n\nStudy aid; verify current law and primary IRD sources before applying to a filing or accounting conclusion.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.",
+      "tags": [
+        "repository",
+        "working-project"
+      ],
+      "links": []
     },
     {
       "id": "90ebd9e071e84bac",
@@ -744,7 +1328,15 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Repositories/IELTS Prep Desk.md",
       "name": "IELTS Prep Desk",
-      "status": "Active"
+      "status": "Active",
+      "sourceFile": "second-brain/Working Projects/Repositories/IELTS Prep Desk.md",
+      "sourceHash": "4477221408babe80d716ee36791b7cf8f310812d5d3102b2b772b81e23a8704a",
+      "notes": "# IELTS Prep Desk\n\n**Purpose:** Single-file browser app for vocabulary, reading, listening, writing, speaking, grammar and dictionary practice.\n\n**GitHub:** [ielts-prep](https://github.com/anthonymankaho/ielts-prep)  \n**Local checkout:** C:\\Users\\User\\Desktop\\ielts-prep  \n**Work type:** Personal learning tools\n\n## Start here\n\nREADME.md; ielts-prep.html\n\n## Connected Second Brain notes\n\n\n\n## Handling notes\n\nPersonal study tool.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.",
+      "tags": [
+        "repository",
+        "working-project"
+      ],
+      "links": []
     },
     {
       "id": "3a6550c8cec697ea",
@@ -752,7 +1344,15 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Repositories/MPL System Portal.md",
       "name": "MPL System Portal",
-      "status": "Active"
+      "status": "Active",
+      "sourceFile": "second-brain/Working Projects/Repositories/MPL System Portal.md",
+      "sourceHash": "bd0ebb5ce613e12d5fffd00b844cd96565dbb53d3af6388075db58cb28173774",
+      "notes": "# MPL System Portal\n\n**Purpose:** MPL system portal repository and standalone portal/deployment source associated with the MPL workflow.\n\n**GitHub:** [MPL-System](https://github.com/anthonymankaho/MPL-System)  \n**Local checkout:** C:\\Users\\User\\Desktop\\GitHub-Clones\\MPL-System  \n**Work type:** Finance system portal\n\n## Start here\n\nindex.html\n\n## Connected Second Brain notes\n\nRepositories/MPL; Repositories/System Module\n\n## Handling notes\n\nCheck the repository and deployment context before changing a live portal.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.",
+      "tags": [
+        "repository",
+        "working-project"
+      ],
+      "links": []
     },
     {
       "id": "82d0abefe28a2850",
@@ -760,7 +1360,15 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Repositories/MPL.md",
       "name": "MPL",
-      "status": "Active"
+      "status": "Active",
+      "sourceFile": "second-brain/Working Projects/Repositories/MPL.md",
+      "sourceHash": "750480bbf9e4685693ddd5a1f97e11c955dfa22829412573c5f1a3665c2f02b0",
+      "notes": "# MPL\n\n**Purpose:** Meyer Properties monthly close tools and browser-based property management system, including accounting, journal generation, property register, debit/credit notes and receipt workflows. The repository also carries the HK finance skills source folder.\n\n**GitHub:** [MPL](https://github.com/anthonymankaho/MPL)  \n**Local checkout:** C:\\Users\\User\\Desktop\\GitHub-Clones\\MPL  \n**Work type:** Financial close and property system\n\n## Start here\n\nREADME.md; MPL_System.html; MPL_Accounting.html; MPL_Journal_Generator_v8.html; docs/SOP-MPL-monthly-workflow.md\n\n## Connected Second Brain notes\n\nProject Notes/MPL AI-Augmented Financial Close\n\n## Handling notes\n\nPrivate finance project. Production workbooks and personal or tenant data stay outside Git.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.",
+      "tags": [
+        "repository",
+        "working-project"
+      ],
+      "links": []
     },
     {
       "id": "d73c021f6c93b503",
@@ -768,7 +1376,15 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Repositories/MTC Purchase Report.md",
       "name": "MTC Purchase Report",
-      "status": "Active"
+      "status": "Active",
+      "sourceFile": "second-brain/Working Projects/Repositories/MTC Purchase Report.md",
+      "sourceHash": "3f4a1dfe40a528f3b5cbe0383e6cfd4a7d53cc20cc5778dee4d89bc64ef59a87",
+      "notes": "# MTC Purchase Report\n\n**Purpose:** MTC purchase report and commission processing repository. Review the current SOP and dated monthly folders before running the process.\n\n**GitHub:** [MTC_Purchase_Report](https://github.com/anthonymankaho/MTC_Purchase_Report)  \n**Local checkout:** C:\\Users\\User\\Desktop\\MTC Purchase Report Claude  \n**Work type:** Monthly reporting automation\n\n## Start here\n\nSOP; Purchase commission; HTML_Report_Generator; dated monthly folders\n\n## Connected Second Brain notes\n\nProject Notes/MTC Report/MTC Purchase Report\n\n## Handling notes\n\nContains or references commercial workbooks. Do not upload local monthly data unless explicitly intended for the repository.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.",
+      "tags": [
+        "repository",
+        "working-project"
+      ],
+      "links": []
     },
     {
       "id": "8b0ca02d46c0ea54",
@@ -776,7 +1392,15 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Repositories/MTC Sales Report.md",
       "name": "MTC Sales Report",
-      "status": "Active"
+      "status": "Active",
+      "sourceFile": "second-brain/Working Projects/Repositories/MTC Sales Report.md",
+      "sourceHash": "6c44cb52fd5907eee8a418f49e252adf303949007c7fb995a9638b794d0eac7e",
+      "notes": "# MTC Sales Report\n\n**Purpose:** Monthly MTC sales and commission processing. Manual MMS/EPICOR downloads feed scripts that prepare rows and values and merge them into the master report.\n\n**GitHub:** [MTC_Sales_Report](https://github.com/anthonymankaho/MTC_Sales_Report)  \n**Local checkout:** C:\\Users\\User\\Desktop\\MTC Sales Report Claude  \n**Work type:** Monthly reporting automation\n\n## Start here\n\nREADME.md; Combine-Into-Master.ps1; monthly summary and report generators\n\n## Connected Second Brain notes\n\nProject Notes/MTC Report/MTC Sales Report\n\n## Handling notes\n\nKeep source sales data and generated workbooks within approved storage.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.",
+      "tags": [
+        "repository",
+        "working-project"
+      ],
+      "links": []
     },
     {
       "id": "0d8c1d2e42c9bd31",
@@ -784,7 +1408,15 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Repositories/RMB CNH Exchange Report.md",
       "name": "RMB CNH Exchange Report",
-      "status": "Active"
+      "status": "Active",
+      "sourceFile": "second-brain/Working Projects/Repositories/RMB CNH Exchange Report.md",
+      "sourceHash": "89a34ec88da32af867da9a26d0afba90c92d763e96d2a403a2e618db786040c0",
+      "notes": "# RMB CNH Exchange Report\n\n**Purpose:** Monthly HKD/RMB or CNH exchange-rate reporting automation using BOC data and a Claude Code skill workflow.\n\n**GitHub:** [rmb-cnh-exchange-rate-report](https://github.com/anthonymankaho/rmb-cnh-exchange-rate-report)  \n**Local checkout:** C:\\Users\\User\\Desktop\\RMB EXCHANGE RATE - CLAUDE  \n**Work type:** Exchange rate automation\n\n## Start here\n\nCLAUDE.md; Main.xlsx; dated reports; scripts and skill instructions\n\n## Connected Second Brain notes\n\nSkills/RMB CNH Exchange Rate (May Lau)\n\n## Handling notes\n\nReview each report period and rate source against the required bank source before release.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.",
+      "tags": [
+        "repository",
+        "working-project"
+      ],
+      "links": []
     },
     {
       "id": "0687b8677cf6a84a",
@@ -792,7 +1424,15 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Repositories/SageMaker MovieLens.md",
       "name": "SageMaker MovieLens",
-      "status": "Active"
+      "status": "Active",
+      "sourceFile": "second-brain/Working Projects/Repositories/SageMaker MovieLens.md",
+      "sourceHash": "49c7267f254378c2b20bb2327918a461e1b319749dff340f1e6b497fdb4b5135",
+      "notes": "# SageMaker MovieLens\n\n**Purpose:** Amazon SageMaker Factorization Machines MovieLens example for recommendation-model learning.\n\n**GitHub:** [sagemaker-fm-movielens](https://github.com/AnthonyManhk/sagemaker-fm-movielens)  \n**Local checkout:** C:\\Users\\User\\Desktop\\GitHub-Clones\\sagemaker-fm-movielens  \n**Work type:** Developer learning and process\n\n## Start here\n\nREADME.md; training and model example files\n\n## Connected Second Brain notes\n\n\n\n## Handling notes\n\nLearning example; review AWS account and billing settings before using cloud resources.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.",
+      "tags": [
+        "repository",
+        "working-project"
+      ],
+      "links": []
     },
     {
       "id": "a81b691f30db4af2",
@@ -800,7 +1440,15 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Repositories/System Module.md",
       "name": "System Module",
-      "status": "Active"
+      "status": "Active",
+      "sourceFile": "second-brain/Working Projects/Repositories/System Module.md",
+      "sourceHash": "343c34f5118dd6cb2c53561583e12f32f76ee3deb3d35eaa2a235458010778a0",
+      "notes": "# System Module\n\n**Purpose:** Company-agnostic browser system template with a login-gated launcher and standalone accounting, inventory, investment, and debit/credit note and receipt modules.\n\n**GitHub:** [System-Module](https://github.com/anthonymankaho/System-Module)  \n**Local checkout:** C:\\Users\\User\\Desktop\\GitHub-Clones\\System-Module  \n**Work type:** Reusable finance system template\n\n## Start here\n\nREADME.md; launcher and embedded single-file HTML modules; tools/build_payloads.js\n\n## Connected Second Brain notes\n\nRepositories/MPL; Repositories/MPL System Portal\n\n## Handling notes\n\nBrowser localStorage holds records. The access gate is a workflow control, not server-side security.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.",
+      "tags": [
+        "repository",
+        "working-project"
+      ],
+      "links": []
     },
     {
       "id": "27d7c7f198c5bac1",
@@ -808,7 +1456,15 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Repositories/Weekly Exchange Rate Report.md",
       "name": "Weekly Exchange Rate Report",
-      "status": "Active"
+      "status": "Active",
+      "sourceFile": "second-brain/Working Projects/Repositories/Weekly Exchange Rate Report.md",
+      "sourceHash": "2f0b128d5064ebcc2601a3eef135e3a6e72c4a7e8eb1b17b2b8d8d8504567df6",
+      "notes": "# Weekly Exchange Rate Report\n\n**Purpose:** PowerShell rebuild of the weekly exchange-rate report, including data fetch, Excel dashboard and interactive HTML output. Documentation also covers Slack posting and an exchange-rate Q&A bot.\n\n**GitHub:** [weekly-exchange-rate-report-powershell](https://github.com/anthonymankaho/weekly-exchange-rate-report-powershell)  \n**Local checkout:** C:\\Users\\User\\Desktop\\Weekly Exchange Report - CLAUDE  \n**Work type:** Exchange rate automation\n\n## Start here\n\nREADME.md; Scripts; Output; build and publishing instructions\n\n## Connected Second Brain notes\n\nProject Notes/Weekly Exchange Rate RPA/Weekly Exchange Rate RPA; Project Notes/Weekly Exchange Rate RPA/Weekly Exchange Rate RPA - PowerShell Scripts Reference\n\n## Handling notes\n\nNotification and publishing scripts can send or post externally; review the target and content before running.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.",
+      "tags": [
+        "repository",
+        "working-project"
+      ],
+      "links": []
     },
     {
       "id": "fe9ddbe4394faee3",
@@ -840,6 +1496,13 @@
         "Project Notes",
         "README|Second Brain Home",
         "Skills/Skills Overview|Skills Index"
+      ],
+      "sourceFile": "second-brain/Working Projects/Working Projects Index.md",
+      "sourceHash": "919a794111b265be24634604c49659a217b8faf4e62372c5b869e757b3edb6ee",
+      "notes": "# Working Projects\n\nThis section maps the working-project repositories, with an emphasis on recurring finance operations, reporting, and PowerShell processing. Each repository page records its purpose, checkout path, GitHub source, entry points, and handling notes.\n\n## Repository map\n\n| Repository page | Work area | What it does | GitHub repository |\n|---|---|---|---|\n| [[ALUM Purchase Report]] | Monthly reporting automation | PowerShell and Excel COM workflow for the MIL, MZQ and STC aluminum purchase report. Combines exports and exchange rates, updates the dated workbook, and can produce a self-contained interactive HTML report. | alum-report-claude |\n| [[MPL]] | Financial close and property system | Meyer Properties monthly close tools and browser-based property management system, including accounting, journal generation, property register, debit/credit notes and receipt workflows. The repository also carries the HK finance skills source folder. | MPL |\n| [[MPL System Portal]] | Finance system portal | MPL system portal repository and standalone portal/deployment source associated with the MPL workflow. | MPL-System |\n| [[System Module]] | Reusable finance system template | Company-agnostic browser system template with a login-gated launcher and standalone accounting, inventory, investment, and debit/credit note and receipt modules. | System-Module |\n| [[EIC Goldman Sachs Processing]] | Monthly close processing | Tools and working files for EIC monthly Goldman Sachs portfolio processing and close, including statement ingestion, journal, ledger and reporting workflows. | EIC |\n| [[GPL Gold Plume]] | Monthly close processing | Gold Plume close automation with UBS and JPM bank statement or notice processors, financial statement workbook support, and management update drafting. | GPL |\n| [[Global Purchase Report]] | Monthly reporting automation | PowerShell rebuild of the multi-entity Global Purchase Report process. Manual data exports feed automated merging, Excel report production and related HTML and notification steps. | global-purchase-report-claude |\n| [[MTC Purchase Report]] | Monthly reporting automation | MTC purchase report and commission processing repository. Review the current SOP and dated monthly folders before running the process. | MTC_Purchase_Report |\n| [[MTC Sales Report]] | Monthly reporting automation | Monthly MTC sales and commission processing. Manual MMS/EPICOR downloads feed scripts that prepare rows and values and merge them into the master report. | MTC_Sales_Report |\n| [[Weekly Exchange Rate Report]] | Exchange rate automation | PowerShell rebuild of the weekly exchange-rate report, including data fetch, Excel dashboard and interactive HTML output. Documentation also covers Slack posting and an exchange-rate Q&A bot. | weekly-exchange-rate-report-powershell |\n| [[RMB CNH Exchange Report]] | Exchange rate automation | Monthly HKD/RMB or CNH exchange-rate reporting automation using BOC data and a Claude Code skill workflow. | rmb-cnh-exchange-rate-report |\n| [[FBW Royalty Report]] | Quarterly reporting automation | Quarterly Farberware Percolator royalty processing. Uses the signed royalty statement PDF and MTC shipment master to prepare the next-quarter FIN_MIP workbook. | FBW_Royalty |\n| [[Hong Kong Tax Study Hub]] | Reference and study tools | Hong Kong tax study aid covering profits, property and salaries tax, stamp duty, depreciation allowances, IRD guidance and worked examples. | hktax-studyhub |\n| [[HKICPA Standards and Study Library]] | Reference library | Reference collection of HKFRS and HKAS material and accounting study documents. | HKICPA |\n| [[HKFRS AS Study Platform]] | Reference and study tools | Browser-based HKFRS and accounting standards study platform. | hkfrs-as-study-platform |\n| [[Desktop OneDrive Sync]] | Windows automation | PowerShell and Robocopy automation that mirrors Desktop content into the Desktop OneDrive folder, with logging and exit-code handling. | desktop-onedrive-sync |\n| [[IELTS Prep Desk]] | Personal learning tools | Single-file browser app for vocabulary, reading, listening, writing, speaking, grammar and dictionary practice. | ielts-prep |\n| [[GitHub Desktop Tutorial]] | Developer learning and process | GitHub Desktop tutorial repository for learning or documenting the GitHub Desktop workflow. | Github |\n| [[SageMaker MovieLens]] | Developer learning and process | Amazon SageMaker Factorization Machines MovieLens example for recommendation-model learning. | sagemaker-fm-movielens |\n## Operating model\n\n- Use the repository README and current SOP as the working instructions; this index is a navigation layer.\n- Treat the GitHub repository as the source for versioned code and shared documentation. Local source data, workbooks and outputs may intentionally stay outside Git.\n- Before running PowerShell or Excel automation, confirm the reporting period, input files, output destination, external notifications, and whether the operation changes business records.\n- Validate completed reports against their source files and accounting evidence before release.\n- Keep project-specific operating notes in [[Project Notes]]. The repository pages are the current overview; older notes remain available as supporting history.\n\n## Related\n\n- [[README|Second Brain Home]]\n- [[Skills/Skills Overview|Skills Index]]",
+      "tags": [
+        "moc",
+        "working-projects"
       ]
     }
   ],
@@ -854,7 +1517,717 @@
       "links": [
         "Working Projects/Working Projects Index|Working Projects",
         "Skills/Skills Overview|Skills"
+      ],
+      "sourceFile": "second-brain/README.md",
+      "sourceHash": "ba2f4baee7364ae6c110c37ff72ea0bc9b718fdb6843ab602e0f840bf9679ad4",
+      "notes": "# Second Brain\n\nA navigable map of 22 working-project and skills repositories, supported by project notes and reusable skill references.\n\n## Main sections\n\n### [[Working Projects/Working Projects Index|Working Projects]]\n\nFinance operations, reporting systems, Windows automation, PowerShell processing, and other active repositories. Start here to find a repository, local checkout, processing entry point, or related operating note.\n\n### [[Skills/Skills Overview|Skills]]\n\nThe skill repositories, including the 22-skill Hong Kong finance collection, plus local workflow and reference notes.\n\n## How to use this vault\n\n1. Start from one of the two main sections above.\n2. Open the repository page for its GitHub URL, local checkout, purpose, entry points and handling notes.\n3. Read the repository README and current SOP before processing or changing code.\n4. Use linked project notes for background and prior decisions; verify dated operational details against the current repository and source files.\n\n## Scope and boundaries\n\nThis vault is an index and working knowledge layer. GitHub repositories hold versioned code and shared documentation. Source statements, production workbooks, credentials and generated reports may be local-only or ignored by Git. Confirm the storage boundary in each repository before sharing or syncing files.",
+      "tags": [
+        "home",
+        "second-brain"
       ]
+    },
+    {
+      "id": "784319893ca1cb25",
+      "created": "2026-08-27",
+      "source": "obsidian",
+      "sourcePath": "Second Brain Overview.canvas",
+      "sourceFile": "second-brain/Second Brain Overview.canvas",
+      "sourceHash": "1183da41d5b94c52f0dc069e57b2397207a3c5e476e05a93ff55d41b1da77708",
+      "title": "Second Brain Overview",
+      "notes": "Obsidian canvas with 27 nodes and 24 connections.\n\n## Linked notes\n\n- [[README]]\n\n- [[Working Projects/Working Projects Index]]\n\n- [[Skills/Skills Overview]]\n\n- [[Working Projects/Repositories/ALUM Purchase Report]]\n\n- [[Working Projects/Repositories/Desktop OneDrive Sync]]\n\n- [[Working Projects/Repositories/EIC Goldman Sachs Processing]]\n\n- [[Working Projects/Repositories/FBW Royalty Report]]\n\n- [[Working Projects/Repositories/GitHub Desktop Tutorial]]\n\n- [[Working Projects/Repositories/Global Purchase Report]]\n\n- [[Working Projects/Repositories/GPL Gold Plume]]\n\n- [[Working Projects/Repositories/HKFRS AS Study Platform]]\n\n- [[Working Projects/Repositories/HKICPA Standards and Study Library]]\n\n- [[Working Projects/Repositories/Hong Kong Tax Study Hub]]\n\n- [[Working Projects/Repositories/IELTS Prep Desk]]\n\n- [[Working Projects/Repositories/MPL System Portal]]\n\n- [[Working Projects/Repositories/MPL]]\n\n- [[Working Projects/Repositories/MTC Purchase Report]]\n\n- [[Working Projects/Repositories/MTC Sales Report]]\n\n- [[Working Projects/Repositories/RMB CNH Exchange Report]]\n\n- [[Working Projects/Repositories/SageMaker MovieLens]]\n\n- [[Working Projects/Repositories/System Module]]\n\n- [[Working Projects/Repositories/Weekly Exchange Rate Report]]\n\n- [[Skills/Repositories/Claude Skills Backup Repository]]\n\n- [[Skills/Repositories/HK Finance Skills Repository]]\n\n- [[Skills/Repositories/Personal Skills Repository]]",
+      "tags": [
+        "canvas"
+      ],
+      "links": [
+        "README.md",
+        "Working Projects/Working Projects Index.md",
+        "Skills/Skills Overview.md",
+        "Working Projects/Repositories/ALUM Purchase Report.md",
+        "Working Projects/Repositories/Desktop OneDrive Sync.md",
+        "Working Projects/Repositories/EIC Goldman Sachs Processing.md",
+        "Working Projects/Repositories/FBW Royalty Report.md",
+        "Working Projects/Repositories/GitHub Desktop Tutorial.md",
+        "Working Projects/Repositories/Global Purchase Report.md",
+        "Working Projects/Repositories/GPL Gold Plume.md",
+        "Working Projects/Repositories/HKFRS AS Study Platform.md",
+        "Working Projects/Repositories/HKICPA Standards and Study Library.md",
+        "Working Projects/Repositories/Hong Kong Tax Study Hub.md",
+        "Working Projects/Repositories/IELTS Prep Desk.md",
+        "Working Projects/Repositories/MPL System Portal.md",
+        "Working Projects/Repositories/MPL.md",
+        "Working Projects/Repositories/MTC Purchase Report.md",
+        "Working Projects/Repositories/MTC Sales Report.md",
+        "Working Projects/Repositories/RMB CNH Exchange Report.md",
+        "Working Projects/Repositories/SageMaker MovieLens.md",
+        "Working Projects/Repositories/System Module.md",
+        "Working Projects/Repositories/Weekly Exchange Rate Report.md",
+        "Skills/Repositories/Claude Skills Backup Repository.md",
+        "Skills/Repositories/HK Finance Skills Repository.md",
+        "Skills/Repositories/Personal Skills Repository.md"
+      ],
+      "canvas": {
+        "edges": [
+          {
+            "toNode": "index-working",
+            "fromNode": "home",
+            "toSide": "top",
+            "id": "edge-home-working",
+            "fromSide": "left"
+          },
+          {
+            "toNode": "index-skills",
+            "fromNode": "home",
+            "toSide": "top",
+            "id": "edge-home-skills",
+            "fromSide": "right"
+          },
+          {
+            "toNode": "work-0",
+            "fromNode": "index-working",
+            "toSide": "top",
+            "id": "ew-0",
+            "fromSide": "bottom"
+          },
+          {
+            "toNode": "work-1",
+            "fromNode": "index-working",
+            "toSide": "top",
+            "id": "ew-1",
+            "fromSide": "bottom"
+          },
+          {
+            "toNode": "work-2",
+            "fromNode": "index-working",
+            "toSide": "top",
+            "id": "ew-2",
+            "fromSide": "bottom"
+          },
+          {
+            "toNode": "work-3",
+            "fromNode": "index-working",
+            "toSide": "top",
+            "id": "ew-3",
+            "fromSide": "bottom"
+          },
+          {
+            "toNode": "work-4",
+            "fromNode": "index-working",
+            "toSide": "top",
+            "id": "ew-4",
+            "fromSide": "bottom"
+          },
+          {
+            "toNode": "work-5",
+            "fromNode": "index-working",
+            "toSide": "top",
+            "id": "ew-5",
+            "fromSide": "bottom"
+          },
+          {
+            "toNode": "work-6",
+            "fromNode": "index-working",
+            "toSide": "top",
+            "id": "ew-6",
+            "fromSide": "bottom"
+          },
+          {
+            "toNode": "work-7",
+            "fromNode": "index-working",
+            "toSide": "top",
+            "id": "ew-7",
+            "fromSide": "bottom"
+          },
+          {
+            "toNode": "work-8",
+            "fromNode": "index-working",
+            "toSide": "top",
+            "id": "ew-8",
+            "fromSide": "bottom"
+          },
+          {
+            "toNode": "work-9",
+            "fromNode": "index-working",
+            "toSide": "top",
+            "id": "ew-9",
+            "fromSide": "bottom"
+          },
+          {
+            "toNode": "work-10",
+            "fromNode": "index-working",
+            "toSide": "top",
+            "id": "ew-10",
+            "fromSide": "bottom"
+          },
+          {
+            "toNode": "work-11",
+            "fromNode": "index-working",
+            "toSide": "top",
+            "id": "ew-11",
+            "fromSide": "bottom"
+          },
+          {
+            "toNode": "work-12",
+            "fromNode": "index-working",
+            "toSide": "top",
+            "id": "ew-12",
+            "fromSide": "bottom"
+          },
+          {
+            "toNode": "work-13",
+            "fromNode": "index-working",
+            "toSide": "top",
+            "id": "ew-13",
+            "fromSide": "bottom"
+          },
+          {
+            "toNode": "work-14",
+            "fromNode": "index-working",
+            "toSide": "top",
+            "id": "ew-14",
+            "fromSide": "bottom"
+          },
+          {
+            "toNode": "work-15",
+            "fromNode": "index-working",
+            "toSide": "top",
+            "id": "ew-15",
+            "fromSide": "bottom"
+          },
+          {
+            "toNode": "work-16",
+            "fromNode": "index-working",
+            "toSide": "top",
+            "id": "ew-16",
+            "fromSide": "bottom"
+          },
+          {
+            "toNode": "work-17",
+            "fromNode": "index-working",
+            "toSide": "top",
+            "id": "ew-17",
+            "fromSide": "bottom"
+          },
+          {
+            "toNode": "work-18",
+            "fromNode": "index-working",
+            "toSide": "top",
+            "id": "ew-18",
+            "fromSide": "bottom"
+          },
+          {
+            "toNode": "skill-0",
+            "fromNode": "index-skills",
+            "toSide": "top",
+            "id": "es-0",
+            "fromSide": "bottom"
+          },
+          {
+            "toNode": "skill-1",
+            "fromNode": "index-skills",
+            "toSide": "top",
+            "id": "es-1",
+            "fromSide": "bottom"
+          },
+          {
+            "toNode": "skill-2",
+            "fromNode": "index-skills",
+            "toSide": "top",
+            "id": "es-2",
+            "fromSide": "bottom"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "home",
+            "width": 300,
+            "height": 100,
+            "y": 0,
+            "type": "file",
+            "x": 0,
+            "file": "README.md"
+          },
+          {
+            "id": "group-working",
+            "y": 250,
+            "width": 2100,
+            "color": "6",
+            "type": "group",
+            "height": 1800,
+            "x": -1650,
+            "label": "Working Projects"
+          },
+          {
+            "id": "group-skills",
+            "y": 250,
+            "width": 1000,
+            "color": "4",
+            "type": "group",
+            "height": 780,
+            "x": 550,
+            "label": "Skills"
+          },
+          {
+            "id": "index-working",
+            "width": 330,
+            "height": 100,
+            "y": 320,
+            "type": "file",
+            "x": -1550,
+            "file": "Working Projects/Working Projects Index.md"
+          },
+          {
+            "id": "index-skills",
+            "width": 330,
+            "height": 100,
+            "y": 320,
+            "type": "file",
+            "x": 650,
+            "file": "Skills/Skills Overview.md"
+          },
+          {
+            "id": "work-0",
+            "width": 300,
+            "height": 100,
+            "y": 500,
+            "type": "file",
+            "x": -1550,
+            "file": "Working Projects/Repositories/ALUM Purchase Report.md"
+          },
+          {
+            "id": "work-1",
+            "width": 300,
+            "height": 100,
+            "y": 500,
+            "type": "file",
+            "x": -1060,
+            "file": "Working Projects/Repositories/Desktop OneDrive Sync.md"
+          },
+          {
+            "id": "work-2",
+            "width": 300,
+            "height": 100,
+            "y": 500,
+            "type": "file",
+            "x": -570,
+            "file": "Working Projects/Repositories/EIC Goldman Sachs Processing.md"
+          },
+          {
+            "id": "work-3",
+            "width": 300,
+            "height": 100,
+            "y": 500,
+            "type": "file",
+            "x": -80,
+            "file": "Working Projects/Repositories/FBW Royalty Report.md"
+          },
+          {
+            "id": "work-4",
+            "width": 300,
+            "height": 100,
+            "y": 740,
+            "type": "file",
+            "x": -1550,
+            "file": "Working Projects/Repositories/GitHub Desktop Tutorial.md"
+          },
+          {
+            "id": "work-5",
+            "width": 300,
+            "height": 100,
+            "y": 740,
+            "type": "file",
+            "x": -1060,
+            "file": "Working Projects/Repositories/Global Purchase Report.md"
+          },
+          {
+            "id": "work-6",
+            "width": 300,
+            "height": 100,
+            "y": 740,
+            "type": "file",
+            "x": -570,
+            "file": "Working Projects/Repositories/GPL Gold Plume.md"
+          },
+          {
+            "id": "work-7",
+            "width": 300,
+            "height": 100,
+            "y": 740,
+            "type": "file",
+            "x": -80,
+            "file": "Working Projects/Repositories/HKFRS AS Study Platform.md"
+          },
+          {
+            "id": "work-8",
+            "width": 300,
+            "height": 100,
+            "y": 980,
+            "type": "file",
+            "x": -1550,
+            "file": "Working Projects/Repositories/HKICPA Standards and Study Library.md"
+          },
+          {
+            "id": "work-9",
+            "width": 300,
+            "height": 100,
+            "y": 980,
+            "type": "file",
+            "x": -1060,
+            "file": "Working Projects/Repositories/Hong Kong Tax Study Hub.md"
+          },
+          {
+            "id": "work-10",
+            "width": 300,
+            "height": 100,
+            "y": 980,
+            "type": "file",
+            "x": -570,
+            "file": "Working Projects/Repositories/IELTS Prep Desk.md"
+          },
+          {
+            "id": "work-11",
+            "width": 300,
+            "height": 100,
+            "y": 980,
+            "type": "file",
+            "x": -80,
+            "file": "Working Projects/Repositories/MPL System Portal.md"
+          },
+          {
+            "id": "work-12",
+            "width": 300,
+            "height": 100,
+            "y": 1220,
+            "type": "file",
+            "x": -1550,
+            "file": "Working Projects/Repositories/MPL.md"
+          },
+          {
+            "id": "work-13",
+            "width": 300,
+            "height": 100,
+            "y": 1220,
+            "type": "file",
+            "x": -1060,
+            "file": "Working Projects/Repositories/MTC Purchase Report.md"
+          },
+          {
+            "id": "work-14",
+            "width": 300,
+            "height": 100,
+            "y": 1220,
+            "type": "file",
+            "x": -570,
+            "file": "Working Projects/Repositories/MTC Sales Report.md"
+          },
+          {
+            "id": "work-15",
+            "width": 300,
+            "height": 100,
+            "y": 1220,
+            "type": "file",
+            "x": -80,
+            "file": "Working Projects/Repositories/RMB CNH Exchange Report.md"
+          },
+          {
+            "id": "work-16",
+            "width": 300,
+            "height": 100,
+            "y": 1460,
+            "type": "file",
+            "x": -1550,
+            "file": "Working Projects/Repositories/SageMaker MovieLens.md"
+          },
+          {
+            "id": "work-17",
+            "width": 300,
+            "height": 100,
+            "y": 1460,
+            "type": "file",
+            "x": -1060,
+            "file": "Working Projects/Repositories/System Module.md"
+          },
+          {
+            "id": "work-18",
+            "width": 300,
+            "height": 100,
+            "y": 1460,
+            "type": "file",
+            "x": -570,
+            "file": "Working Projects/Repositories/Weekly Exchange Rate Report.md"
+          },
+          {
+            "id": "skill-0",
+            "width": 300,
+            "height": 100,
+            "y": 500,
+            "type": "file",
+            "x": 650,
+            "file": "Skills/Repositories/Claude Skills Backup Repository.md"
+          },
+          {
+            "id": "skill-1",
+            "width": 300,
+            "height": 100,
+            "y": 500,
+            "type": "file",
+            "x": 1040,
+            "file": "Skills/Repositories/HK Finance Skills Repository.md"
+          },
+          {
+            "id": "skill-2",
+            "width": 300,
+            "height": 100,
+            "y": 680,
+            "type": "file",
+            "x": 650,
+            "file": "Skills/Repositories/Personal Skills Repository.md"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b7af1def9736a5d6",
+      "created": "2026-09-23",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Project Notes/Global Purchase Report/Global Purchase Report RPA - Monthly Pipeline.canvas",
+      "sourceFile": "second-brain/Working Projects/Project Notes/Global Purchase Report/Global Purchase Report RPA - Monthly Pipeline.canvas",
+      "sourceHash": "575e277bf7a271256a6725ef6deacb6bf08f57907c568888662efbf0784ce4f3",
+      "title": "Global Purchase Report RPA - Monthly Pipeline",
+      "notes": "Obsidian canvas with 15 nodes and 12 connections.\n\n\n\n# Global Purchase Report RPA\n## Monthly PowerShell Pipeline — 2026-08 ✅ Completed 2026-09-23\n\n### 1. Build-GlobalPurchaseReport.ps1\n**Purpose 用途:** 合併7個實體資料＋更新匯率表，產出當月新報表\nMerges all 7 entities' data + updates the exchange rate block, produces this month's new Report file\n**Status 狀態:** ✅ 已完成 Done — 7個實體皆處理成功：MHK 794列、STC 1850列、MZQ 692/6199列、MIL 2518/17194列、RACO 395/3003列、TVS 23/3274列、MAZAL 26/967列\nAll 7 entities processed successfully with the row counts above\n⚠️ RACO 分頁名稱主控台顯示亂碼但屬正常 fallback（來源檔只有 Sheet1，已知並記錄於 SOP，不影響結果）；PEN 匯率照常留白 待步驟1.5視情況補上\nRACO sheet-name console mojibake is a known/documented fallback (source only has Sheet1) - harmless; PEN rate left blank as usual, pending step 1.5 if needed\n\n### 1.5 Get-PenExchangeRate.ps1\n**Purpose 用途:** 補 STANDARD EXCHANGE RATE.xls 缺少的 PEN 匯率（MAZ 用），寫入 Exchange Rate 分頁 M欄\nFills the PEN rate gap (needed for MAZ), writes it into the Exchange Rate tab column M\n**Status 狀態:** ❓ 本月未確認 Unconfirmed this month — 尚未確認 MAZ 8月資料是否真的有 PEN 交易，需先檢查再決定是否要執行\nNot yet confirmed whether MAZ's August data actually includes any PEN transactions - check before deciding whether this step is needed\n\n### 2. 手動填 AA2:AB2 並計算 Manual AA2:AB2 fill + calculate\n**Purpose 用途:** 為新增列補上 Max/Min PO Price 公式，是後續步驟能否正確執行的前提\nFills Max/Min PO Price formulas for new rows — a precondition for the next step\n**Status 狀態:** ✅ 已完成 Done（推斷 inferred）— 未在本次對話中直接觀察執行過程，但下游 OUTSIDETEMP.xlsx / VBA練習檔已確認 AC:AJ 欄位皆正確填值，證實本步驟與步驟3皆已完成\nNot directly observed in this session, but OUTSIDETEMP.xlsx / the VBA practice file were later confirmed to already have AC:AJ correctly populated, confirming this step (and step 3) were completed\n\n### 3. Complete-FormulaColumns.ps1\n**Purpose 用途:** 依相依順序逐欄填入並凍結 AC~AI 公式，並產出「新供應商」複核表\nFills/freezes columns AC–AI in dependency order, builds the New Vendors review sheet\n**Status 狀態:** ✅ 已完成 Done（推斷，見步驟2說明 inferred, see step 2）— AC:AJ 已於下游檔案確認填值 confirmed populated in downstream files\n\n### Update-TVSTranslations.ps1\n**Purpose 用途:** 修正 TVS 翻譯欄與 Commodity Code\nFixes TVS's translation column and Commodity Code\n**本月狀態:** ✅ 已完成（推斷）Done (inferred) — TVS 8月原始檔已於 2026-09-17 收到（Downloads\\TVS.xlsx）；Build 腳本後續成功處理 TVS（23/3274列），代表已放入 TVS 資料夾並完成前置處理；本腳本實際執行過程未在本次對話中直接觀察到\nAugust's raw TVS.xlsx was received 2026-09-17; the Build script later processed TVS successfully (23/3274 rows), implying it was placed in the TVS folder and prepped — running this script itself wasn't directly observed in this session\n\n### 10. ProdFamiDesc/ProdFamiCode/ProdFamilyFittingsCode（產品家族）+ HTML 報表擴充\n**Purpose 用途:** 來源 Excel 已擴充到第39欄（37: ProdFamiDesc, 38: ProdFamiCode, 39: ProdFamilyFittingsCode）；HTML 報表含點擊篩選、欄寬拖曳調整、Product Family 篩選、SKU/Part 家族圓餅圖、拆分 KPI 卡片\nSource Excel has grown to 39 columns (37: ProdFamiDesc, 38: ProdFamiCode, 39: ProdFamilyFittingsCode); HTML report has click-to-drilldown, drag-to-resize columns, Product Family filters, SKU/Part family pie charts, split KPI cards\n**Status 狀態:** ✅ 8月已確認 OUTSIDETEMP.xlsx 與 VBA練習檔皆已是 A1:AM50263（39欄）結構，Fittings樞紐分析表依賴全部39欄\nAugust confirmed both OUTSIDETEMP.xlsx and the VBA practice file are already A1:AM50263 (39 cols); the Fittings pivot depends on all 39\n⚠️ 新發現重要風險（見步驟5）：Publish-OutsideReport.ps1 寫死36欄(A:AJ)假設，對已擴充至39欄的檔案直接執行會把表格縮回36欄、弄壞 Fittings 樞紐分析表\nNewly found risk (see step 5): Publish-OutsideReport.ps1 hardcodes a 36-column (A:AJ) assumption — running it against a file already expanded to 39 columns would shrink Table1 back down and break the Fittings pivot\nProdFamiDesc 目前仍不含 TVS 與 MAZ 資料（來源自動化尚未涵蓋，已另行申請）\nStill excludes TVS and MAZ (source automation doesn't cover them yet, requested separately)\n\n### 9. New-MonthlySlackPost.ps1\n**Purpose 用途:** 發到 Slack `global_purchase_report` 私人頻道，附加互動式HTML報表\nPosts to the Slack `global_purchase_report` private channel, with the interactive HTML report attached\n**Status 狀態:** ✅ 已完成 Done — 2026-09-23 真的發布到頻道（HTML附件 34.8MB，50,262列）\nActually posted live to the channel (HTML attached, 34.8MB, 50,262 rows)\n本月起關閉一次性網頁版介紹文案（-IncludeHtmlIntro:$false，7月已介紹過）\nDropped the one-time web-version intro copy this month (-IncludeHtmlIntro:$false — already introduced in July)\n⚠️ 沒有草稿機制，執行後立刻真實發布，所有頻道成員馬上看得到\nNo draft concept — posts live immediately, visible to all channel members right away\n\n### 8. New-MonthlyEmailDraft.ps1\n**Purpose 用途:** 建立 Gmail 草稿通知（比照舊RPA收件人清單與主旨/內文格式，現為3位To+12位Cc — WSCheung已於2026-09-02移除，已離職）\nCreates a Gmail draft notice (matches the old RPA's subject/body format, now 3 To + 12 Cc — WSCheung removed 2026-09-02, left the company)\n**Status 狀態:** ⏳ 草稿已建立 Draft created 2026-09-23（id: r-3616236099678842769），尚未寄出\nDraft created (id above) — not yet sent\n只建草稿，絕不自動寄出；報表檔過大無法自動附加，需使用者自行手動附加、確認內容後親自寄出；本月起關閉一次性網頁版介紹文案\nOnly ever creates a draft, never auto-sends; the report file is too large to auto-attach — user still needs to manually attach it, review, and send; dropped the one-time web-version intro copy this month\n\n### （選用 VBA - Optional）Generate-PurchaseReportHtml.ps1\n**Purpose 用途:** 轉成單一自包含互動式 HTML（圖表、篩選、CSV 匯出），方便手機/平板瀏覽\nConverts the finalized report into a single self-contained interactive HTML for mobile/tablet viewing\n**Status 狀態:** ✅ 已完成 Done 2026-09-23 — 已用 `-Publish` 產出 FIN_Global_Purchase -Report_html_202608.html（34.8MB，50,262列）\nDone 2026-09-23 — published FIN_Global_Purchase -Report_html_202608.html (34.8MB, 50,262 rows) via `-Publish`\n⚠️ 重要架構發現：本腳本是依「巢狀 REPORT 資料夾」(`Global Purchase Report RPA\\REPORT\\`) 內最新的日期版交付檔（依檔名期間排序）自動判斷來源，並非直接讀取主報表或VBA練習檔——本月一度卡在7月版，因為8月的日期版交付檔（見步驟5）當時還沒被產生\nImportant architecture finding: this script auto-detects its source from the newest dated-deliverable file (sorted by the reporting period in its filename) in the NESTED `Global Purchase Report RPA\\REPORT\\` folder — not the root master report or the VBA practice file directly. It got stuck showing July this month simply because the August dated deliverable (see step 5) hadn't been created yet\n\n### 4. New-ReportAuditSummary.ps1\n**Purpose 用途:** 產出稽核摘要：報表最後列號、各實體當月列數、當月總列數\nProduces an audit summary: last row, each entity's row count, total rows this month\n**Status 狀態:** ❓ 未確認是否執行 Unconfirmed whether run this month — 唯讀不影響其他步驟 read-only, doesn't block anything else\n\n### 5. Publish-OutsideReport.ps1\n**Purpose 用途:** 將定稿報表發布/對外輸出這個月的最終版本\nPublishes/outputs the finalized version of this month's report externally\n**Status 狀態:** ⚠️ 本月刻意跳過此腳本 Deliberately skipped this month — 發現此腳本寫死36欄(A:AJ)假設，對已擴充到39欄的 OUTSIDETEMP.xlsx / VBA練習檔執行會用 Table1.Resize() 把表格縮回36欄、弄壞依賴39欄的 Fittings 樞紐分析表\nDiscovered this script hardcodes a 36-column (A:AJ) assumption; running it against the now-39-column OUTSIDETEMP files would Table1.Resize() them back down to 36 cols and break the Fittings pivot\n改為手動流程 Used a manual process instead：使用者自行重新整理樞紐分析表並另存新檔，產出 FIN_MHK+STC+MZQ+MIL+RACO_PUR_REPORT-(1-8)2026_20260923_RV0.xlsx（Claude 原本的自動化嘗試被安全機制以「不可逆本機異動」擋下，改由使用者親自執行完成）\nUser manually refreshed the pivots and Save-As'd FIN_MHK+STC+MZQ+MIL+RACO_PUR_REPORT-(1-8)2026_20260923_RV0.xlsx (Claude's own automated attempt was blocked by the safety classifier as \"irreversible local destruction\", so the user completed it directly)\n🔧 待辦 TODO：下次執行前需先修正腳本的欄數假設（改成自動偵測實際欄數），或先手動確認欄數是否仍為36欄\nTODO before next run: fix the script's column-count assumption (auto-detect instead of hardcoding), or manually confirm the column count is still 36 first\n\n### ✅ 已解決 Resolved: OUTSIDETEMP_VBA_PRACTICE.xlsm\n跟 OUTSIDETEMP.xlsx 同一種已損壞/缺失的 data 命名範圍問題（曾影響18個樞紐分析表）——2026-08-27 人工在名稱管理員新增（非編輯）工作表層級名稱 data，指向 =Table1[#All]。已用三種方式交叉驗證：25個樞紐分析表全部重新整理成功、COUNTA(data)回傳合理列數、欄位名稱正確無誤。\nSame broken/missing `data` named-range issue OUTSIDETEMP.xlsx had (used to affect 18 PivotTables) — fixed 2026-08-27 by manually creating (not editing) a workbook-scoped `data` name pointing at `=Table1[#All]`. Cross-verified three ways: all 25 PivotTables refresh successfully, COUNTA(data) returns a sensible row count, and field names are all correct.\n**2026-09-23 8月更新 August update:** 使用者手動貼入8月 Data + Exchange Rate 資料後，Claude 重新整理全部25個樞紐分析表並存檔成功，PT_Timeline 已確認顯示 2026-08（$18,691,668）；Dashboard KPI Total Purchase = $142,493,283.996（Jan–Aug）。附帶發現：「Unique Vendors」KPI 顯示 50,262（跟總列數相同），疑似公式在算列數而非不重複廠商數，尚未修正。\nAfter the user manually pasted August's Data + Exchange Rate values, Claude refreshed all 25 PivotTables and saved successfully — PT_Timeline confirmed showing 2026-08 ($18,691,668); Dashboard KPI Total Purchase = $142,493,283.996 (Jan–Aug). Side finding, not fixed: the \"Unique Vendors\" KPI shows 50,262 (same as total row count) — likely counting rows rather than distinct vendors.",
+      "tags": [
+        "canvas"
+      ],
+      "links": [],
+      "canvas": {
+        "nodes": [
+          {
+            "id": "grp-pipeline",
+            "type": "group",
+            "x": -120,
+            "y": -1000,
+            "width": 1680,
+            "height": 3180,
+            "color": "1",
+            "label": "月結流程 Monthly Pipeline (2026-08) — ✅ 已完成 Completed"
+          },
+          {
+            "id": "fe731727390318d7",
+            "x": 1239,
+            "y": -1170,
+            "width": 250,
+            "height": 60,
+            "type": "text",
+            "text": ""
+          },
+          {
+            "id": "n-title",
+            "type": "text",
+            "text": "# Global Purchase Report RPA\n## Monthly PowerShell Pipeline — 2026-08 ✅ Completed 2026-09-23",
+            "x": -40,
+            "y": -760,
+            "width": 500,
+            "height": 80
+          },
+          {
+            "id": "n-step1",
+            "type": "text",
+            "text": "### 1. Build-GlobalPurchaseReport.ps1\n**Purpose 用途:** 合併7個實體資料＋更新匯率表，產出當月新報表\nMerges all 7 entities' data + updates the exchange rate block, produces this month's new Report file\n**Status 狀態:** ✅ 已完成 Done — 7個實體皆處理成功：MHK 794列、STC 1850列、MZQ 692/6199列、MIL 2518/17194列、RACO 395/3003列、TVS 23/3274列、MAZAL 26/967列\nAll 7 entities processed successfully with the row counts above\n⚠️ RACO 分頁名稱主控台顯示亂碼但屬正常 fallback（來源檔只有 Sheet1，已知並記錄於 SOP，不影響結果）；PEN 匯率照常留白 待步驟1.5視情況補上\nRACO sheet-name console mojibake is a known/documented fallback (source only has Sheet1) - harmless; PEN rate left blank as usual, pending step 1.5 if needed",
+            "x": -20,
+            "y": -600,
+            "width": 850,
+            "height": 150
+          },
+          {
+            "id": "n-step1-5",
+            "type": "text",
+            "text": "### 1.5 Get-PenExchangeRate.ps1\n**Purpose 用途:** 補 STANDARD EXCHANGE RATE.xls 缺少的 PEN 匯率（MAZ 用），寫入 Exchange Rate 分頁 M欄\nFills the PEN rate gap (needed for MAZ), writes it into the Exchange Rate tab column M\n**Status 狀態:** ❓ 本月未確認 Unconfirmed this month — 尚未確認 MAZ 8月資料是否真的有 PEN 交易，需先檢查再決定是否要執行\nNot yet confirmed whether MAZ's August data actually includes any PEN transactions - check before deciding whether this step is needed",
+            "x": -20,
+            "y": -420,
+            "width": 850,
+            "height": 150
+          },
+          {
+            "id": "n-step2",
+            "type": "text",
+            "text": "### 2. 手動填 AA2:AB2 並計算 Manual AA2:AB2 fill + calculate\n**Purpose 用途:** 為新增列補上 Max/Min PO Price 公式，是後續步驟能否正確執行的前提\nFills Max/Min PO Price formulas for new rows — a precondition for the next step\n**Status 狀態:** ✅ 已完成 Done（推斷 inferred）— 未在本次對話中直接觀察執行過程，但下游 OUTSIDETEMP.xlsx / VBA練習檔已確認 AC:AJ 欄位皆正確填值，證實本步驟與步驟3皆已完成\nNot directly observed in this session, but OUTSIDETEMP.xlsx / the VBA practice file were later confirmed to already have AC:AJ correctly populated, confirming this step (and step 3) were completed",
+            "x": -20,
+            "y": -240,
+            "width": 850,
+            "height": 140
+          },
+          {
+            "id": "n-step3",
+            "type": "text",
+            "text": "### 3. Complete-FormulaColumns.ps1\n**Purpose 用途:** 依相依順序逐欄填入並凍結 AC~AI 公式，並產出「新供應商」複核表\nFills/freezes columns AC–AI in dependency order, builds the New Vendors review sheet\n**Status 狀態:** ✅ 已完成 Done（推斷，見步驟2說明 inferred, see step 2）— AC:AJ 已於下游檔案確認填值 confirmed populated in downstream files",
+            "x": -20,
+            "y": -70,
+            "width": 850,
+            "height": 140
+          },
+          {
+            "id": "n-tvs",
+            "type": "text",
+            "text": "### Update-TVSTranslations.ps1\n**Purpose 用途:** 修正 TVS 翻譯欄與 Commodity Code\nFixes TVS's translation column and Commodity Code\n**本月狀態:** ✅ 已完成（推斷）Done (inferred) — TVS 8月原始檔已於 2026-09-17 收到（Downloads\\TVS.xlsx）；Build 腳本後續成功處理 TVS（23/3274列），代表已放入 TVS 資料夾並完成前置處理；本腳本實際執行過程未在本次對話中直接觀察到\nAugust's raw TVS.xlsx was received 2026-09-17; the Build script later processed TVS successfully (23/3274 rows), implying it was placed in the TVS folder and prepped — running this script itself wasn't directly observed in this session",
+            "x": 880,
+            "y": -240,
+            "width": 280,
+            "height": 480
+          },
+          {
+            "id": "n-step10-prodfami",
+            "type": "text",
+            "text": "### 10. ProdFamiDesc/ProdFamiCode/ProdFamilyFittingsCode（產品家族）+ HTML 報表擴充\n**Purpose 用途:** 來源 Excel 已擴充到第39欄（37: ProdFamiDesc, 38: ProdFamiCode, 39: ProdFamilyFittingsCode）；HTML 報表含點擊篩選、欄寬拖曳調整、Product Family 篩選、SKU/Part 家族圓餅圖、拆分 KPI 卡片\nSource Excel has grown to 39 columns (37: ProdFamiDesc, 38: ProdFamiCode, 39: ProdFamilyFittingsCode); HTML report has click-to-drilldown, drag-to-resize columns, Product Family filters, SKU/Part family pie charts, split KPI cards\n**Status 狀態:** ✅ 8月已確認 OUTSIDETEMP.xlsx 與 VBA練習檔皆已是 A1:AM50263（39欄）結構，Fittings樞紐分析表依賴全部39欄\nAugust confirmed both OUTSIDETEMP.xlsx and the VBA practice file are already A1:AM50263 (39 cols); the Fittings pivot depends on all 39\n⚠️ 新發現重要風險（見步驟5）：Publish-OutsideReport.ps1 寫死36欄(A:AJ)假設，對已擴充至39欄的檔案直接執行會把表格縮回36欄、弄壞 Fittings 樞紐分析表\nNewly found risk (see step 5): Publish-OutsideReport.ps1 hardcodes a 36-column (A:AJ) assumption — running it against a file already expanded to 39 columns would shrink Table1 back down and break the Fittings pivot\nProdFamiDesc 目前仍不含 TVS 與 MAZ 資料（來源自動化尚未涵蓋，已另行申請）\nStill excludes TVS and MAZ (source automation doesn't cover them yet, requested separately)",
+            "x": -20,
+            "y": 1800,
+            "width": 980,
+            "height": 340,
+            "color": "6"
+          },
+          {
+            "id": "n-step9-slack",
+            "type": "text",
+            "text": "### 9. New-MonthlySlackPost.ps1\n**Purpose 用途:** 發到 Slack `global_purchase_report` 私人頻道，附加互動式HTML報表\nPosts to the Slack `global_purchase_report` private channel, with the interactive HTML report attached\n**Status 狀態:** ✅ 已完成 Done — 2026-09-23 真的發布到頻道（HTML附件 34.8MB，50,262列）\nActually posted live to the channel (HTML attached, 34.8MB, 50,262 rows)\n本月起關閉一次性網頁版介紹文案（-IncludeHtmlIntro:$false，7月已介紹過）\nDropped the one-time web-version intro copy this month (-IncludeHtmlIntro:$false — already introduced in July)\n⚠️ 沒有草稿機制，執行後立刻真實發布，所有頻道成員馬上看得到\nNo draft concept — posts live immediately, visible to all channel members right away",
+            "x": -20,
+            "y": 1420,
+            "width": 980,
+            "height": 320,
+            "color": "6"
+          },
+          {
+            "id": "n-step8-gmail",
+            "type": "text",
+            "text": "### 8. New-MonthlyEmailDraft.ps1\n**Purpose 用途:** 建立 Gmail 草稿通知（比照舊RPA收件人清單與主旨/內文格式，現為3位To+12位Cc — WSCheung已於2026-09-02移除，已離職）\nCreates a Gmail draft notice (matches the old RPA's subject/body format, now 3 To + 12 Cc — WSCheung removed 2026-09-02, left the company)\n**Status 狀態:** ⏳ 草稿已建立 Draft created 2026-09-23（id: r-3616236099678842769），尚未寄出\nDraft created (id above) — not yet sent\n只建草稿，絕不自動寄出；報表檔過大無法自動附加，需使用者自行手動附加、確認內容後親自寄出；本月起關閉一次性網頁版介紹文案\nOnly ever creates a draft, never auto-sends; the report file is too large to auto-attach — user still needs to manually attach it, review, and send; dropped the one-time web-version intro copy this month",
+            "x": -20,
+            "y": 1040,
+            "width": 850,
+            "height": 200
+          },
+          {
+            "id": "n-step-html",
+            "type": "text",
+            "text": "### （選用 VBA - Optional）Generate-PurchaseReportHtml.ps1\n**Purpose 用途:** 轉成單一自包含互動式 HTML（圖表、篩選、CSV 匯出），方便手機/平板瀏覽\nConverts the finalized report into a single self-contained interactive HTML for mobile/tablet viewing\n**Status 狀態:** ✅ 已完成 Done 2026-09-23 — 已用 `-Publish` 產出 FIN_Global_Purchase -Report_html_202608.html（34.8MB，50,262列）\nDone 2026-09-23 — published FIN_Global_Purchase -Report_html_202608.html (34.8MB, 50,262 rows) via `-Publish`\n⚠️ 重要架構發現：本腳本是依「巢狀 REPORT 資料夾」(`Global Purchase Report RPA\\REPORT\\`) 內最新的日期版交付檔（依檔名期間排序）自動判斷來源，並非直接讀取主報表或VBA練習檔——本月一度卡在7月版，因為8月的日期版交付檔（見步驟5）當時還沒被產生\nImportant architecture finding: this script auto-detects its source from the newest dated-deliverable file (sorted by the reporting period in its filename) in the NESTED `Global Purchase Report RPA\\REPORT\\` folder — not the root master report or the VBA practice file directly. It got stuck showing July this month simply because the August dated deliverable (see step 5) hadn't been created yet",
+            "x": -20,
+            "y": 820,
+            "width": 850,
+            "height": 180,
+            "color": "3"
+          },
+          {
+            "id": "n-step4",
+            "type": "text",
+            "text": "### 4. New-ReportAuditSummary.ps1\n**Purpose 用途:** 產出稽核摘要：報表最後列號、各實體當月列數、當月總列數\nProduces an audit summary: last row, each entity's row count, total rows this month\n**Status 狀態:** ❓ 未確認是否執行 Unconfirmed whether run this month — 唯讀不影響其他步驟 read-only, doesn't block anything else",
+            "x": -20,
+            "y": 100,
+            "width": 850,
+            "height": 140
+          },
+          {
+            "id": "n-step5",
+            "type": "text",
+            "text": "### 5. Publish-OutsideReport.ps1\n**Purpose 用途:** 將定稿報表發布/對外輸出這個月的最終版本\nPublishes/outputs the finalized version of this month's report externally\n**Status 狀態:** ⚠️ 本月刻意跳過此腳本 Deliberately skipped this month — 發現此腳本寫死36欄(A:AJ)假設，對已擴充到39欄的 OUTSIDETEMP.xlsx / VBA練習檔執行會用 Table1.Resize() 把表格縮回36欄、弄壞依賴39欄的 Fittings 樞紐分析表\nDiscovered this script hardcodes a 36-column (A:AJ) assumption; running it against the now-39-column OUTSIDETEMP files would Table1.Resize() them back down to 36 cols and break the Fittings pivot\n改為手動流程 Used a manual process instead：使用者自行重新整理樞紐分析表並另存新檔，產出 FIN_MHK+STC+MZQ+MIL+RACO_PUR_REPORT-(1-8)2026_20260923_RV0.xlsx（Claude 原本的自動化嘗試被安全機制以「不可逆本機異動」擋下，改由使用者親自執行完成）\nUser manually refreshed the pivots and Save-As'd FIN_MHK+STC+MZQ+MIL+RACO_PUR_REPORT-(1-8)2026_20260923_RV0.xlsx (Claude's own automated attempt was blocked by the safety classifier as \"irreversible local destruction\", so the user completed it directly)\n🔧 待辦 TODO：下次執行前需先修正腳本的欄數假設（改成自動偵測實際欄數），或先手動確認欄數是否仍為36欄\nTODO before next run: fix the script's column-count assumption (auto-detect instead of hardcoding), or manually confirm the column count is still 36 first",
+            "x": -20,
+            "y": 270,
+            "width": 850,
+            "height": 220
+          },
+          {
+            "id": "n-vba-practice-issue",
+            "type": "text",
+            "text": "### ✅ 已解決 Resolved: OUTSIDETEMP_VBA_PRACTICE.xlsm\n跟 OUTSIDETEMP.xlsx 同一種已損壞/缺失的 data 命名範圍問題（曾影響18個樞紐分析表）——2026-08-27 人工在名稱管理員新增（非編輯）工作表層級名稱 data，指向 =Table1[#All]。已用三種方式交叉驗證：25個樞紐分析表全部重新整理成功、COUNTA(data)回傳合理列數、欄位名稱正確無誤。\nSame broken/missing `data` named-range issue OUTSIDETEMP.xlsx had (used to affect 18 PivotTables) — fixed 2026-08-27 by manually creating (not editing) a workbook-scoped `data` name pointing at `=Table1[#All]`. Cross-verified three ways: all 25 PivotTables refresh successfully, COUNTA(data) returns a sensible row count, and field names are all correct.\n**2026-09-23 8月更新 August update:** 使用者手動貼入8月 Data + Exchange Rate 資料後，Claude 重新整理全部25個樞紐分析表並存檔成功，PT_Timeline 已確認顯示 2026-08（$18,691,668）；Dashboard KPI Total Purchase = $142,493,283.996（Jan–Aug）。附帶發現：「Unique Vendors」KPI 顯示 50,262（跟總列數相同），疑似公式在算列數而非不重複廠商數，尚未修正。\nAfter the user manually pasted August's Data + Exchange Rate values, Claude refreshed all 25 PivotTables and saved successfully — PT_Timeline confirmed showing 2026-08 ($18,691,668); Dashboard KPI Total Purchase = $142,493,283.996 (Jan–Aug). Side finding, not fixed: the \"Unique Vendors\" KPI shows 50,262 (same as total row count) — likely counting rows rather than distinct vendors.",
+            "x": -20,
+            "y": 510,
+            "width": 850,
+            "height": 250,
+            "color": "4"
+          }
+        ],
+        "edges": [
+          {
+            "id": "e-title-step1",
+            "fromNode": "n-title",
+            "fromSide": "bottom",
+            "toNode": "n-step1",
+            "toSide": "top"
+          },
+          {
+            "id": "e-1-1_5",
+            "fromNode": "n-step1",
+            "fromSide": "bottom",
+            "toNode": "n-step1-5",
+            "toSide": "top"
+          },
+          {
+            "id": "e-1_5-2",
+            "fromNode": "n-step1-5",
+            "fromSide": "bottom",
+            "toNode": "n-step2",
+            "toSide": "top"
+          },
+          {
+            "id": "e-2-3",
+            "fromNode": "n-step2",
+            "fromSide": "bottom",
+            "toNode": "n-step3",
+            "toSide": "top"
+          },
+          {
+            "id": "e-3-4",
+            "fromNode": "n-step3",
+            "fromSide": "bottom",
+            "toNode": "n-step4",
+            "toSide": "top"
+          },
+          {
+            "id": "e-4-5",
+            "fromNode": "n-step4",
+            "fromSide": "bottom",
+            "toNode": "n-step5",
+            "toSide": "top"
+          },
+          {
+            "id": "e-5-vbaissue",
+            "fromNode": "n-step5",
+            "fromSide": "bottom",
+            "toNode": "n-vba-practice-issue",
+            "toSide": "top"
+          },
+          {
+            "id": "e-5-html",
+            "fromNode": "n-vba-practice-issue",
+            "fromSide": "bottom",
+            "toNode": "n-step-html",
+            "toSide": "top"
+          },
+          {
+            "id": "e-step3-tvs",
+            "fromNode": "n-step3",
+            "fromSide": "right",
+            "toNode": "n-tvs",
+            "toSide": "left"
+          },
+          {
+            "id": "e-html-gmail",
+            "fromNode": "n-step-html",
+            "fromSide": "bottom",
+            "toNode": "n-step8-gmail",
+            "toSide": "top"
+          },
+          {
+            "id": "e-gmail-slack",
+            "fromNode": "n-step8-gmail",
+            "fromSide": "bottom",
+            "toNode": "n-step9-slack",
+            "toSide": "top"
+          },
+          {
+            "id": "e-slack-prodfami",
+            "fromNode": "n-step9-slack",
+            "fromSide": "bottom",
+            "toNode": "n-step10-prodfami",
+            "toSide": "top"
+          }
+        ]
+      }
     }
   ],
   "cards": [],
@@ -862,6 +2235,13 @@
   "meta": {
     "created": "2026-10-27",
     "owner": "anthonymankaho",
-    "version": 1
+    "version": 1,
+    "secondBrainImport": {
+      "at": "2026-10-28T10:06:44.932Z",
+      "markdownFiles": 82,
+      "canvasFiles": 2,
+      "sourceFiles": 85,
+      "directory": "second-brain"
+    }
   }
 }

@@ -1,8 +1,11 @@
-# ⬡ MyVault OS — Personal OS
+# MyVault OS data
 
-![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-blue)
-![Platform](https://img.shields.io/badge/platform-Web%20%7C%20Win%20%7C%20Mac%20%7C%20iPad-orange)
-![AI](https://img.shields.io/badge/AI-Kimi%20%2B%20Qwen-8A2BE2)
+This public repository contains the data displayed by [MyVault OS](https://anthonymankaho.github.io/myvault-os/).
 
-> 你的跨平台私人 AI 工作站...
+- `vault.json`: 43 skills, 38 projects, and 3 documents, with full Markdown note bodies, tags, links, and source references.
+- `second-brain/`: complete copies of 82 Markdown files and 2 Obsidian canvases, plus the source `.gitignore`.
+- Canvas records retain their complete nodes, positions, text, and connections in the `canvas` field.
+
+Git history and Obsidian application settings are excluded from the source mirror. Existing record IDs, project statuses, and unrelated vault data are preserved during import.
+
+To refresh the import, use `tools/import-obsidian.mjs` from the website repository with the source folder and this checkout's path. Review and commit the changes before pushing.
