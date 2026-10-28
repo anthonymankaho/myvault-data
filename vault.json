@@ -1,8 +1,628 @@
 {
-  "skills": [],
-  "projects": [],
-  "docs": [],
+  "skills": [
+    {
+      "id": "5ed0e5648310c954",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Reference - AI MFS Governance Framework.md",
+      "name": "AI MFS Governance Framework"
+    },
+    {
+      "id": "1334b31d08fbd335",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Reference - NotebookLM Video Subtitle Prompts.md",
+      "name": "NotebookLM Video + Subtitle Prompts"
+    },
+    {
+      "id": "5e8944b1b75bd697",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Repositories/Claude Skills Backup Repository.md",
+      "name": "Claude Skills Backup Repository"
+    },
+    {
+      "id": "3c2bf09e9f7424ee",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Repositories/HK Finance Skills Repository.md",
+      "name": "HK Finance Skills Repository"
+    },
+    {
+      "id": "c91018f0716c379d",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Repositories/Personal Skills Repository.md",
+      "name": "Personal Skills Repository"
+    },
+    {
+      "id": "95034bec105e898a",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/RMB CNH Exchange Rate (May Lau).md",
+      "name": "RMB (CNH) Exchange Rate to May Lau"
+    },
+    {
+      "id": "270fcdc951f75d8d",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Artifact Capabilities.md",
+      "name": "Skill: Artifact Capabilities"
+    },
+    {
+      "id": "8e42b61af02e8c10",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Artifact Design.md",
+      "name": "Skill: Artifact Design"
+    },
+    {
+      "id": "235a181a7e000e9a",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Artifact Diagramming.md",
+      "name": "Skill: Artifact Diagramming"
+    },
+    {
+      "id": "db2fa3dc557c1652",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Bilingual Replies.md",
+      "name": "Skill: Bilingual Replies"
+    },
+    {
+      "id": "3aa94c885def370c",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Brainstorming.md",
+      "name": "Skill: Brainstorming (Superpowers)"
+    },
+    {
+      "id": "380c9c1c4d6045cb",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Claude API.md",
+      "name": "Skill: Claude API"
+    },
+    {
+      "id": "19bb1ef44c9f6af7",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Code Review.md",
+      "name": "Skill: Code Review"
+    },
+    {
+      "id": "e03e7aa87aa6e0a0",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Dataviz.md",
+      "name": "Skill: Dataviz"
+    },
+    {
+      "id": "910080d769d46202",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Design (Canvas).md",
+      "name": "Skill: Design (Canvas)"
+    },
+    {
+      "id": "c8f423de510fb59e",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Dispatching Parallel Agents.md",
+      "name": "Skill: Dispatching Parallel Agents (Superpowers)"
+    },
+    {
+      "id": "918449d7c746d906",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Excel to Interactive HTML Report.md",
+      "name": "Skill: Excel to Interactive HTML Report"
+    },
+    {
+      "id": "08530e1a6778a663",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Executing Plans.md",
+      "name": "Skill: Executing Plans (Superpowers)"
+    },
+    {
+      "id": "e0a39c0eb2a673c1",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Fewer Permission Prompts.md",
+      "name": "Skill: Fewer Permission Prompts"
+    },
+    {
+      "id": "2741331bf9a51d86",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Finishing a Development Branch.md",
+      "name": "Skill: Finishing a Development Branch (Superpowers)"
+    },
+    {
+      "id": "54dab06a63cbb68a",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Grill Me.md",
+      "name": "Skill: Grill Me"
+    },
+    {
+      "id": "5ba0f317c75541ad",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Hardening Windows Scheduled Tasks.md",
+      "name": "Skill: Hardening Windows Scheduled Tasks"
+    },
+    {
+      "id": "b712cb30aff2d79e",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Incremental Report File Chaining.md",
+      "name": "Skill: Incremental Report File Chaining"
+    },
+    {
+      "id": "2a00f3a6a4f5f75a",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Init.md",
+      "name": "Skill: Init"
+    },
+    {
+      "id": "d784f72da961b608",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Keybindings Help.md",
+      "name": "Skill: Keybindings Help"
+    },
+    {
+      "id": "646e6a9a7c464ffe",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Loop.md",
+      "name": "Skill: Loop"
+    },
+    {
+      "id": "f4df859c104f00eb",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Receiving Code Review.md",
+      "name": "Skill: Receiving Code Review (Superpowers)"
+    },
+    {
+      "id": "c2142367daa74f93",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Requesting Code Review.md",
+      "name": "Skill: Requesting Code Review (Superpowers)"
+    },
+    {
+      "id": "de38564acffab007",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Run.md",
+      "name": "Skill: Run"
+    },
+    {
+      "id": "c59f24f7c3f091e0",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Schedule.md",
+      "name": "Skill: Schedule"
+    },
+    {
+      "id": "5770fa75f47c5976",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Security Review.md",
+      "name": "Skill: Security Review"
+    },
+    {
+      "id": "f559c96e16248e39",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Simplify.md",
+      "name": "Skill: Simplify"
+    },
+    {
+      "id": "dbd0f3f68f34850e",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Subagent-Driven Development.md",
+      "name": "Skill: Subagent-Driven Development (Superpowers)"
+    },
+    {
+      "id": "aa2e702ed12cf50a",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Systematic Debugging.md",
+      "name": "Skill: Systematic Debugging (Superpowers)"
+    },
+    {
+      "id": "abf817c09e09c05c",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Test-Driven Development.md",
+      "name": "Skill: Test-Driven Development (Superpowers)"
+    },
+    {
+      "id": "0f1b1da8a433610a",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Update Config.md",
+      "name": "Skill: Update Config"
+    },
+    {
+      "id": "e55bd096af5458b8",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Using Git Worktrees.md",
+      "name": "Skill: Using Git Worktrees (Superpowers)"
+    },
+    {
+      "id": "ad6758aeb3b35bdc",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Using Superpowers.md",
+      "name": "Skill: Using Superpowers (Superpowers)"
+    },
+    {
+      "id": "a88600b2f5e8d18c",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Verification Before Completion.md",
+      "name": "Skill: Verification Before Completion (Superpowers)"
+    },
+    {
+      "id": "8667aeb6a34426c9",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Writing Plans.md",
+      "name": "Skill: Writing Plans (Superpowers)"
+    },
+    {
+      "id": "54715d87efa9b486",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skill - Writing Skills.md",
+      "name": "Skill: Writing Skills (Superpowers)"
+    },
+    {
+      "id": "d39a1d9ac21c65c1",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Skills Overview.md",
+      "name": "Skills Index"
+    },
+    {
+      "id": "5618b0afcf45353f",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Skills/Working Style and Preferences.md",
+      "name": "How I Like to Work (Claude Code)"
+    }
+  ],
+  "projects": [
+    {
+      "id": "d8d9d2b6e0a90bf8",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Project Notes/Desktop-OneDrive Auto Sync.md",
+      "name": "Desktop→OneDrive Auto Sync",
+      "status": "Active"
+    },
+    {
+      "id": "365b382a77e06822",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Project Notes/EIC FS Roll-Forward.md",
+      "name": "EIC FS Roll-Forward",
+      "status": "Active"
+    },
+    {
+      "id": "c950ee5267330100",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Project Notes/EIC GS Suite HTML Tool.md",
+      "name": "EIC_GS_Suite.html Tool",
+      "status": "Active"
+    },
+    {
+      "id": "cb48a8ee987c1f17",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Project Notes/Global Purchase Report/Global Purchase Report RPA.md",
+      "name": "Global Purchase Report RPA",
+      "status": "Active"
+    },
+    {
+      "id": "357cae2a63593147",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Project Notes/Global Purchase Report/PowerShell Scripts Reference.md",
+      "name": "Global Purchase Report — PowerShell Scripts Reference",
+      "status": "Active"
+    },
+    {
+      "id": "bd6d941a508c3af3",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Project Notes/GPL/GPL FS Roll-Forward.md",
+      "name": "GPL FS Roll-Forward",
+      "status": "Active"
+    },
+    {
+      "id": "ded8a76a5bab5eed",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Project Notes/GPL/GPL JPM Notice Processor.md",
+      "name": "GPL JPM Notice Processor",
+      "status": "Active"
+    },
+    {
+      "id": "de5fdd0b935fa9b7",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Project Notes/GPL/GPL UBS Statement Processor.md",
+      "name": "GPL UBS Statement Processor",
+      "status": "Active"
+    },
+    {
+      "id": "a6c0147841759400",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Project Notes/Monthly Exchange Rate RPA.md",
+      "name": "Monthly Exchange Rate RPA",
+      "status": "Active"
+    },
+    {
+      "id": "a41dd6722c756ac9",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Project Notes/Monthly Worktask Tracker.md",
+      "name": "Monthly Worktask Tracker",
+      "status": "Active"
+    },
+    {
+      "id": "7697617c12ea8f1d",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Project Notes/MPL/MPL Accounting Module.md",
+      "name": "MPL Accounting Module",
+      "status": "Active"
+    },
+    {
+      "id": "452d97f1303b4011",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Project Notes/MPL/MPL Property Management System.md",
+      "name": "MPL Property Management System",
+      "status": "Active"
+    },
+    {
+      "id": "ee7c0dabbe0ad696",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Project Notes/MPL AI-Augmented Financial Close.md",
+      "name": "MPL AI-Augmented Financial Close",
+      "status": "Active"
+    },
+    {
+      "id": "2a46da5788535e03",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Project Notes/MTC Report/MTC Purchase Report.md",
+      "name": "MTC Purchase Report",
+      "status": "Active"
+    },
+    {
+      "id": "8cd09a14a74b21df",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Project Notes/MTC Report/MTC Sales Report.md",
+      "name": "MTC Sales Report",
+      "status": "Active"
+    },
+    {
+      "id": "a2173dfc904d585d",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Project Notes/Weekly Exchange Rate RPA/Weekly Exchange Rate RPA - PowerShell Scripts Reference.md",
+      "name": "Weekly Exchange Rate RPA — PowerShell Scripts Reference",
+      "status": "Active"
+    },
+    {
+      "id": "e698389e1d49c09f",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Project Notes/Weekly Exchange Rate RPA/Weekly Exchange Rate RPA.md",
+      "name": "Weekly Exchange Rate RPA",
+      "status": "Active"
+    },
+    {
+      "id": "f001f01bf18a051e",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Project Notes.md",
+      "name": "Project Notes",
+      "status": "Active"
+    },
+    {
+      "id": "ea06c594025ccecc",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Repositories/ALUM Purchase Report.md",
+      "name": "ALUM Purchase Report",
+      "status": "Active"
+    },
+    {
+      "id": "84023eef4bfd72b5",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Repositories/Desktop OneDrive Sync.md",
+      "name": "Desktop OneDrive Sync",
+      "status": "Active"
+    },
+    {
+      "id": "aa587ea6469c4ffe",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Repositories/EIC Goldman Sachs Processing.md",
+      "name": "EIC Goldman Sachs Processing",
+      "status": "Active"
+    },
+    {
+      "id": "ea08b863d1d45934",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Repositories/FBW Royalty Report.md",
+      "name": "FBW Royalty Report",
+      "status": "Active"
+    },
+    {
+      "id": "97f69120e9e89af9",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Repositories/GitHub Desktop Tutorial.md",
+      "name": "GitHub Desktop Tutorial",
+      "status": "Active"
+    },
+    {
+      "id": "9d3c74e3502c6067",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Repositories/Global Purchase Report.md",
+      "name": "Global Purchase Report",
+      "status": "Active"
+    },
+    {
+      "id": "bf7db74cd9f664c5",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Repositories/GPL Gold Plume.md",
+      "name": "GPL Gold Plume",
+      "status": "Active"
+    },
+    {
+      "id": "9938e4863d62a7ef",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Repositories/HKFRS AS Study Platform.md",
+      "name": "HKFRS AS Study Platform",
+      "status": "Active"
+    },
+    {
+      "id": "1549480cbd2a554b",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Repositories/HKICPA Standards and Study Library.md",
+      "name": "HKICPA Standards and Study Library",
+      "status": "Active"
+    },
+    {
+      "id": "acb4a55ddb77e317",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Repositories/Hong Kong Tax Study Hub.md",
+      "name": "Hong Kong Tax Study Hub",
+      "status": "Active"
+    },
+    {
+      "id": "90ebd9e071e84bac",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Repositories/IELTS Prep Desk.md",
+      "name": "IELTS Prep Desk",
+      "status": "Active"
+    },
+    {
+      "id": "3a6550c8cec697ea",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Repositories/MPL System Portal.md",
+      "name": "MPL System Portal",
+      "status": "Active"
+    },
+    {
+      "id": "82d0abefe28a2850",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Repositories/MPL.md",
+      "name": "MPL",
+      "status": "Active"
+    },
+    {
+      "id": "d73c021f6c93b503",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Repositories/MTC Purchase Report.md",
+      "name": "MTC Purchase Report",
+      "status": "Active"
+    },
+    {
+      "id": "8b0ca02d46c0ea54",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Repositories/MTC Sales Report.md",
+      "name": "MTC Sales Report",
+      "status": "Active"
+    },
+    {
+      "id": "0d8c1d2e42c9bd31",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Repositories/RMB CNH Exchange Report.md",
+      "name": "RMB CNH Exchange Report",
+      "status": "Active"
+    },
+    {
+      "id": "0687b8677cf6a84a",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Repositories/SageMaker MovieLens.md",
+      "name": "SageMaker MovieLens",
+      "status": "Active"
+    },
+    {
+      "id": "a81b691f30db4af2",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Repositories/System Module.md",
+      "name": "System Module",
+      "status": "Active"
+    },
+    {
+      "id": "27d7c7f198c5bac1",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Repositories/Weekly Exchange Rate Report.md",
+      "name": "Weekly Exchange Rate Report",
+      "status": "Active"
+    },
+    {
+      "id": "fe9ddbe4394faee3",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "Working Projects/Working Projects Index.md",
+      "name": "Working Projects",
+      "status": "Active"
+    }
+  ],
+  "docs": [
+    {
+      "id": "fa0d09d7ad071095",
+      "created": "2026-10-28",
+      "source": "obsidian",
+      "sourcePath": "README.md",
+      "title": "Second Brain",
+      "url": ""
+    }
+  ],
   "cards": [],
   "chats": [],
-  "meta": { "created": "2026-10-27", "owner": "anthonymankaho", "version": 1 }
+  "meta": {
+    "created": "2026-10-27",
+    "owner": "anthonymankaho",
+    "version": 1
+  }
 }
