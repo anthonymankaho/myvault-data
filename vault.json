@@ -5,7 +5,10 @@
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Reference - AI MFS Governance Framework.md",
-      "name": "AI MFS Governance Framework"
+      "name": "AI MFS Governance Framework",
+      "links": [
+        "MPL AI-Augmented Financial Close"
+      ]
     },
     {
       "id": "1334b31d08fbd335",
@@ -40,7 +43,11 @@
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/RMB CNH Exchange Rate (May Lau).md",
-      "name": "RMB (CNH) Exchange Rate to May Lau"
+      "name": "RMB (CNH) Exchange Rate to May Lau",
+      "links": [
+        "Weekly Exchange Rate RPA",
+        "Monthly Exchange Rate RPA"
+      ]
     },
     {
       "id": "270fcdc951f75d8d",
@@ -75,7 +82,10 @@
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Brainstorming.md",
-      "name": "Skill: Brainstorming (Superpowers)"
+      "name": "Skill: Brainstorming (Superpowers)",
+      "links": [
+        "Skill - Writing Plans|writing-plans"
+      ]
     },
     {
       "id": "380c9c1c4d6045cb",
@@ -89,7 +99,11 @@
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Code Review.md",
-      "name": "Skill: Code Review"
+      "name": "Skill: Code Review",
+      "links": [
+        "Skill - Simplify|simplify",
+        "Skill - Security Review|security-review"
+      ]
     },
     {
       "id": "e03e7aa87aa6e0a0",
@@ -117,14 +131,22 @@
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Excel to Interactive HTML Report.md",
-      "name": "Skill: Excel to Interactive HTML Report"
+      "name": "Skill: Excel to Interactive HTML Report",
+      "links": [
+        "Weekly Exchange Rate RPA",
+        "Global Purchase Report RPA"
+      ]
     },
     {
       "id": "08530e1a6778a663",
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Executing Plans.md",
-      "name": "Skill: Executing Plans (Superpowers)"
+      "name": "Skill: Executing Plans (Superpowers)",
+      "links": [
+        "Skill - Subagent-Driven Development|subagent-driven-development",
+        "Skill - Finishing a Development Branch|finishing-a-development-branch"
+      ]
     },
     {
       "id": "e0a39c0eb2a673c1",
@@ -152,14 +174,22 @@
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Hardening Windows Scheduled Tasks.md",
-      "name": "Skill: Hardening Windows Scheduled Tasks"
+      "name": "Skill: Hardening Windows Scheduled Tasks",
+      "links": [
+        "Desktop-OneDrive Auto Sync"
+      ]
     },
     {
       "id": "b712cb30aff2d79e",
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Incremental Report File Chaining.md",
-      "name": "Skill: Incremental Report File Chaining"
+      "name": "Skill: Incremental Report File Chaining",
+      "links": [
+        "Global Purchase Report RPA",
+        "GPL FS Roll-Forward",
+        "EIC FS Roll-Forward"
+      ]
     },
     {
       "id": "2a00f3a6a4f5f75a",
@@ -194,7 +224,10 @@
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Requesting Code Review.md",
-      "name": "Skill: Requesting Code Review (Superpowers)"
+      "name": "Skill: Requesting Code Review (Superpowers)",
+      "links": [
+        "Skill - Receiving Code Review|receiving-code-review"
+      ]
     },
     {
       "id": "de38564acffab007",
@@ -222,21 +255,30 @@
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Simplify.md",
-      "name": "Skill: Simplify"
+      "name": "Skill: Simplify",
+      "links": [
+        "Skill - Code Review|code-review"
+      ]
     },
     {
       "id": "dbd0f3f68f34850e",
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Subagent-Driven Development.md",
-      "name": "Skill: Subagent-Driven Development (Superpowers)"
+      "name": "Skill: Subagent-Driven Development (Superpowers)",
+      "links": [
+        "Skill - Finishing a Development Branch|finishing-a-development-branch"
+      ]
     },
     {
       "id": "aa2e702ed12cf50a",
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Systematic Debugging.md",
-      "name": "Skill: Systematic Debugging (Superpowers)"
+      "name": "Skill: Systematic Debugging (Superpowers)",
+      "links": [
+        "Skill - Test-Driven Development|test-driven-development"
+      ]
     },
     {
       "id": "abf817c09e09c05c",
@@ -264,7 +306,11 @@
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Using Superpowers.md",
-      "name": "Skill: Using Superpowers (Superpowers)"
+      "name": "Skill: Using Superpowers (Superpowers)",
+      "links": [
+        "Skill - Brainstorming|brainstorming",
+        "Skill - Systematic Debugging|systematic-debugging"
+      ]
     },
     {
       "id": "a88600b2f5e8d18c",
@@ -278,7 +324,11 @@
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skill - Writing Plans.md",
-      "name": "Skill: Writing Plans (Superpowers)"
+      "name": "Skill: Writing Plans (Superpowers)",
+      "links": [
+        "Skill - Subagent-Driven Development|subagent-driven-development",
+        "Skill - Executing Plans|executing-plans"
+      ]
     },
     {
       "id": "54715d87efa9b486",
@@ -292,7 +342,38 @@
       "created": "2026-10-28",
       "source": "obsidian",
       "sourcePath": "Skills/Skills Overview.md",
-      "name": "Skills Index"
+      "name": "Skills Index",
+      "links": [
+        "Skills/Repositories/HK Finance Skills Repository",
+        "Skills/Repositories/Personal Skills Repository",
+        "Skills/Repositories/Claude Skills Backup Repository",
+        "Skill - Excel to Interactive HTML Report",
+        "Skill - Incremental Report File Chaining",
+        "RMB CNH Exchange Rate (May Lau)",
+        "Skill - Brainstorming",
+        "Skill - Writing Plans",
+        "Skill - Executing Plans",
+        "Skill - Systematic Debugging",
+        "Skill - Test-Driven Development",
+        "Skill - Code Review",
+        "Skill - Requesting Code Review",
+        "Skill - Receiving Code Review",
+        "Skill - Finishing a Development Branch",
+        "Skill - Using Git Worktrees",
+        "Skill - Dispatching Parallel Agents",
+        "Skill - Using Superpowers",
+        "Skill - Writing Skills",
+        "Skill - Simplify",
+        "Skill - Verification Before Completion",
+        "Skill - Hardening Windows Scheduled Tasks",
+        "Skill - Bilingual Replies",
+        "Skills/Repositories/Personal Skills Repository",
+        "Working Style and Preferences",
+        "Reference - AI MFS Governance Framework",
+        "Reference - NotebookLM Video Subtitle Prompts",
+        "README|Second Brain Home",
+        "Working Projects/Working Projects Index|Working Projects"
+      ]
     },
     {
       "id": "5618b0afcf45353f",
@@ -309,7 +390,10 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Project Notes/Desktop-OneDrive Auto Sync.md",
       "name": "Desktop→OneDrive Auto Sync",
-      "status": "Active"
+      "status": "Active",
+      "links": [
+        "Skill - Hardening Windows Scheduled Tasks"
+      ]
     },
     {
       "id": "365b382a77e06822",
@@ -317,7 +401,12 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Project Notes/EIC FS Roll-Forward.md",
       "name": "EIC FS Roll-Forward",
-      "status": "Active"
+      "status": "Active",
+      "links": [
+        "GPL FS Roll-Forward",
+        "EIC GS Suite HTML Tool",
+        "Skill - Incremental Report File Chaining"
+      ]
     },
     {
       "id": "c950ee5267330100",
@@ -325,7 +414,11 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Project Notes/EIC GS Suite HTML Tool.md",
       "name": "EIC_GS_Suite.html Tool",
-      "status": "Active"
+      "status": "Active",
+      "links": [
+        "EIC FS Roll-Forward",
+        "Skill - Excel to Interactive HTML Report"
+      ]
     },
     {
       "id": "cb48a8ee987c1f17",
@@ -333,7 +426,25 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Project Notes/Global Purchase Report/Global Purchase Report RPA.md",
       "name": "Global Purchase Report RPA",
-      "status": "Active"
+      "status": "Active",
+      "links": [
+        "Weekly Exchange Rate RPA",
+        "Weekly Exchange Rate RPA",
+        "Weekly Exchange Rate RPA",
+        "Weekly Exchange Rate RPA",
+        "Global Purchase Report RPA - Monthly Pipeline",
+        "PowerShell Scripts Reference",
+        "Global Purchase Report RPA - Monthly Pipeline",
+        "PowerShell Scripts Reference",
+        "Skill - Excel to Interactive HTML Report",
+        "Skill - Incremental Report File Chaining",
+        "Skill - Excel to Interactive HTML Report",
+        "Skill - Incremental Report File Chaining",
+        "RMB CNH Exchange Rate (May Lau)",
+        "RMB CNH Exchange Rate (May Lau)",
+        "Weekly Exchange Rate RPA",
+        "Weekly Exchange Rate RPA"
+      ]
     },
     {
       "id": "357cae2a63593147",
@@ -341,7 +452,16 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Project Notes/Global Purchase Report/PowerShell Scripts Reference.md",
       "name": "Global Purchase Report — PowerShell Scripts Reference",
-      "status": "Active"
+      "status": "Active",
+      "links": [
+        "Global Purchase Report RPA - Monthly Pipeline",
+        "Global Purchase Report RPA - Monthly Pipeline",
+        "Weekly Exchange Rate RPA",
+        "Global Purchase Report RPA - Monthly Pipeline",
+        "Global Purchase Report RPA - Monthly Pipeline",
+        "Global Purchase Report RPA",
+        "Global Purchase Report RPA"
+      ]
     },
     {
       "id": "bd6d941a508c3af3",
@@ -349,7 +469,14 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Project Notes/GPL/GPL FS Roll-Forward.md",
       "name": "GPL FS Roll-Forward",
-      "status": "Active"
+      "status": "Active",
+      "links": [
+        "Reference - AI MFS Governance Framework",
+        "GPL JPM Notice Processor",
+        "GPL UBS Statement Processor",
+        "EIC FS Roll-Forward",
+        "Skill - Incremental Report File Chaining"
+      ]
     },
     {
       "id": "ded8a76a5bab5eed",
@@ -357,7 +484,12 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Project Notes/GPL/GPL JPM Notice Processor.md",
       "name": "GPL JPM Notice Processor",
-      "status": "Active"
+      "status": "Active",
+      "links": [
+        "GPL FS Roll-Forward",
+        "GPL FS Roll-Forward",
+        "GPL UBS Statement Processor"
+      ]
     },
     {
       "id": "de5fdd0b935fa9b7",
@@ -365,7 +497,11 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Project Notes/GPL/GPL UBS Statement Processor.md",
       "name": "GPL UBS Statement Processor",
-      "status": "Active"
+      "status": "Active",
+      "links": [
+        "GPL FS Roll-Forward",
+        "GPL JPM Notice Processor"
+      ]
     },
     {
       "id": "a6c0147841759400",
@@ -373,7 +509,12 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Project Notes/Monthly Exchange Rate RPA.md",
       "name": "Monthly Exchange Rate RPA",
-      "status": "Active"
+      "status": "Active",
+      "links": [
+        "RMB CNH Exchange Rate (May Lau)",
+        "Weekly Exchange Rate RPA",
+        "RMB CNH Exchange Rate (May Lau)"
+      ]
     },
     {
       "id": "a41dd6722c756ac9",
@@ -389,7 +530,13 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Project Notes/MPL/MPL Accounting Module.md",
       "name": "MPL Accounting Module",
-      "status": "Active"
+      "status": "Active",
+      "links": [
+        "MPL Property Management System",
+        "MPL Property Management System",
+        "Skill - Access Control Module",
+        "Skill - Bilingual Replies"
+      ]
     },
     {
       "id": "452d97f1303b4011",
@@ -397,7 +544,12 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Project Notes/MPL/MPL Property Management System.md",
       "name": "MPL Property Management System",
-      "status": "Active"
+      "status": "Active",
+      "links": [
+        "MPL Accounting Module",
+        "MPL Accounting Module",
+        "Skill - Access Control Module"
+      ]
     },
     {
       "id": "ee7c0dabbe0ad696",
@@ -405,7 +557,12 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Project Notes/MPL AI-Augmented Financial Close.md",
       "name": "MPL AI-Augmented Financial Close",
-      "status": "Active"
+      "status": "Active",
+      "links": [
+        "GPL FS Roll-Forward",
+        "EIC FS Roll-Forward",
+        "Reference - AI MFS Governance Framework"
+      ]
     },
     {
       "id": "2a46da5788535e03",
@@ -413,7 +570,12 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Project Notes/MTC Report/MTC Purchase Report.md",
       "name": "MTC Purchase Report",
-      "status": "Active"
+      "status": "Active",
+      "links": [
+        "MTC Sales Report",
+        "MTC Sales Report",
+        "Global Purchase Report RPA"
+      ]
     },
     {
       "id": "8cd09a14a74b21df",
@@ -421,7 +583,12 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Project Notes/MTC Report/MTC Sales Report.md",
       "name": "MTC Sales Report",
-      "status": "Active"
+      "status": "Active",
+      "links": [
+        "Wait for explicit PowerShell orders",
+        "Bilingual replies",
+        "Global Purchase Report RPA"
+      ]
     },
     {
       "id": "a2173dfc904d585d",
@@ -429,7 +596,27 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Project Notes/Weekly Exchange Rate RPA/Weekly Exchange Rate RPA - PowerShell Scripts Reference.md",
       "name": "Weekly Exchange Rate RPA — PowerShell Scripts Reference",
-      "status": "Active"
+      "status": "Active",
+      "links": [
+        "Weekly Exchange Rate RPA",
+        "Weekly Exchange Rate RPA",
+        "Skill - Incremental Report File Chaining",
+        "Skill - Incremental Report File Chaining",
+        "Skill - Excel to Interactive HTML Report",
+        "Skill - Excel to Interactive HTML Report",
+        "Skill - Excel to Interactive HTML Report",
+        "Skill - Excel to Interactive HTML Report",
+        "Weekly Exchange Rate RPA",
+        "Weekly Exchange Rate RPA",
+        "Skill - Excel to Interactive HTML Report",
+        "Skill - Excel to Interactive HTML Report",
+        "Skill - Incremental Report File Chaining",
+        "Skill - Incremental Report File Chaining",
+        "Global Purchase Report RPA",
+        "RMB CNH Exchange Rate (May Lau)",
+        "Global Purchase Report RPA",
+        "RMB CNH Exchange Rate (May Lau)"
+      ]
     },
     {
       "id": "e698389e1d49c09f",
@@ -437,7 +624,14 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Project Notes/Weekly Exchange Rate RPA/Weekly Exchange Rate RPA.md",
       "name": "Weekly Exchange Rate RPA",
-      "status": "Active"
+      "status": "Active",
+      "links": [
+        "Skill - Excel to Interactive HTML Report",
+        "RMB CNH Exchange Rate (May Lau)",
+        "Monthly Exchange Rate RPA",
+        "Skill - Excel to Interactive HTML Report",
+        "Weekly Exchange Rate RPA - PowerShell Scripts Reference"
+      ]
     },
     {
       "id": "f001f01bf18a051e",
@@ -445,7 +639,24 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Project Notes.md",
       "name": "Project Notes",
-      "status": "Active"
+      "status": "Active",
+      "links": [
+        "Working Projects Index",
+        "Working Projects/Project Notes/Global Purchase Report/Global Purchase Report RPA",
+        "Working Projects/Project Notes/Weekly Exchange Rate RPA/Weekly Exchange Rate RPA",
+        "Working Projects/Project Notes/MTC Report/MTC Purchase Report",
+        "Working Projects/Project Notes/MTC Report/MTC Sales Report",
+        "Working Projects/Project Notes/GPL/GPL FS Roll-Forward",
+        "Working Projects/Project Notes/GPL/GPL JPM Notice Processor",
+        "Working Projects/Project Notes/GPL/GPL UBS Statement Processor",
+        "Working Projects/Project Notes/EIC FS Roll-Forward",
+        "Working Projects/Project Notes/EIC GS Suite HTML Tool",
+        "Working Projects/Project Notes/MPL AI-Augmented Financial Close",
+        "Working Projects/Project Notes/MPL/MPL Accounting Module",
+        "Working Projects/Project Notes/MPL/MPL Property Management System",
+        "Working Projects/Project Notes/Desktop-OneDrive Auto Sync",
+        "Working Projects/Project Notes/Monthly Exchange Rate RPA"
+      ]
     },
     {
       "id": "ea06c594025ccecc",
@@ -605,7 +816,31 @@
       "source": "obsidian",
       "sourcePath": "Working Projects/Working Projects Index.md",
       "name": "Working Projects",
-      "status": "Active"
+      "status": "Active",
+      "links": [
+        "ALUM Purchase Report",
+        "MPL",
+        "MPL System Portal",
+        "System Module",
+        "EIC Goldman Sachs Processing",
+        "GPL Gold Plume",
+        "Global Purchase Report",
+        "MTC Purchase Report",
+        "MTC Sales Report",
+        "Weekly Exchange Rate Report",
+        "RMB CNH Exchange Report",
+        "FBW Royalty Report",
+        "Hong Kong Tax Study Hub",
+        "HKICPA Standards and Study Library",
+        "HKFRS AS Study Platform",
+        "Desktop OneDrive Sync",
+        "IELTS Prep Desk",
+        "GitHub Desktop Tutorial",
+        "SageMaker MovieLens",
+        "Project Notes",
+        "README|Second Brain Home",
+        "Skills/Skills Overview|Skills Index"
+      ]
     }
   ],
   "docs": [
@@ -615,7 +850,11 @@
       "source": "obsidian",
       "sourcePath": "README.md",
       "title": "Second Brain",
-      "url": ""
+      "url": "",
+      "links": [
+        "Working Projects/Working Projects Index|Working Projects",
+        "Skills/Skills Overview|Skills"
+      ]
     }
   ],
   "cards": [],
