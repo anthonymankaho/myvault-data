@@ -2269,6 +2269,836 @@
   ],
   "cards": [],
   "chats": [],
+  "tasks": [
+    {
+      "id": "4ca93c8d0e24d1ff",
+      "planningMonth": "2026-11",
+      "company": "MHK",
+      "description": "DOWNLOAD MHK ACT090",
+      "scheduledDate": "2026-11-02",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.100Z",
+      "updatedAt": "2026-10-30T01:22:35.100Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 2,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "3c4fc197b2d265ec",
+      "planningMonth": "2026-11",
+      "company": "MPL",
+      "description": "8A, SOFTMARK DEBIT NOTE 11/2026",
+      "scheduledDate": "2026-11-02",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.100Z",
+      "updatedAt": "2026-10-30T01:22:35.100Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 3,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "1255132853198d83",
+      "planningMonth": "2026-11",
+      "company": "OTHER",
+      "description": "MONTHLY EXCHANGE RATE 202610 — CARRY FORWARD / 十月結轉",
+      "scheduledDate": "2026-11-02",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.100Z",
+      "updatedAt": "2026-10-30T01:22:35.100Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 4,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "95777845ac960ffe",
+      "planningMonth": "2026-11",
+      "company": "OTHER",
+      "description": "WEEKLY EXCHANGE RATE",
+      "scheduledDate": "2026-11-04",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.100Z",
+      "updatedAt": "2026-10-30T01:22:35.100Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 5,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "2c5b60191cf2274e",
+      "planningMonth": "2026-11",
+      "company": "MHK",
+      "description": "MTC WORKER EMIAL",
+      "scheduledDate": "2026-11-05",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.101Z",
+      "updatedAt": "2026-10-30T01:22:35.101Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 6,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "6fece64c9e59bafb",
+      "planningMonth": "2026-11",
+      "company": "MEL",
+      "description": "AP ENTRY 20261003",
+      "scheduledDate": "2026-11-06",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.101Z",
+      "updatedAt": "2026-10-30T01:22:35.101Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 7,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "0247836a6f0babec",
+      "planningMonth": "2026-11",
+      "company": "MHK",
+      "description": "Payment Transit Email",
+      "scheduledDate": "2026-11-06",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.101Z",
+      "updatedAt": "2026-10-30T01:22:35.101Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 8,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "2d1ca545debc6ed3",
+      "planningMonth": "2026-11",
+      "company": "MHK",
+      "description": "MTC DEBIT NOTE",
+      "scheduledDate": "2026-11-06",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.101Z",
+      "updatedAt": "2026-10-30T01:22:35.101Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 9,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "9a71181b3df8db6b",
+      "planningMonth": "2026-11",
+      "company": "MHK",
+      "description": "MEL DEBIT NOTE",
+      "scheduledDate": "2026-11-06",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.101Z",
+      "updatedAt": "2026-10-30T01:22:35.101Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 10,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "657f76c3e5d87810",
+      "planningMonth": "2026-11",
+      "company": "MHK",
+      "description": "MIB DEBIT NOTE",
+      "scheduledDate": "2026-11-06",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.101Z",
+      "updatedAt": "2026-10-30T01:22:35.101Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 11,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "d0f527f7a799a045",
+      "planningMonth": "2026-11",
+      "company": "GPL",
+      "description": "FULL SET 2026/10 MANAGEMENT REPORT & BANK STATEMENT - CLAUDE",
+      "scheduledDate": "2026-11-09",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.102Z",
+      "updatedAt": "2026-10-30T01:22:35.102Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 12,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "ee88958b6f417adf",
+      "planningMonth": "2026-11",
+      "company": "MEL",
+      "description": "PY261101 X01 AGED 07/11/2026 (BY DUE DATE) PAYMENT DATE : 2026/11/09",
+      "scheduledDate": "2026-11-09",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.102Z",
+      "updatedAt": "2026-10-30T01:22:35.102Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 13,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "e7716c48e3ff7167",
+      "planningMonth": "2026-11",
+      "company": "MEL",
+      "description": "PY261102 X01 AGED 07/11/2026 (BY DUE DATE) PAYMENT DATE : 2026/11/20",
+      "scheduledDate": "2026-11-09",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.102Z",
+      "updatedAt": "2026-10-30T01:22:35.102Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 14,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "7b375a7194f4878c",
+      "planningMonth": "2026-11",
+      "company": "MEL",
+      "description": "AP ENTRY 20261004",
+      "scheduledDate": "2026-11-09",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.102Z",
+      "updatedAt": "2026-10-30T01:22:35.102Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 15,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "c79dedefae7d0a75",
+      "planningMonth": "2026-11",
+      "company": "MEL",
+      "description": "JOURNAL - MEL RECEIVING REPORT & MATERIAL COST 2026/11",
+      "scheduledDate": "2026-11-09",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.102Z",
+      "updatedAt": "2026-10-30T01:22:35.102Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 16,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "4d32cee2acbef3aa",
+      "planningMonth": "2026-11",
+      "company": "MHK",
+      "description": "JOURNAL- WORKER SALARIES 2026/10 OCT 2026 WORKER PAYROLL & MIB DEBIT NOTED.",
+      "scheduledDate": "2026-11-09",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.102Z",
+      "updatedAt": "2026-10-30T01:22:35.102Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 17,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "bad5da1f539d8629",
+      "planningMonth": "2026-11",
+      "company": "MTC",
+      "description": "MTC Performance Report - 2026 Jan-Oct (Interactive HTML: Combined Sales + Purchase + Margin)",
+      "scheduledDate": "2026-11-09",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.102Z",
+      "updatedAt": "2026-10-30T01:22:35.102Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 18,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "45909f55bd5b75bc",
+      "planningMonth": "2026-11",
+      "company": "OTHER",
+      "description": "WEEKLY EXCHANGE RATE",
+      "scheduledDate": "2026-11-16",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.103Z",
+      "updatedAt": "2026-10-30T01:22:35.103Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 19,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "b9f6f8ff5ef0dcfb",
+      "planningMonth": "2026-11",
+      "company": "MEL",
+      "description": "PY261005 OFFSET DG 2026/10",
+      "scheduledDate": "2026-11-16",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.103Z",
+      "updatedAt": "2026-10-30T01:22:35.103Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 20,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "35a889579410fe82",
+      "planningMonth": "2026-11",
+      "company": "MEL",
+      "description": "AP ENTRY 20261101",
+      "scheduledDate": "2026-11-16",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.103Z",
+      "updatedAt": "2026-10-30T01:22:35.103Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 21,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "87b6173ec460a420",
+      "planningMonth": "2026-11",
+      "company": "MPL",
+      "description": "FULL SET 2026/10 MANAGEMENT REPORT & BANK STATEMENT",
+      "scheduledDate": "2026-11-16",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.103Z",
+      "updatedAt": "2026-10-30T01:22:35.103Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 22,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "616c201eeea1b519",
+      "planningMonth": "2026-11",
+      "company": "OTHER",
+      "description": "RMB EXCHANGE RATE",
+      "scheduledDate": "2026-11-16",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.103Z",
+      "updatedAt": "2026-10-30T01:22:35.103Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 23,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "b37d2d890dc56928",
+      "planningMonth": "2026-11",
+      "company": "OTHER",
+      "description": "WEEKLY EXCHANGE RATE",
+      "scheduledDate": "2026-11-23",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.103Z",
+      "updatedAt": "2026-10-30T01:22:35.103Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 24,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "8e21f37735b15a75",
+      "planningMonth": "2026-11",
+      "company": "EIC",
+      "description": "FULL SET 2026/10 MANAGEMENT REPORT & BANK STATEMENT - CLAUDE",
+      "scheduledDate": "2026-11-19",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.104Z",
+      "updatedAt": "2026-10-30T01:22:35.104Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 25,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "2348efc52f8d3f35",
+      "planningMonth": "2026-11",
+      "company": "MEL",
+      "description": "JOURNAL - PAYMENT ENTRY, PR-A/C 4605 & PAID SERVICE FEE 10/2026",
+      "scheduledDate": "2026-11-19",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.104Z",
+      "updatedAt": "2026-10-30T01:22:35.104Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 26,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "b525c108fc552b9f",
+      "planningMonth": "2026-11",
+      "company": "MEL",
+      "description": "JOURNAL - MEL 2026/10 WORKER SALARIES AND PROV'N DB",
+      "scheduledDate": "2026-11-20",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.104Z",
+      "updatedAt": "2026-10-30T01:22:35.104Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 27,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "6ad1060bc8a67b94",
+      "planningMonth": "2026-11",
+      "company": "MEL",
+      "description": "PY261103 X01 AGED 20/11/2026 (BY DUE DATE) PAYMENT DATE : 2026/11/23",
+      "scheduledDate": "2026-11-23",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.104Z",
+      "updatedAt": "2026-10-30T01:22:35.104Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 28,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "dfb1b8894baeb853",
+      "planningMonth": "2026-11",
+      "company": "MEL",
+      "description": "PY261104 X01 AGED 30/11/2026 (BY DUE DATE) PAYMENT DATE : 2026/11/30",
+      "scheduledDate": "2026-11-23",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.104Z",
+      "updatedAt": "2026-10-30T01:22:35.104Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 29,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "413b36cc1d9491c3",
+      "planningMonth": "2026-11",
+      "company": "MEL",
+      "description": "AP ENTRY 20261102",
+      "scheduledDate": "2026-11-23",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.105Z",
+      "updatedAt": "2026-10-30T01:22:35.105Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 30,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "b987040601f699cc",
+      "planningMonth": "2026-11",
+      "company": "MEL",
+      "description": "INVENTORY POSTING 2026/10",
+      "scheduledDate": "2026-11-23",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.105Z",
+      "updatedAt": "2026-10-30T01:22:35.105Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 31,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "c9bc423558b78783",
+      "planningMonth": "2026-11",
+      "company": "MHK",
+      "description": "INVENTORY POSTING 2026/11",
+      "scheduledDate": "2026-11-23",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.105Z",
+      "updatedAt": "2026-10-30T01:22:35.105Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 32,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "4f3ffac741f0c15a",
+      "planningMonth": "2026-11",
+      "company": "OTHER",
+      "description": "WEEKLY EXCHANGE RATE",
+      "scheduledDate": "2026-11-30",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.105Z",
+      "updatedAt": "2026-10-30T01:22:35.105Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 33,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "efef945af71e143e",
+      "planningMonth": "2026-11",
+      "company": "IDEAL",
+      "description": "FULL SET 2026/09 MANAGEMENT REPORT & BANK STATEMENT",
+      "scheduledDate": "2026-11-26",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.105Z",
+      "updatedAt": "2026-10-30T01:22:35.105Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 34,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "810207441f81ed2f",
+      "planningMonth": "2026-11",
+      "company": "MCL",
+      "description": "FULL SET 2026/09 MANAGEMENT REPORT & BANK STATEMENT",
+      "scheduledDate": "2026-11-26",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.105Z",
+      "updatedAt": "2026-10-30T01:22:35.105Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 35,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "80e324bae3878221",
+      "planningMonth": "2026-11",
+      "company": "MHK",
+      "description": "Realize Prov'n & Prov & Stock Adjustment 2026/10",
+      "scheduledDate": "2026-11-26",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.105Z",
+      "updatedAt": "2026-10-30T01:22:35.105Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 36,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "39115e5d8968e22f",
+      "planningMonth": "2026-11",
+      "company": "MHK",
+      "description": "GLOBAL PURCHASE REPORT 2026/10",
+      "scheduledDate": "2026-11-26",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.106Z",
+      "updatedAt": "2026-10-30T01:22:35.106Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 37,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "3a3bdedee6b39e8d",
+      "planningMonth": "2026-11",
+      "company": "MEL",
+      "description": "AP ENTRY 20261103",
+      "scheduledDate": "2026-11-30",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.106Z",
+      "updatedAt": "2026-10-30T01:22:35.106Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 38,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "9da1a2a4fb4cce05",
+      "planningMonth": "2026-11",
+      "company": "MEL",
+      "description": "JOURNAL - MEL 3810-B4 offsets 7310-00 for 2026/10 DG",
+      "scheduledDate": "2026-11-30",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.106Z",
+      "updatedAt": "2026-10-30T01:22:35.106Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 39,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "1d65f16c62f25b38",
+      "planningMonth": "2026-11",
+      "company": "MEL",
+      "description": "SCHEDULE - A/C4311 202610",
+      "scheduledDate": "2026-11-30",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.106Z",
+      "updatedAt": "2026-10-30T01:22:35.106Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 40,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "13ed51c3d68f122e",
+      "planningMonth": "2026-11",
+      "company": "MEL",
+      "description": "SCHEDULE - A/C4604 202610",
+      "scheduledDate": "2026-11-30",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.106Z",
+      "updatedAt": "2026-10-30T01:22:35.106Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 41,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "58c270cdec77516e",
+      "planningMonth": "2026-11",
+      "company": "MEL",
+      "description": "SCHEDULE - A/C7120 202610",
+      "scheduledDate": "2026-11-30",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.106Z",
+      "updatedAt": "2026-10-30T01:22:35.106Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 42,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "485816e34170ea8b",
+      "planningMonth": "2026-11",
+      "company": "MEL",
+      "description": "SCHEDULE - A/C7308 202610",
+      "scheduledDate": "2026-11-30",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.106Z",
+      "updatedAt": "2026-10-30T01:22:35.106Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 43,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "b0817203a1666cff",
+      "planningMonth": "2026-11",
+      "company": "MEL",
+      "description": "SCHEDULE - A/C7310 202610",
+      "scheduledDate": "2026-11-30",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.107Z",
+      "updatedAt": "2026-10-30T01:22:35.107Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 44,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "de5c1b23dbd8ee42",
+      "planningMonth": "2026-11",
+      "company": "MHK",
+      "description": "SCHEDULE - A/C7407",
+      "scheduledDate": "2026-11-30",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.107Z",
+      "updatedAt": "2026-10-30T01:22:35.107Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 45,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "7016b3d8f8ccf179",
+      "planningMonth": "2026-11",
+      "company": "MHK",
+      "description": "SCHEDULE - A/C4359",
+      "scheduledDate": "2026-11-30",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.107Z",
+      "updatedAt": "2026-10-30T01:22:35.107Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 46,
+        "importBatch": "00a4f790b5777de0"
+      }
+    },
+    {
+      "id": "69a2e6326b32908e",
+      "planningMonth": "2026-11",
+      "company": "OTHER",
+      "description": "MONTHLY EXCHANGE RATE 202611",
+      "scheduledDate": "2026-11-30",
+      "status": "Not Started",
+      "docResult": "",
+      "completedAt": null,
+      "createdAt": "2026-10-30T01:22:35.107Z",
+      "updatedAt": "2026-10-30T01:22:35.107Z",
+      "source": {
+        "workbook": "Monlthy Job.xlsx",
+        "worksheet": "NOV2026",
+        "row": 47,
+        "importBatch": "00a4f790b5777de0"
+      }
+    }
+  ],
   "meta": {
     "created": "2026-10-27",
     "owner": "anthonymankaho",
