@@ -71,7 +71,7 @@
       "name": "Personal Skills Repository",
       "sourceFile": "second-brain/Skills/Repositories/Personal Skills Repository.md",
       "sourceHash": "05017968ec459768e29e9c256475d1c0f8de5404aa91bbfd047224ee8d8bce38",
-      "notes": "# Personal Skills Repository\n\n**Purpose:** Private backup of custom Claude Code skills and supporting scripts authored for personal workflows.\n\n**GitHub:** [Skills](https://github.com/anthonymankaho/Skills)  \n**Local checkout:** C:\\Users\\User\\Desktop\\GitHub-Clones\\Skills\n\n## Contents\n\naccess-control-module; bilingual-replies; codex-handoff-on-low-usage; draft-email; excel-to-interactive-html-report; grill-me; hardening-windows-scheduled-tasks; hk-finance-copilot-excel; incremental-report-file-chaining; mms-login; project-progress-doc-updater; rmb-rate; embedded hk-finance-skills\n\n## Repository guidance\n\nRepository README is the authoritative inventory. Credentials, tokens and run logs are intentionally excluded.\n\nUse the repository README and individual SKILL.md files for current instructions. This note is an index, not a replacement for the actual skills.",
+      "notes": "# Personal Skills Repository\n\n**Purpose:** Private backup of custom Claude Code skills and supporting scripts authored for personal workflows.\n\n**GitHub:** [Skills](https://github.com/anthonymankaho/Skills)  \n**Local checkout:** C:\\Users\\User\\Desktop\\GitHub-Clones\\Skills\n\n## Contents\n\naccess-control-module; bilingual-replies; codex-handoff-on-low-usage; draft-email; excel-to-interactive-html-report; globe-engine; grill-me; hardening-windows-scheduled-tasks; hk-finance-copilot-excel; incremental-report-file-chaining; mms-login; project-progress-doc-updater; qwen-assistant-htmlrmb-rate; embedded hk-finance-skills\n\n## Repository guidance\n\nRepository README is the authoritative inventory. Credentials, tokens and run logs are intentionally excluded.\n\nUse the repository README and individual SKILL.md files for current instructions. This note is an index, not a replacement for the actual skills.",
       "tags": [
         "repository",
         "skill-repository"
@@ -777,6 +777,43 @@
         "feedback"
       ],
       "links": []
+    },
+    {
+      "id": "353792337782ab74",
+      "created": "2026-10-29",
+      "source": "claude-code",
+      "sourcePath": "GitHub-Clones/Skills/skills/globe-engine/SKILL.md",
+      "name": "Skill: Globe Engine",
+      "tags": [
+        "skill",
+        "html",
+        "threejs",
+        "dashboard"
+      ],
+      "links": [
+        "Global Purchase Report RPA",
+        "Personal Skills Repository"
+      ],
+      "notes": "# Skill: Globe Engine\n\nBuild/port self-contained single-HTML dashboards with a procedural 3D earth (three.js, no photo textures) that open from file:// with no server/CDN. Three embedding contracts: (1) ESM libs revived via JSON island + Blob-URL dynamic import, (2) assets/data as inert application/json islands with </script and <!-- escape scans, (3) all colors are CSS custom-property tokens so a dark/light flip only rewrites uniform values. Globe payoff order: coastline pass, world-space-sun terminator, tight Fresnel rim, equal-area land dots via rasterized mask, canvas-sprite entity nodes. Headless Edge dump-dom/screenshot verification + independent expected.mjs cross-check. Proven on the Global Purchase Report 3D Earth Dashboard (14.4 MB, 56,370 rows, zh+EN i18n, dark+light)."
+    },
+    {
+      "id": "67218472883fb009",
+      "created": "2026-10-29",
+      "source": "claude-code",
+      "sourcePath": "GitHub-Clones/Skills/skills/qwen-assistant-html/SKILL.md",
+      "name": "Skill: Qwen Assistant (HTML)",
+      "tags": [
+        "skill",
+        "html",
+        "qwen",
+        "ai-assistant"
+      ],
+      "links": [
+        "Qwen Usage VS Code extension",
+        "Claude Code Qwen profile swap",
+        "Personal Skills Repository"
+      ],
+      "notes": "# Skill: Qwen Assistant (HTML)\n\nAdd/maintain a Qwen (Alibaba Cloud Model Studio) assistant inside an existing plain HTML/CSS/JS app with a server-side API proxy. Inspect the app's existing auth/sync/schema first; keep credentials server-side only (never in HTML/JS/localStorage/logs); treat vault content as untrusted data, not instructions. Server-enforced bounds: bytes, field lengths, history size, abort timeout, plus token limits — cap completion via max_tokens, budget the prompt and reject over-budget instead of silent truncation, default 1,000,000 tokens per calendar month per account (prompt+completion), fail closed when spent. AI proposes only {message, operations} (create/update on an allowlist; no deletes, no auto-sync); user must review diffs and explicitly Apply; undo snapshot; revalidate at apply time. Added 2026-10-29; token-limit rules added 2026-10-29/30 (Skills repo commit 82494d0)."
     }
   ],
   "projects": [
