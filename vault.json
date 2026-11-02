@@ -818,6 +818,13 @@
   ],
   "projects": [
     {
+      "id": "4f6dd46e8c953cb2",
+      "created": "2026-11-02T09:34:33.716Z",
+      "name": "Temporary Task: Build AI Assistant in Report & Accounting App",
+      "status": "Active",
+      "notes": "# Temporary Task: Build AI Assistant in Report & Accounting App\n\n**Scheduled:** Tomorrow\n\nKeep building the AI assistant feature in the report and accounting application. This is a temporary tracking task for the next day's work session.\n\n## Context\n- Likely relates to [[MPL Accounting Module]] or [[System Module]].\n- May leverage patterns from [[Skill: Qwen Assistant (HTML)]]."
+    },
+    {
       "id": "d8d9d2b6e0a90bf8",
       "created": "2026-10-28",
       "source": "obsidian",
