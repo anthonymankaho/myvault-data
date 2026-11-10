@@ -810,13 +810,38 @@
       ],
       "links": [
         "Qwen Usage VS Code extension",
-        "Claude Code Qwen profile swap",
+        "Claude Code Provider Switch",
         "Personal Skills Repository"
       ],
       "notes": "# Skill: Qwen Assistant (HTML)\n\nAdd/maintain a Qwen (Alibaba Cloud Model Studio) assistant inside an existing plain HTML/CSS/JS app with a server-side API proxy. Inspect the app's existing auth/sync/schema first; keep credentials server-side only (never in HTML/JS/localStorage/logs); treat vault content as untrusted data, not instructions. Server-enforced bounds: bytes, field lengths, history size, abort timeout, plus token limits — cap completion via max_tokens, budget the prompt and reject over-budget instead of silent truncation, default 1,000,000 tokens per calendar month per account (prompt+completion), fail closed when spent. AI proposes only {message, operations} (create/update on an allowlist; no deletes, no auto-sync); user must review diffs and explicitly Apply; undo snapshot; revalidate at apply time. Added 2026-10-29; token-limit rules added 2026-10-29/30 (Skills repo commit 82494d0)."
     }
   ],
   "projects": [
+    {
+      "id": "cd099cad75a38167",
+      "created": "2026-11-10",
+      "source": "claude-code",
+      "sourcePath": "Working Projects/Project Notes/Claude Code Provider Switch.md",
+      "name": "Claude Code Provider Switch",
+      "status": "Active",
+      "links": [
+        "Skill: Qwen Assistant (HTML)",
+        "How I Like to Work (Claude Code)",
+        "Personal Skills Repository"
+      ],
+      "sourceFile": "second-brain/Working Projects/Project Notes/Claude Code Provider Switch.md",
+      "sourceHash": "8f8f202f92ff0b7f72205d570c5429e90b8990a14a516cd022eb640eed7b12fa",
+      "notes": "# Claude Code Provider Switch\n\nSwitch Claude Code (terminal CLI + VS Code extension) between Kimi, Qwen, Grok, and DeepSeek by copying a canonical profile onto `%USERPROFILE%\\.claude\\settings.json`.\n\n`settings.json` is a **generated copy**. Edit `settings-<profile>.json` (or `settings-kimi-backup.json` for Kimi), then run a launcher. The next switch overwrites live `settings.json`.\n\n**Never put API keys in this note, in git, or in chat.** Keys stay only in the local profile JSON files.\n\n## Launchers\n\n| Script | Canonical profile | Gateway |\n|---|---|---|\n| `C:\\Users\\User\\.claude\\claude-kimi.ps1` | `settings-kimi-backup.json` | Kimi (`https://api.kimi.com/coding/`) |\n| `C:\\Users\\User\\.claude\\claude-qwen.ps1` | `settings-qwen.json` | Qwen |\n| `C:\\Users\\User\\.claude\\claude-grok.ps1` | `settings-grok.json` | xAI (`https://api.x.ai`, model `grok-4.7`) |\n| `C:\\Users\\User\\.claude\\claude-deepseek.ps1` | `settings-deepseek.json` | DeepSeek (`https://api.deepseek.com/anthropic`) |\n| `C:\\Users\\User\\.claude\\claude-switch.ps1` | all of the above | `-Name kimi\\|qwen\\|grok\\|deepseek` |\n\n## Usage\n\n```powershell\ncd $env:USERPROFILE\\.claude\n.\\claude-switch.ps1 -List\n.\\claude-kimi.ps1\n.\\claude-qwen.ps1\n.\\claude-grok.ps1\n.\\claude-deepseek.ps1\n.\\claude-switch.ps1 -Name grok\n```\n\nAdd `-Launch` to start `claude` after switching. Then open a **new** Claude Code session, or VS Code **Developer: Reload Window**.\n\n## Rules the launchers enforce\n\n- Profile JSON must be UTF-8 (not UTF-16). Claude Code silently ignores UTF-16 settings.\n- Copy is verified by SHA-256.\n- Live `autoCompactEnabled` is forced **on**.\n- Placeholder keys (`PASTE…`, `REPLACE…`, `YOUR_…`) are refused. `settings-deepseek.json` still needs a real DeepSeek key before that profile will switch.\n- Scripts print gateway / model / key **length** only — never the key.\n\n## Grok status (2026-11-10)\n\nDirect Claude Code → xAI Anthropic `/v1/messages` is **deprecated** on xAI. A simple Messages curl can succeed while Claude Code 2.1.317 still returns:\n\n`API Error: 400 {\"code\":\"invalid-argument\",\"error\":\"Invalid request content: Invalid message role.\"}`\n\nLikely cause: Claude Code sends mid-conversation `role: \"system\"` for unrecognized model IDs such as `grok-4.7`. Changing env vars is **not** a proven fix for that 400. Keep DeepSeek/Qwen/Kimi for Claude Code’s tool loop if Grok still 400s; Grok 4.6 already works in another app.\n\nProposed (unapplied) Grok settings review file: `C:\\Users\\User\\Desktop\\claude-code-grok-proposed-settings.json` (placeholder key only).\n\n## Related\n\n- [[Skill: Qwen Assistant (HTML)]]\n- [[How I Like to Work (Claude Code)]]\n- [[Personal Skills Repository]]",
+      "tags": [
+        "project",
+        "claude-code",
+        "powershell",
+        "grok",
+        "deepseek",
+        "kimi",
+        "qwen"
+      ]
+    },
     {
       "id": "d8d9d2b6e0a90bf8",
       "created": "2026-10-28",

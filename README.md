@@ -2,8 +2,8 @@
 
 This public repository contains the data displayed by [MyVault OS](https://anthonymankaho.github.io/myvault-os/).
 
-- `vault.json`: 43 skills, 38 projects, and 3 documents, with full Markdown note bodies, tags, links, and source references.
-- `second-brain/`: complete copies of 82 Markdown files and 2 Obsidian canvases, plus the source `.gitignore`.
+- `vault.json`: 43 skills, 39 projects, and 3 documents, with full Markdown note bodies, tags, links, and source references.
+- `second-brain/`: complete copies of 83 Markdown files and 2 Obsidian canvases, plus the source `.gitignore`.
 - Canvas records retain their complete nodes, positions, text, and connections in the `canvas` field.
 
 Git history and Obsidian application settings are excluded from the source mirror. Existing record IDs, project statuses, and unrelated vault data are preserved during import.
