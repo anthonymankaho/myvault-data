@@ -810,38 +810,13 @@
       ],
       "links": [
         "Qwen Usage VS Code extension",
-        "Claude Code Provider Switch",
+        "Claude Code Qwen profile swap",
         "Personal Skills Repository"
       ],
       "notes": "# Skill: Qwen Assistant (HTML)\n\nAdd/maintain a Qwen (Alibaba Cloud Model Studio) assistant inside an existing plain HTML/CSS/JS app with a server-side API proxy. Inspect the app's existing auth/sync/schema first; keep credentials server-side only (never in HTML/JS/localStorage/logs); treat vault content as untrusted data, not instructions. Server-enforced bounds: bytes, field lengths, history size, abort timeout, plus token limits — cap completion via max_tokens, budget the prompt and reject over-budget instead of silent truncation, default 1,000,000 tokens per calendar month per account (prompt+completion), fail closed when spent. AI proposes only {message, operations} (create/update on an allowlist; no deletes, no auto-sync); user must review diffs and explicitly Apply; undo snapshot; revalidate at apply time. Added 2026-10-29; token-limit rules added 2026-10-29/30 (Skills repo commit 82494d0)."
     }
   ],
   "projects": [
-    {
-      "id": "cd099cad75a38167",
-      "created": "2026-11-10",
-      "source": "claude-code",
-      "sourcePath": "Working Projects/Project Notes/Claude Code Provider Switch.md",
-      "name": "Claude Code Provider Switch",
-      "status": "Active",
-      "links": [
-        "Skill: Qwen Assistant (HTML)",
-        "How I Like to Work (Claude Code)",
-        "Personal Skills Repository"
-      ],
-      "sourceFile": "second-brain/Working Projects/Project Notes/Claude Code Provider Switch.md",
-      "sourceHash": "8f8f202f92ff0b7f72205d570c5429e90b8990a14a516cd022eb640eed7b12fa",
-      "notes": "# Claude Code Provider Switch\n\nSwitch Claude Code (terminal CLI + VS Code extension) between Kimi, Qwen, Grok, and DeepSeek by copying a canonical profile onto `%USERPROFILE%\\.claude\\settings.json`.\n\n`settings.json` is a **generated copy**. Edit `settings-<profile>.json` (or `settings-kimi-backup.json` for Kimi), then run a launcher. The next switch overwrites live `settings.json`.\n\n**Never put API keys in this note, in git, or in chat.** Keys stay only in the local profile JSON files.\n\n## Launchers\n\n| Script | Canonical profile | Gateway |\n|---|---|---|\n| `C:\\Users\\User\\.claude\\claude-kimi.ps1` | `settings-kimi-backup.json` | Kimi (`https://api.kimi.com/coding/`) |\n| `C:\\Users\\User\\.claude\\claude-qwen.ps1` | `settings-qwen.json` | Qwen |\n| `C:\\Users\\User\\.claude\\claude-grok.ps1` | `settings-grok.json` | xAI (`https://api.x.ai`, model `grok-4.7`) |\n| `C:\\Users\\User\\.claude\\claude-deepseek.ps1` | `settings-deepseek.json` | DeepSeek (`https://api.deepseek.com/anthropic`) |\n| `C:\\Users\\User\\.claude\\claude-switch.ps1` | all of the above | `-Name kimi\\|qwen\\|grok\\|deepseek` |\n\n## Usage\n\n```powershell\ncd $env:USERPROFILE\\.claude\n.\\claude-switch.ps1 -List\n.\\claude-kimi.ps1\n.\\claude-qwen.ps1\n.\\claude-grok.ps1\n.\\claude-deepseek.ps1\n.\\claude-switch.ps1 -Name grok\n```\n\nAdd `-Launch` to start `claude` after switching. Then open a **new** Claude Code session, or VS Code **Developer: Reload Window**.\n\n## Rules the launchers enforce\n\n- Profile JSON must be UTF-8 (not UTF-16). Claude Code silently ignores UTF-16 settings.\n- Copy is verified by SHA-256.\n- Live `autoCompactEnabled` is forced **on**.\n- Placeholder keys (`PASTE…`, `REPLACE…`, `YOUR_…`) are refused. `settings-deepseek.json` still needs a real DeepSeek key before that profile will switch.\n- Scripts print gateway / model / key **length** only — never the key.\n\n## Grok status (2026-11-10)\n\nDirect Claude Code → xAI Anthropic `/v1/messages` is **deprecated** on xAI. A simple Messages curl can succeed while Claude Code 2.1.317 still returns:\n\n`API Error: 400 {\"code\":\"invalid-argument\",\"error\":\"Invalid request content: Invalid message role.\"}`\n\nLikely cause: Claude Code sends mid-conversation `role: \"system\"` for unrecognized model IDs such as `grok-4.7`. Changing env vars is **not** a proven fix for that 400. Keep DeepSeek/Qwen/Kimi for Claude Code’s tool loop if Grok still 400s; Grok 4.6 already works in another app.\n\nProposed (unapplied) Grok settings review file: `C:\\Users\\User\\Desktop\\claude-code-grok-proposed-settings.json` (placeholder key only).\n\n## Related\n\n- [[Skill: Qwen Assistant (HTML)]]\n- [[How I Like to Work (Claude Code)]]\n- [[Personal Skills Repository]]",
-      "tags": [
-        "project",
-        "claude-code",
-        "powershell",
-        "grok",
-        "deepseek",
-        "kimi",
-        "qwen"
-      ]
-    },
     {
       "id": "d8d9d2b6e0a90bf8",
       "created": "2026-10-28",
@@ -1059,13 +1034,12 @@
       ],
       "sourceFile": "second-brain/Working Projects/Project Notes/MPL/MPL Accounting Module.md",
       "sourceHash": "b611d31bc40c1f94ffaf18ff97d4ec5e71025265297c1b3f23ebae9e75676b92",
-      "notes": "# MPL Accounting Module\n\nPart of the MPL (Meyer Properties Limited) toolset, alongside [[MPL Property Management System]]. `MPL_Accounting.html`, opened via the launcher `MPL_Combined.html` (Desktop shortcut **MPL**), embeds `MPL_Journal_Generator_v8.html` as its Journal Generator tab.\n\nState 2026-10-05: tabs in order — Chart of Accounts, Trial Balance, Ledger, Accounts Receivable (1910) open items, Accrual/Prepayment (1900/2500), **Bank Reconciliation** (moved out of the Journal Generator into its own tab; output redesigned to an HKICPA-style statement matching the production workbook's `20_Bank_Reconciliation` sheet — 7/7 validated against the user's own confirmed September 2026 reconciliation), Journal Generator, and Journal (draft → posted via an Excel round trip: Export → paste into `30_GJ_2026` → re-import). Repo: `C:\\Users\\User\\Desktop\\GitHub-Clones\\MPL` (git, source of truth), copied to `Meyer\\MPL\\MPL Claude` after each merge. Launcher renamed `MPL_System.html` 2026-10-06.\n\nSharing gotcha (2026-10-06): the posted journal lives in the browser's localStorage, not in the file - a colleague opening the shared `MPL_System.html` saw Property Management (built-in seed data) but an empty MPL Accounting. Fixed first with **Export Data / Import Data** (one `.json` carrying every Accounting data set), then - at the user's request \"saved to HTML not localStorage\" - with **Save MPL_System.html with data** on the launcher: the page clones itself with every module's `mpl_*` keys in an `#embedded-data` block (TiddlyWiki-style self-save; a browser cannot write the file it opened), and a copy opened elsewhere loads the data on first open or asks when newer.\n\nKnown open item: two pre-existing real-data tests (`core.kpi.test.js`, `core.tb.test.js`) diverge by $20 from a separate workbook (`FIN_MPL0826_20260921_RV0.xlsx`) that hasn't caught up with a correction the user made this week to account 1260 — a genuine cross-document state mismatch, not a code bug; flagged to the user, not silently fixed.\n\n## Related\n\n- [[MPL Property Management System]] — the sibling property-management modules sharing the same launcher.\n- [[Skill - Access Control Module]] — login/permission gate pattern used by the launcher.\n- [[Skill - Bilingual Replies]] — this project requires every reply in English + Traditional Chinese.\n\n## Full detail\n\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\project_mpl_accounting_module.md`\n\n## Full System\n\nThe complete standalone HTML system is hosted in MyVault OS. Open it from this project's title.\n",
+      "notes": "# MPL Accounting Module\n\nPart of the MPL (Meyer Properties Limited) toolset, alongside [[MPL Property Management System]]. `MPL_Accounting.html`, opened via the launcher `MPL_Combined.html` (Desktop shortcut **MPL**), embeds `MPL_Journal_Generator_v8.html` as its Journal Generator tab.\n\nState 2026-10-05: tabs in order — Chart of Accounts, Trial Balance, Ledger, Accounts Receivable (1910) open items, Accrual/Prepayment (1900/2500), **Bank Reconciliation** (moved out of the Journal Generator into its own tab; output redesigned to an HKICPA-style statement matching the production workbook's `20_Bank_Reconciliation` sheet — 7/7 validated against the user's own confirmed September 2026 reconciliation), Journal Generator, and Journal (draft → posted via an Excel round trip: Export → paste into `30_GJ_2026` → re-import). Repo: `C:\\Users\\User\\Desktop\\GitHub-Clones\\MPL` (git, source of truth), copied to `Meyer\\MPL\\MPL Claude` after each merge. Launcher renamed `MPL_System.html` 2026-10-06.\n\nSharing gotcha (2026-10-06): the posted journal lives in the browser's localStorage, not in the file - a colleague opening the shared `MPL_System.html` saw Property Management (built-in seed data) but an empty MPL Accounting. Fixed first with **Export Data / Import Data** (one `.json` carrying every Accounting data set), then - at the user's request \"saved to HTML not localStorage\" - with **Save MPL_System.html with data** on the launcher: the page clones itself with every module's `mpl_*` keys in an `#embedded-data` block (TiddlyWiki-style self-save; a browser cannot write the file it opened), and a copy opened elsewhere loads the data on first open or asks when newer.\n\nKnown open item: two pre-existing real-data tests (`core.kpi.test.js`, `core.tb.test.js`) diverge by $20 from a separate workbook (`FIN_MPL0826_20260921_RV0.xlsx`) that hasn't caught up with a correction the user made this week to account 1260 — a genuine cross-document state mismatch, not a code bug; flagged to the user, not silently fixed.\n\n## Related\n\n- [[MPL Property Management System]] — the sibling property-management modules sharing the same launcher.\n- [[Skill - Access Control Module]] — login/permission gate pattern used by the launcher.\n- [[Skill - Bilingual Replies]] — this project requires every reply in English + Traditional Chinese.\n\n## Full detail\n\n`C:\\Users\\User\\.claude\\projects\\c--Users-User-Desktop\\memory\\project_mpl_accounting_module.md`",
       "tags": [
         "project",
         "mpl",
         "accounting"
-      ],
-      "url": "https://anthonymankaho.github.io/myvault-os/systems/MPL_System.html"
+      ]
     },
     {
       "id": "452d97f1303b4011",
@@ -1266,13 +1240,12 @@
       "status": "Active",
       "sourceFile": "second-brain/Working Projects/Repositories/EIC Goldman Sachs Processing.md",
       "sourceHash": "927c646434c90d933b60fb168df8aac0302cdf98687d04ee64eb3cd971da4239",
-      "notes": "# EIC Goldman Sachs Processing\n\n**Purpose:** Tools and working files for EIC monthly Goldman Sachs portfolio processing and close, including statement ingestion, journal, ledger and reporting workflows.\n\n**GitHub:** [EIC](https://github.com/anthonymankaho/EIC)  \n**Local checkout:** C:\\Users\\User\\Desktop\\Meyer\\EIC\\2026\\EIC-Claude  \n**Work type:** Monthly close processing\n\n## Start here\n\nREADME.md; EIC-System; monthly period folders\n\n## Connected Second Brain notes\n\nProject Notes/EIC FS Roll-Forward; Project Notes/EIC GS Suite HTML Tool\n\n## Handling notes\n\nRepository documentation identifies real financial data. Treat statements, balances and working files as confidential.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.\n\n## Full System\n\nThe complete standalone HTML system is hosted in MyVault OS. Open it from this project's title.\n",
+      "notes": "# EIC Goldman Sachs Processing\n\n**Purpose:** Tools and working files for EIC monthly Goldman Sachs portfolio processing and close, including statement ingestion, journal, ledger and reporting workflows.\n\n**GitHub:** [EIC](https://github.com/anthonymankaho/EIC)  \n**Local checkout:** C:\\Users\\User\\Desktop\\Meyer\\EIC\\2026\\EIC-Claude  \n**Work type:** Monthly close processing\n\n## Start here\n\nREADME.md; EIC-System; monthly period folders\n\n## Connected Second Brain notes\n\nProject Notes/EIC FS Roll-Forward; Project Notes/EIC GS Suite HTML Tool\n\n## Handling notes\n\nRepository documentation identifies real financial data. Treat statements, balances and working files as confidential.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.",
       "tags": [
         "repository",
         "working-project"
       ],
-      "links": [],
-      "url": "https://anthonymankaho.github.io/myvault-os/systems/EIC_System.html"
+      "links": []
     },
     {
       "id": "ea08b863d1d45934",
@@ -1331,13 +1304,12 @@
       "status": "Active",
       "sourceFile": "second-brain/Working Projects/Repositories/GPL Gold Plume.md",
       "sourceHash": "81e140fdbaa296bdc71a7c273dc1bdd2d18af02e8bbb71ca88e148f6b6f3cedb",
-      "notes": "# GPL Gold Plume\n\n**Purpose:** Gold Plume close automation with UBS and JPM bank statement or notice processors, financial statement workbook support, and management update drafting.\n\n**GitHub:** [GPL](https://github.com/anthonymankaho/GPL)  \n**Local checkout:** C:\\Users\\User\\Desktop\\Meyer\\GPL\\GPL-System  \n**Work type:** Monthly close processing\n\n## Start here\n\nREADME.md; GPL-System; scripts\n\n## Connected Second Brain notes\n\nProject Notes/GPL/GPL FS Roll-Forward; Project Notes/GPL/GPL JPM Notice Processor; Project Notes/GPL/GPL UBS Statement Processor\n\n## Handling notes\n\nPrivate finance repository. Validate outputs against source statements and the official workbook.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.\n\n## Full System\n\nThe complete standalone HTML system is hosted in MyVault OS. Open it from this project's title.\n",
+      "notes": "# GPL Gold Plume\n\n**Purpose:** Gold Plume close automation with UBS and JPM bank statement or notice processors, financial statement workbook support, and management update drafting.\n\n**GitHub:** [GPL](https://github.com/anthonymankaho/GPL)  \n**Local checkout:** C:\\Users\\User\\Desktop\\Meyer\\GPL\\GPL-System  \n**Work type:** Monthly close processing\n\n## Start here\n\nREADME.md; GPL-System; scripts\n\n## Connected Second Brain notes\n\nProject Notes/GPL/GPL FS Roll-Forward; Project Notes/GPL/GPL JPM Notice Processor; Project Notes/GPL/GPL UBS Statement Processor\n\n## Handling notes\n\nPrivate finance repository. Validate outputs against source statements and the official workbook.\n\n## Source of truth\n\nThe linked GitHub repository holds versioned code and shared documentation. Local input data, generated outputs and current month work may live outside Git; check the repository README and current SOP before processing.",
       "tags": [
         "repository",
         "working-project"
       ],
-      "links": [],
-      "url": "https://anthonymankaho.github.io/myvault-os/systems/GPL_System.html"
+      "links": []
     },
     {
       "id": "9938e4863d62a7ef",
@@ -2298,10 +2270,46 @@
   "cards": [],
   "chats": [
     {
+      "id": "c9d88756e7f6c357",
+      "created": "2026-11-10T06:39:18.388Z",
+      "title": "OAuth - MyVault OS",
+      "notes": "Secret value : 657516e3a41028da99bac497b49ebc7674ad061e"
+    },
+    {
+      "id": "1602d2b9f72e544d",
+      "created": "2026-11-10T03:24:36.857Z",
+      "title": "MTC Report AI Access Code",
+      "notes": "MTC1234567891011"
+    },
+    {
+      "id": "fecb596f787691e1",
+      "created": "2026-11-10T00:36:03.935Z",
+      "title": "Cloude Code Model Change",
+      "notes": "cd $env:USERPROFILE\\.claude\n.\\claude-grok.ps1\n.\\claude-deepseek.ps1\n.\\claude-kimi.ps1\n.\\claude-qwen.ps1"
+    },
+    {
+      "id": "427064180802647f",
+      "created": "2026-11-06T03:41:39.237Z",
+      "title": "EIC-System Wrangler 16key Password",
+      "notes": "EIC1234567891011"
+    },
+    {
+      "id": "69f289de52afbb99",
+      "created": "2026-11-06T03:39:37.415Z",
+      "title": "GPL-System Wrangler 16key Password",
+      "notes": "GPL1234567891011"
+    },
+    {
+      "id": "39a3cfb08fcaf904",
+      "created": "2026-11-06T03:38:07.549Z",
+      "title": "MPL-System Wrangler 16key Password",
+      "notes": "MPL1234567891011"
+    },
+    {
       "id": "002d55893c8d5b6a",
       "created": "2026-11-04T01:18:16.396Z",
       "title": "API",
-      "notes": "Qwen API Key : sk-sp-H.LLLHH.7N92.MEYCIQCfveBt4PvwdswQKx1PhpMB2FRVTAtbuhS1rXjaSIpSVgIhANvczvmw3kMKP87f8RG-U0HLOnbuucVzHuUEA7hQPVV0\n\nsk-sp-H.RIHDD.bmxP.MEUCIQDzAQ62AtR6rytiBt8ZeQawB_7zj37c6i0725Zhruf8TQIgDjF2OP39RPvQgtVjfstaLjENloGqR-IgfR5FYTdJLCw\n\nNVIDIA API Key : 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\n\nKimi API Key : sk-kimi-UFEMB8rZlZd52d3I3IAWnUl1n75kvETcdX7uYj5kUPFWjXNSD2LqZyB9e2wkmkgX"
+      "notes": "Qwen API Key : sk-sp-H.RIHDD.MrJC.MEYCIQC5F31CrQt03Tsuyl2MADl4UPpmVJTchde52b_HizySnwIhAIpvBaVHsDhRgKjSUY1GywhpPvjIrlvCdbhMRSIepgb4\n\nQwen API Key 2 : sk-sp-H.RIHDD.zhxH.MEYCIQC6RlH5GiXoQeYFRVE9Ybbk1fNqp21dZRsRBx9SJzwjIAIhAKOhYWVUr1sV8JT7rME4SqdTGpiqlQekdKVB4-MnTGAS\n\nNVIDIA API Key : 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\n\nKimi API Key : sk-kimi-UFEMB8rZlZd52d3I3IAWnUl1n75kvETcdX7uYj5kUPFWjXNSD2LqZyB9e2wkmkgX\n\nGrok GPL_System\nxai-KPsHtODWl7ILZERFpES4M7iC2pbpR7ma2KJmiJWrBDUzKYiOMKL0YShP8EGZuBdlJ5yXAXO23KKZgl5t"
     }
   ],
   "tasks": [
@@ -2424,13 +2432,13 @@
       "planningMonth": "2026-11",
       "company": "MHK",
       "description": "Payment Transit Email",
-      "scheduledDate": "2026-11-06",
+      "scheduledDate": "2026-11-04",
       "status": "Completed",
       "recurring": false,
-      "docResult": "",
-      "completedAt": "2026-11-05T00:03:44.401Z",
+      "docResult": "FIN_MHK_WORKERTT_20261102",
+      "completedAt": "2026-11-04T02:34:48.060Z",
       "createdAt": "2026-10-30T01:22:35.101Z",
-      "updatedAt": "2026-11-05T00:03:44.401Z",
+      "updatedAt": "2026-11-04T02:34:48.060Z",
       "source": {
         "workbook": "Monlthy Job.xlsx",
         "worksheet": "NOV2026",
@@ -2501,12 +2509,12 @@
       "company": "GPL",
       "description": "FULL SET 2026/10 MANAGEMENT REPORT & BANK STATEMENT - CLAUDE",
       "scheduledDate": "2026-11-09",
-      "status": "Not Started",
+      "status": "Completed",
       "recurring": false,
-      "docResult": "",
-      "completedAt": null,
+      "docResult": "\"C:\\Users\\User\\Desktop\\Meyer\\GPL\\Gplume Security\\2026\\FIN_GPlume 2026-10_20261110_RV0.xlsx\"",
+      "completedAt": "2026-11-11T08:24:26.946Z",
       "createdAt": "2026-10-30T01:22:35.102Z",
-      "updatedAt": "2026-10-30T01:22:35.102Z",
+      "updatedAt": "2026-11-11T08:24:26.946Z",
       "source": {
         "workbook": "Monlthy Job.xlsx",
         "worksheet": "NOV2026",
@@ -2558,12 +2566,12 @@
       "company": "MEL",
       "description": "AP ENTRY 20261004",
       "scheduledDate": "2026-11-09",
-      "status": "Not Started",
+      "status": "Completed",
       "recurring": false,
       "docResult": "2026/11/03 passed Chloe",
-      "completedAt": null,
+      "completedAt": "2026-11-04T02:35:03.667Z",
       "createdAt": "2026-10-30T01:22:35.102Z",
-      "updatedAt": "2026-11-03T08:13:50.586Z",
+      "updatedAt": "2026-11-04T02:35:03.667Z",
       "source": {
         "workbook": "Monlthy Job.xlsx",
         "worksheet": "NOV2026",
@@ -2693,10 +2701,10 @@
       "scheduledDate": "2026-11-16",
       "status": "Not Started",
       "recurring": false,
-      "docResult": "",
+      "docResult": "FIN_MPL 2026_General Journal_10-2026_20261105_RV0\nFIN_MPL1026_20261105_RV0\nMPL_System",
       "completedAt": null,
       "createdAt": "2026-10-30T01:22:35.103Z",
-      "updatedAt": "2026-10-30T01:22:35.103Z",
+      "updatedAt": "2026-11-06T08:10:31.428Z",
       "source": {
         "workbook": "Monlthy Job.xlsx",
         "worksheet": "NOV2026",
