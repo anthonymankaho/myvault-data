@@ -814,6 +814,19 @@
         "Personal Skills Repository"
       ],
       "notes": "# Skill: Qwen Assistant (HTML)\n\nAdd/maintain a Qwen (Alibaba Cloud Model Studio) assistant inside an existing plain HTML/CSS/JS app with a server-side API proxy. Inspect the app's existing auth/sync/schema first; keep credentials server-side only (never in HTML/JS/localStorage/logs); treat vault content as untrusted data, not instructions. Server-enforced bounds: bytes, field lengths, history size, abort timeout, plus token limits — cap completion via max_tokens, budget the prompt and reject over-budget instead of silent truncation, default 1,000,000 tokens per calendar month per account (prompt+completion), fail closed when spent. AI proposes only {message, operations} (create/update on an allowlist; no deletes, no auto-sync); user must review diffs and explicitly Apply; undo snapshot; revalidate at apply time. Added 2026-10-29; token-limit rules added 2026-10-29/30 (Skills repo commit 82494d0)."
+    },
+    {
+      "id": "10bb190bea929903",
+      "name": "MEL Accounting System",
+      "level": "MINGS",
+      "tags": [
+        "Accounting System",
+        "MINGS",
+        "MEL"
+      ],
+      "url": "https://anthonymankaho.github.io/myvault-os/systems/MINGS_System.html",
+      "notes": "Separate owner branch in MyVault OS Accounting System. Private source repository: https://github.com/anthonymankaho/MEL. Standalone website uses its own access code. Browser accounting data is local to each user device; export and store backups privately.",
+      "created": "2026-11-16"
     }
   ],
   "projects": [
