@@ -2312,6 +2312,26 @@
       "notes": "Qwen API Key : sk-sp-H.LLLHH.o7qH.MEUCIQCQ6JMIvzCuV7x0tHPMgQA3mP4eBucH9lPM26WqJ9MxYgIgVWHUvlfQegLRv3CO0Fxin3n2zSqKHXnIUDFtVudQ9CU\n\nQwen API Key 2 : sk-sp-H.RIHDD.Skao.MEYCIQDFFa0PKrAU0OMffqdaSXu0qdhwFv2IMDEkP1YfthSZIAIhAJPmF9tUpBoIjWnlz9KHzeV4nMpML8nUor2SAKJkswaJ\n\nNVIDIA API Key : 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\n\nKimi API Key : sk-kimi-UFEMB8rZlZd52d3I3IAWnUl1n75kvETcdX7uYj5kUPFWjXNSD2LqZyB9e2wkmkgX\n\nGrok GPL_System\nxai-KPsHtODWl7ILZERFpES4M7iC2pbpR7ma2KJmiJWrBDUzKYiOMKL0YShP8EGZuBdlJ5yXAXO23KKZgl5t"
     }
   ],
+  "reports": [
+    {
+      "id": "e1483e2a244c4613",
+      "created": "2026-11-16T08:54:54.803Z",
+      "name": "Global Purchase Report",
+      "company": "GPR",
+      "status": "Final",
+      "url": "https://gpr-web.anthonym-354.workers.dev/r/4354d1e16df556aa984ba6107fb90f53/",
+      "tags": ["online", "latest"]
+    },
+    {
+      "id": "6cd60a464b3f4b46",
+      "created": "2026-11-16T08:54:54.803Z",
+      "name": "MTC Performance Report",
+      "company": "MTC",
+      "status": "Final",
+      "url": "https://anthonymankaho.github.io/MTC_Sales_Report/FIN_MTC_Performance_Report_html_TEMP.html",
+      "tags": ["online", "latest"]
+    }
+  ],
   "tasks": [
     {
       "id": "4ca93c8d0e24d1ff",
