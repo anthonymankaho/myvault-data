@@ -2320,7 +2320,10 @@
       "company": "GPR",
       "status": "Final",
       "url": "https://gpr-web.anthonym-354.workers.dev/r/4354d1e16df556aa984ba6107fb90f53/",
-      "tags": ["online", "latest"]
+      "tags": [
+        "online",
+        "latest"
+      ]
     },
     {
       "id": "6cd60a464b3f4b46",
@@ -2329,7 +2332,24 @@
       "company": "MTC",
       "status": "Final",
       "url": "https://anthonymankaho.github.io/MTC_Sales_Report/FIN_MTC_Performance_Report_html_TEMP.html",
-      "tags": ["online", "latest"]
+      "tags": [
+        "online",
+        "latest"
+      ]
+    },
+    {
+      "id": "94102aaefd5e9515",
+      "created": "2026-11-17T07:26:02.888Z",
+      "name": "Global AR Ageing Report",
+      "company": "Other",
+      "period": "2026-09",
+      "status": "Final",
+      "url": "https://anthonymankaho.github.io/Global_AR_Report/Global_AR_Ageing_Report_2026-09.html",
+      "tags": [
+        "online",
+        "latest"
+      ],
+      "notes": "Sep-2026 third-party AR ageing, 6 entities (MHK/MTC/MMC/MTL/MUS/MIN); MUK/MCA/TVS/MJP not provided. Net USD 44,906,050; 77.3% current; 23/23 controls pass. Login GLOBALAR/GLOBALAR (workflow gate only; customer data embedded). INR at Sep-2026 average 95.5022 reference rate; RUFFONI SRL exclusion pending owner confirm. Companion Excel + index redirect in repo. Public Pages like MTC Performance Report (Anthony approved public publication 2026-11-17). Build: Desktop\\Global AR Report\\2026-09\\_build."
     }
   ],
   "tasks": [
