@@ -2349,7 +2349,7 @@
         "online",
         "latest"
       ],
-      "notes": "2026-09 third-party AR ageing, 6 entities (MHK/MTC/MMC/MTL/MUS/MIN); missing: MUK, MCA, TVS, MJP. Net USD 44,906,050; 77.3% current; 22/22 controls pass. Login GLOBALAR/GLOBALAR (workflow gate only; customer data embedded). INR at 2026-09 average reference rate; RUFFONI SRL exclusion pending owner confirm. Companion Excel + index redirect in repo. Public Pages like MTC Performance Report (Anthony approved public publication 2026-11-17). Build: Desktop\\Global AR Report\\build_ar_report.py + BUILD_AR_REPORT.bat."
+      "notes": "2026-09 third-party AR ageing, 7 entities (MHK/MTC/MMC/MTL/MUS/MIN/TVS); missing: MUK, MCA, MJP. Net USD 51,028,224; 78.1% current; 50/50 controls pass. Login GLOBALAR/GLOBALAR (workflow gate only; customer data embedded). INR at 2026-09 average reference rate; RUFFONI SRL exclusion pending owner confirm. Online HTML report link only; no Excel attachment. Public Pages like MTC Performance Report (Anthony approved public publication 2026-11-17). Build: Desktop\\Global AR Report\\build_ar_report.py + BUILD_AR_REPORT.bat."
     }
   ],
   "tasks": [
