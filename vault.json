@@ -2344,12 +2344,12 @@
       "company": "Other",
       "period": "2026-09",
       "status": "Final",
-      "url": "https://anthonymankaho.github.io/Global_AR_Report/Global_AR_Ageing_Report_2026-09.html",
+      "url": "https://anthonymankaho.github.io/Global_AR_Report/Global_AR_Ageing_Report_2026-09_RV2.html",
       "tags": [
         "online",
         "latest"
       ],
-      "notes": "2026-09 third-party AR ageing, 7 entities (MHK/MTC/MMC/MTL/MUS/MIN/TVS); missing: MUK, MCA, MJP. Net USD 51,028,224; 78.1% current; 50/50 controls pass. Login GLOBALAR/GLOBALAR (workflow gate only; customer data embedded). INR at 2026-09 average reference rate; RUFFONI SRL exclusion pending owner confirm. Online HTML report link only; no Excel attachment. Public Pages like MTC Performance Report (Anthony approved public publication 2026-11-17). Build: Desktop\\Global AR Report\\build_ar_report.py + BUILD_AR_REPORT.bat."
+      "notes": "2026-09 third-party AR ageing, 10 entities (MHK/MTC/MMC/MTL/MUS/MIN/TVS/MUK/MCA/MXL); revision RV2; missing: MJP. Net USD 56,944,664; 80.2% current; 67/69 controls pass; 2 REVIEW. MUK intercompany identity, ageing cut-off date and older-age split are provisional; owner confirmation required. MXL intercompany classifications, including MAY HARVEST INTL LTD, are provisional; owner confirmation required. MXL legal entity name is shown as supplied in the workbook and remains unconfirmed. Login GLOBALAR/GLOBALAR (workflow gate only; customer data embedded). INR at 2026-09 average reference rate; RUFFONI SRL exclusion pending owner confirm. Online HTML report link only; no Excel attachment. Public Pages like MTC Performance Report (Anthony approved public publication 2026-11-17). Build: Desktop\\Global AR Report\\build_ar_report.py + BUILD_AR_REPORT.bat."
     }
   ],
   "tasks": [
